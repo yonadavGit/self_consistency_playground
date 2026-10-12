@@ -1,0 +1,2088 @@
+{
+  "akiva": {
+    "direct": {
+      "file": "20261011T163951981371Z.json",
+      "question": "Accroding to tradition, at what age did R Akiva start learing Torah?",
+      "model": "llama3.1:latest",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_0"
+      },
+      "settings": {
+        "samples": 30,
+        "temperature": 0.8,
+        "max_tokens": 1024,
+        "num_ctx": 4096,
+        "mode": "direct",
+        "thinking": "off",
+        "logprobs": false
+      },
+      "seed_start": 1028498544,
+      "n": 30,
+      "statuses": {
+        "valid": 30
+      },
+      "grouped_final_answers": {
+        "3": 29,
+        "5": 1
+      },
+      "target": "40",
+      "target_hits": [],
+      "target_rate": 0.0,
+      "target_wilson95": [
+        -1.3877787807814457e-17,
+        0.11351339317396321
+      ],
+      "mean_generated_tokens_ollama_eval_count": 9.733333333333333,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 1028498544,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 2,
+          "seed": 1028498545,
+          "status": "valid",
+          "answer": "3 years old",
+          "group": "3"
+        },
+        {
+          "index": 3,
+          "seed": 1028498546,
+          "status": "valid",
+          "answer": "THREE",
+          "group": "3"
+        },
+        {
+          "index": 4,
+          "seed": 1028498547,
+          "status": "valid",
+          "answer": "Five",
+          "group": "5"
+        },
+        {
+          "index": 5,
+          "seed": 1028498548,
+          "status": "valid",
+          "answer": "3 years old",
+          "group": "3"
+        },
+        {
+          "index": 6,
+          "seed": 1028498549,
+          "status": "valid",
+          "answer": "Three years old",
+          "group": "3"
+        },
+        {
+          "index": 7,
+          "seed": 1028498550,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 8,
+          "seed": 1028498551,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 9,
+          "seed": 1028498552,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 10,
+          "seed": 1028498553,
+          "status": "valid",
+          "answer": "THREE",
+          "group": "3"
+        },
+        {
+          "index": 11,
+          "seed": 1028498554,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 12,
+          "seed": 1028498555,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 13,
+          "seed": 1028498556,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 14,
+          "seed": 1028498557,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 15,
+          "seed": 1028498558,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 16,
+          "seed": 1028498559,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 17,
+          "seed": 1028498560,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 18,
+          "seed": 1028498561,
+          "status": "valid",
+          "answer": "3 years old",
+          "group": "3"
+        },
+        {
+          "index": 19,
+          "seed": 1028498562,
+          "status": "valid",
+          "answer": "Three",
+          "group": "3"
+        },
+        {
+          "index": 20,
+          "seed": 1028498563,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 21,
+          "seed": 1028498564,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 22,
+          "seed": 1028498565,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 23,
+          "seed": 1028498566,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 24,
+          "seed": 1028498567,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 25,
+          "seed": 1028498568,
+          "status": "valid",
+          "answer": "3",
+          "group": "3"
+        },
+        {
+          "index": 26,
+          "seed": 1028498569,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 27,
+          "seed": 1028498570,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        },
+        {
+          "index": 28,
+          "seed": 1028498571,
+          "status": "valid",
+          "answer": "Three",
+          "group": "3"
+        },
+        {
+          "index": 29,
+          "seed": 1028498572,
+          "status": "valid",
+          "answer": "3 years old",
+          "group": "3"
+        },
+        {
+          "index": 30,
+          "seed": 1028498573,
+          "status": "valid",
+          "answer": "Three years old.",
+          "group": "3"
+        }
+      ]
+    },
+    "reason": {
+      "file": "20261011T164004145264Z.json",
+      "question": "Accroding to tradition, at what age did R Akiva start learing Torah?",
+      "model": "llama3.1:latest",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_0"
+      },
+      "settings": {
+        "samples": 30,
+        "temperature": 0.8,
+        "max_tokens": 1024,
+        "num_ctx": 4096,
+        "mode": "reason",
+        "thinking": "off",
+        "logprobs": false
+      },
+      "seed_start": 270350594,
+      "n": 30,
+      "statuses": {
+        "valid": 30
+      },
+      "grouped_final_answers": {
+        "13": 3,
+        "40": 23,
+        "18": 1,
+        "3": 3
+      },
+      "target": "40",
+      "target_hits": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        26,
+        28,
+        30
+      ],
+      "target_rate": 0.7666666666666667,
+      "target_wilson95": [
+        0.5907167384187836,
+        0.8820761185551028
+      ],
+      "mean_generated_tokens_ollama_eval_count": 216.53333333333333,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 270350594,
+          "status": "valid",
+          "answer": "13.",
+          "group": "13"
+        },
+        {
+          "index": 2,
+          "seed": 270350595,
+          "status": "valid",
+          "answer": "13",
+          "group": "13"
+        },
+        {
+          "index": 3,
+          "seed": 270350596,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 4,
+          "seed": 270350597,
+          "status": "valid",
+          "answer": "18.",
+          "group": "18"
+        },
+        {
+          "index": 5,
+          "seed": 270350598,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 6,
+          "seed": 270350599,
+          "status": "valid",
+          "answer": "40.",
+          "group": "40"
+        },
+        {
+          "index": 7,
+          "seed": 270350600,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 8,
+          "seed": 270350601,
+          "status": "valid",
+          "answer": "40.",
+          "group": "40"
+        },
+        {
+          "index": 9,
+          "seed": 270350602,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 10,
+          "seed": 270350603,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 11,
+          "seed": 270350604,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 12,
+          "seed": 270350605,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 13,
+          "seed": 270350606,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 14,
+          "seed": 270350607,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 15,
+          "seed": 270350608,
+          "status": "valid",
+          "answer": "40.",
+          "group": "40"
+        },
+        {
+          "index": 16,
+          "seed": 270350609,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 17,
+          "seed": 270350610,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 18,
+          "seed": 270350611,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 19,
+          "seed": 270350612,
+          "status": "valid",
+          "answer": "40.",
+          "group": "40"
+        },
+        {
+          "index": 20,
+          "seed": 270350613,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 21,
+          "seed": 270350614,
+          "status": "valid",
+          "answer": "3.",
+          "group": "3"
+        },
+        {
+          "index": 22,
+          "seed": 270350615,
+          "status": "valid",
+          "answer": "40.",
+          "group": "40"
+        },
+        {
+          "index": 23,
+          "seed": 270350616,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 24,
+          "seed": 270350617,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 25,
+          "seed": 270350618,
+          "status": "valid",
+          "answer": "3.",
+          "group": "3"
+        },
+        {
+          "index": 26,
+          "seed": 270350619,
+          "status": "valid",
+          "answer": "40.",
+          "group": "40"
+        },
+        {
+          "index": 27,
+          "seed": 270350620,
+          "status": "valid",
+          "answer": "3 years old",
+          "group": "3"
+        },
+        {
+          "index": 28,
+          "seed": 270350621,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        },
+        {
+          "index": 29,
+          "seed": 270350622,
+          "status": "valid",
+          "answer": "13.",
+          "group": "13"
+        },
+        {
+          "index": 30,
+          "seed": 270350623,
+          "status": "valid",
+          "answer": "40",
+          "group": "40"
+        }
+      ]
+    }
+  },
+  "melachot": {
+    "direct": {
+      "file": "20261011T165211453642Z.json",
+      "question": "which of the 39 Melachot forbidden on Shabbat is mentioned explicitly in the Torah",
+      "model": "llama3.1:latest",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_0"
+      },
+      "settings": {
+        "samples": 30,
+        "temperature": 0.8,
+        "max_tokens": 1024,
+        "num_ctx": 4096,
+        "mode": "direct",
+        "thinking": "off",
+        "logprobs": false
+      },
+      "seed_start": 87388049,
+      "n": 30,
+      "statuses": {
+        "valid": 27,
+        "unparseable": 2,
+        "abstained": 1
+      },
+      "grouped_final_answers": {
+        "shiluach haken": 1,
+        "carrying": 1,
+        "borer": 1,
+        "[missing FINAL]": 2,
+        "lashon hakodesh": 1,
+        "bishul akalaim": 1,
+        "slaughtering": 2,
+        "building": 2,
+        "baking": 2,
+        "oxen": 1,
+        "shofech ofein": 1,
+        "shegalat hakerem": 1,
+        "building an ox's stall": 1,
+        "besa'at": 1,
+        "bishul": 1,
+        "mishkav": 1,
+        "muktzeh": 1,
+        "shemeichah": 1,
+        "shibbolet": 1,
+        "fourteen dashenut": 1,
+        "plowing": 1,
+        "kindling fire": 1,
+        "unknown": 1,
+        "shivah asuyot": 1,
+        "writing": 1,
+        "shegalot": 1
+      },
+      "target": "kindling fire",
+      "target_hits": [
+        22
+      ],
+      "target_rate": 0.03333333333333333,
+      "target_wilson95": [
+        0.005908590381612663,
+        0.1667039099140863
+      ],
+      "mean_generated_tokens_ollama_eval_count": 24.133333333333333,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 87388049,
+          "status": "valid",
+          "answer": "Shiluach HaKen.",
+          "group": "shiluach haken"
+        },
+        {
+          "index": 2,
+          "seed": 87388050,
+          "status": "valid",
+          "answer": "carrying.",
+          "group": "carrying"
+        },
+        {
+          "index": 3,
+          "seed": 87388051,
+          "status": "valid",
+          "answer": "Borer.",
+          "group": "borer"
+        },
+        {
+          "index": 4,
+          "seed": 87388052,
+          "status": "unparseable",
+          "answer": null,
+          "group": "[missing FINAL]"
+        },
+        {
+          "index": 5,
+          "seed": 87388053,
+          "status": "valid",
+          "answer": "Lashon HaKodesh",
+          "group": "lashon hakodesh"
+        },
+        {
+          "index": 6,
+          "seed": 87388054,
+          "status": "valid",
+          "answer": "Bishul Akalaim.",
+          "group": "bishul akalaim"
+        },
+        {
+          "index": 7,
+          "seed": 87388055,
+          "status": "valid",
+          "answer": "Shochet",
+          "group": "slaughtering"
+        },
+        {
+          "index": 8,
+          "seed": 87388056,
+          "status": "valid",
+          "answer": "BUILDING",
+          "group": "building"
+        },
+        {
+          "index": 9,
+          "seed": 87388057,
+          "status": "valid",
+          "answer": "Baking.",
+          "group": "baking"
+        },
+        {
+          "index": 10,
+          "seed": 87388058,
+          "status": "valid",
+          "answer": "Oxen",
+          "group": "oxen"
+        },
+        {
+          "index": 11,
+          "seed": 87388059,
+          "status": "valid",
+          "answer": "Shofech Ofein.",
+          "group": "shofech ofein"
+        },
+        {
+          "index": 12,
+          "seed": 87388060,
+          "status": "valid",
+          "answer": "Shegalat HaKerem.",
+          "group": "shegalat hakerem"
+        },
+        {
+          "index": 13,
+          "seed": 87388061,
+          "status": "valid",
+          "answer": "Building an ox's stall.",
+          "group": "building an ox's stall"
+        },
+        {
+          "index": 14,
+          "seed": 87388062,
+          "status": "valid",
+          "answer": "Besa'at.",
+          "group": "besa'at"
+        },
+        {
+          "index": 15,
+          "seed": 87388063,
+          "status": "valid",
+          "answer": "Bishul.",
+          "group": "bishul"
+        },
+        {
+          "index": 16,
+          "seed": 87388064,
+          "status": "valid",
+          "answer": "Mishkav.",
+          "group": "mishkav"
+        },
+        {
+          "index": 17,
+          "seed": 87388065,
+          "status": "valid",
+          "answer": "MUKTZEH.",
+          "group": "muktzeh"
+        },
+        {
+          "index": 18,
+          "seed": 87388066,
+          "status": "valid",
+          "answer": "Shemeichah.",
+          "group": "shemeichah"
+        },
+        {
+          "index": 19,
+          "seed": 87388067,
+          "status": "valid",
+          "answer": "Shibbolet.",
+          "group": "shibbolet"
+        },
+        {
+          "index": 20,
+          "seed": 87388068,
+          "status": "valid",
+          "answer": "FOURTEEN DASHENUT",
+          "group": "fourteen dashenut"
+        },
+        {
+          "index": 21,
+          "seed": 87388069,
+          "status": "valid",
+          "answer": "Plowing a field",
+          "group": "plowing"
+        },
+        {
+          "index": 22,
+          "seed": 87388070,
+          "status": "valid",
+          "answer": "Lighting a fire.",
+          "group": "kindling fire"
+        },
+        {
+          "index": 23,
+          "seed": 87388071,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 24,
+          "seed": 87388072,
+          "status": "valid",
+          "answer": "Shivah Asuyot",
+          "group": "shivah asuyot"
+        },
+        {
+          "index": 25,
+          "seed": 87388073,
+          "status": "unparseable",
+          "answer": null,
+          "group": "[missing FINAL]"
+        },
+        {
+          "index": 26,
+          "seed": 87388074,
+          "status": "valid",
+          "answer": "Writing.",
+          "group": "writing"
+        },
+        {
+          "index": 27,
+          "seed": 87388075,
+          "status": "valid",
+          "answer": "Shegalot.",
+          "group": "shegalot"
+        },
+        {
+          "index": 28,
+          "seed": 87388076,
+          "status": "valid",
+          "answer": "Shechita",
+          "group": "slaughtering"
+        },
+        {
+          "index": 29,
+          "seed": 87388077,
+          "status": "valid",
+          "answer": "BAKING.",
+          "group": "baking"
+        },
+        {
+          "index": 30,
+          "seed": 87388078,
+          "status": "valid",
+          "answer": "Binyan",
+          "group": "building"
+        }
+      ]
+    },
+    "reason": {
+      "file": "20261011T165236131510Z.json",
+      "question": "which of the 39 Melachot forbidden on Shabbat is mentioned explicitly in the Torah",
+      "model": "llama3.1:latest",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_0"
+      },
+      "settings": {
+        "samples": 30,
+        "temperature": 0.8,
+        "max_tokens": 1024,
+        "num_ctx": 4096,
+        "mode": "reason",
+        "thinking": "off",
+        "logprobs": false
+      },
+      "seed_start": 586203622,
+      "n": 30,
+      "statuses": {
+        "valid": 27,
+        "abstained": 3
+      },
+      "grouped_final_answers": {
+        "bechirat ov": 1,
+        "slaughtering": 1,
+        "unknown": 3,
+        "building": 3,
+        "kindling fire": 6,
+        "working with fire": 1,
+        "four": 1,
+        "carrying": 2,
+        "shichah": 1,
+        "borer": 1,
+        "burning incense": 1,
+        "bishul inish": 1,
+        "beating or hammering": 1,
+        "borei": 1,
+        "yakor": 1,
+        "ma'aseh": 1,
+        "plowing": 2,
+        "korach": 1,
+        "melo ha-aretz": 1
+      },
+      "target": "kindling fire",
+      "target_hits": [
+        5,
+        6,
+        12,
+        16,
+        27,
+        28
+      ],
+      "target_rate": 0.2,
+      "target_wilson95": [
+        0.09505107177290062,
+        0.37305696413147726
+      ],
+      "mean_generated_tokens_ollama_eval_count": 359.5,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 586203622,
+          "status": "valid",
+          "answer": "Bechirat ov.",
+          "group": "bechirat ov"
+        },
+        {
+          "index": 2,
+          "seed": 586203623,
+          "status": "valid",
+          "answer": "Shochet.",
+          "group": "slaughtering"
+        },
+        {
+          "index": 3,
+          "seed": 586203624,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 4,
+          "seed": 586203625,
+          "status": "valid",
+          "answer": "building",
+          "group": "building"
+        },
+        {
+          "index": 5,
+          "seed": 586203626,
+          "status": "valid",
+          "answer": "MAKING A FIRE.",
+          "group": "kindling fire"
+        },
+        {
+          "index": 6,
+          "seed": 586203627,
+          "status": "valid",
+          "answer": "Kindling a fire.",
+          "group": "kindling fire"
+        },
+        {
+          "index": 7,
+          "seed": 586203628,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 8,
+          "seed": 586203629,
+          "status": "valid",
+          "answer": "Working with fire.",
+          "group": "working with fire"
+        },
+        {
+          "index": 9,
+          "seed": 586203630,
+          "status": "valid",
+          "answer": "FOUR",
+          "group": "four"
+        },
+        {
+          "index": 10,
+          "seed": 586203631,
+          "status": "valid",
+          "answer": "Hotza'ah",
+          "group": "carrying"
+        },
+        {
+          "index": 11,
+          "seed": 586203632,
+          "status": "valid",
+          "answer": "Shichah.",
+          "group": "shichah"
+        },
+        {
+          "index": 12,
+          "seed": 586203633,
+          "status": "valid",
+          "answer": "Kindling a fire.",
+          "group": "kindling fire"
+        },
+        {
+          "index": 13,
+          "seed": 586203634,
+          "status": "valid",
+          "answer": "Borer",
+          "group": "borer"
+        },
+        {
+          "index": 14,
+          "seed": 586203635,
+          "status": "valid",
+          "answer": "Burning incense.",
+          "group": "burning incense"
+        },
+        {
+          "index": 15,
+          "seed": 586203636,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 16,
+          "seed": 586203637,
+          "status": "valid",
+          "answer": "making a fire",
+          "group": "kindling fire"
+        },
+        {
+          "index": 17,
+          "seed": 586203638,
+          "status": "valid",
+          "answer": "Bishul Inish",
+          "group": "bishul inish"
+        },
+        {
+          "index": 18,
+          "seed": 586203639,
+          "status": "valid",
+          "answer": "BEATING OR HAMMERING.",
+          "group": "beating or hammering"
+        },
+        {
+          "index": 19,
+          "seed": 586203640,
+          "status": "valid",
+          "answer": "Carrying.",
+          "group": "carrying"
+        },
+        {
+          "index": 20,
+          "seed": 586203641,
+          "status": "valid",
+          "answer": "Building.",
+          "group": "building"
+        },
+        {
+          "index": 21,
+          "seed": 586203642,
+          "status": "valid",
+          "answer": "Borei.",
+          "group": "borei"
+        },
+        {
+          "index": 22,
+          "seed": 586203643,
+          "status": "valid",
+          "answer": "Yakor.",
+          "group": "yakor"
+        },
+        {
+          "index": 23,
+          "seed": 586203644,
+          "status": "valid",
+          "answer": "Ma'aseh",
+          "group": "ma'aseh"
+        },
+        {
+          "index": 24,
+          "seed": 586203645,
+          "status": "valid",
+          "answer": "Plowing",
+          "group": "plowing"
+        },
+        {
+          "index": 25,
+          "seed": 586203646,
+          "status": "valid",
+          "answer": "Building.",
+          "group": "building"
+        },
+        {
+          "index": 26,
+          "seed": 586203647,
+          "status": "valid",
+          "answer": "Korach",
+          "group": "korach"
+        },
+        {
+          "index": 27,
+          "seed": 586203648,
+          "status": "valid",
+          "answer": "Lighting a fire.",
+          "group": "kindling fire"
+        },
+        {
+          "index": 28,
+          "seed": 586203649,
+          "status": "valid",
+          "answer": "Kindling fire.",
+          "group": "kindling fire"
+        },
+        {
+          "index": 29,
+          "seed": 586203650,
+          "status": "valid",
+          "answer": "Melo ha-aretz.",
+          "group": "melo ha-aretz"
+        },
+        {
+          "index": 30,
+          "seed": 586203651,
+          "status": "valid",
+          "answer": "Plowing.",
+          "group": "plowing"
+        }
+      ]
+    },
+    "sensitivity": {
+      "manual_recovery_direct_sample4": "Clear lighting-fire answer, missing FINAL marker; raises direct count from 1 to 2.",
+      "reason_sample8": "Working with fire is vague; including it raises reason count from 6 to 7.",
+      "plowing": "Direct sample21 and reason samples24,30 say plowing, defensible under the broad wording (Exodus 34:21). Not counted as fire.",
+      "fire_target_counts_strict_final": [
+        1,
+        6
+      ],
+      "fire_target_counts_manual_clear": [
+        2,
+        6
+      ],
+      "fire_target_counts_manual_including_vague": [
+        2,
+        7
+      ],
+      "fisher_two_sided_strict_final": 0.10278971697348148,
+      "fisher_two_sided_manual_clear": 0.2542143363175797,
+      "fisher_two_sided_manual_including_vague": 0.14549922499361176
+    }
+  },
+  "abraham": {
+    "direct": {
+      "file": "abraham-fresh-60/direct.json",
+      "question": "Who was the Abraham's mom according to Jewish tradition?",
+      "model": "llama3.1:latest",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_0"
+      },
+      "settings": {
+        "samples": 60,
+        "temperature": 0.8,
+        "max_tokens": 1024,
+        "num_ctx": 4096,
+        "mode": "direct",
+        "thinking": "off",
+        "logprobs": true
+      },
+      "seed_start": 842617000,
+      "n": 60,
+      "statuses": {
+        "valid": 56,
+        "abstained": 2,
+        "unparseable": 2
+      },
+      "grouped_final_answers": {
+        "sarah": 22,
+        "keziah": 23,
+        "hagar": 1,
+        "jochebed": 6,
+        "unknown": 2,
+        "[missing FINAL]": 2,
+        "amathlai (accepted name)": 3,
+        "amram's wife": 1
+      },
+      "target": "amathlai (accepted name)",
+      "target_hits": [
+        36,
+        37,
+        57
+      ],
+      "target_rate": 0.05,
+      "target_wilson95": [
+        0.017149502164396153,
+        0.13700516476348193
+      ],
+      "mean_generated_tokens_ollama_eval_count": 18.55,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 842617000,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 2,
+          "seed": 842617001,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 3,
+          "seed": 842617002,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 4,
+          "seed": 842617003,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 5,
+          "seed": 842617004,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 6,
+          "seed": 842617005,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 7,
+          "seed": 842617006,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 8,
+          "seed": 842617007,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 9,
+          "seed": 842617008,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 10,
+          "seed": 842617009,
+          "status": "valid",
+          "answer": "Hagar.",
+          "group": "hagar"
+        },
+        {
+          "index": 11,
+          "seed": 842617010,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 12,
+          "seed": 842617011,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 13,
+          "seed": 842617012,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 14,
+          "seed": 842617013,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 15,
+          "seed": 842617014,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 16,
+          "seed": 842617015,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 17,
+          "seed": 842617016,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 18,
+          "seed": 842617017,
+          "status": "valid",
+          "answer": "Jochebed.",
+          "group": "jochebed"
+        },
+        {
+          "index": 19,
+          "seed": 842617018,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 20,
+          "seed": 842617019,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 21,
+          "seed": 842617020,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 22,
+          "seed": 842617021,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 23,
+          "seed": 842617022,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 24,
+          "seed": 842617023,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 25,
+          "seed": 842617024,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 26,
+          "seed": 842617025,
+          "status": "valid",
+          "answer": "Keziah, daughter of Kenaz.",
+          "group": "keziah"
+        },
+        {
+          "index": 27,
+          "seed": 842617026,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 28,
+          "seed": 842617027,
+          "status": "unparseable",
+          "answer": null,
+          "group": "[missing FINAL]"
+        },
+        {
+          "index": 29,
+          "seed": 842617028,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 30,
+          "seed": 842617029,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 31,
+          "seed": 842617030,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 32,
+          "seed": 842617031,
+          "status": "valid",
+          "answer": "Jochebed",
+          "group": "jochebed"
+        },
+        {
+          "index": 33,
+          "seed": 842617032,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 34,
+          "seed": 842617033,
+          "status": "unparseable",
+          "answer": null,
+          "group": "[missing FINAL]"
+        },
+        {
+          "index": 35,
+          "seed": 842617034,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 36,
+          "seed": 842617035,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 37,
+          "seed": 842617036,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 38,
+          "seed": 842617037,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 39,
+          "seed": 842617038,
+          "status": "valid",
+          "answer": "Jochebed.",
+          "group": "jochebed"
+        },
+        {
+          "index": 40,
+          "seed": 842617039,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 41,
+          "seed": 842617040,
+          "status": "valid",
+          "answer": "Keziah, daughter of Jethro.",
+          "group": "keziah"
+        },
+        {
+          "index": 42,
+          "seed": 842617041,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 43,
+          "seed": 842617042,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 44,
+          "seed": 842617043,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 45,
+          "seed": 842617044,
+          "status": "valid",
+          "answer": "Jochebed.",
+          "group": "jochebed"
+        },
+        {
+          "index": 46,
+          "seed": 842617045,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 47,
+          "seed": 842617046,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 48,
+          "seed": 842617047,
+          "status": "valid",
+          "answer": "Amram's wife.",
+          "group": "amram's wife"
+        },
+        {
+          "index": 49,
+          "seed": 842617048,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 50,
+          "seed": 842617049,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 51,
+          "seed": 842617050,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 52,
+          "seed": 842617051,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 53,
+          "seed": 842617052,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 54,
+          "seed": 842617053,
+          "status": "valid",
+          "answer": "Jochebed",
+          "group": "jochebed"
+        },
+        {
+          "index": 55,
+          "seed": 842617054,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 56,
+          "seed": 842617055,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 57,
+          "seed": 842617056,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 58,
+          "seed": 842617057,
+          "status": "valid",
+          "answer": "Keziah.",
+          "group": "keziah"
+        },
+        {
+          "index": 59,
+          "seed": 842617058,
+          "status": "valid",
+          "answer": "Keziah",
+          "group": "keziah"
+        },
+        {
+          "index": 60,
+          "seed": 842617059,
+          "status": "valid",
+          "answer": "Jochebed",
+          "group": "jochebed"
+        }
+      ]
+    },
+    "reason": {
+      "file": "abraham-fresh-60/reason.json",
+      "question": "Who was the Abraham's mom according to Jewish tradition?",
+      "model": "llama3.1:latest",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_0"
+      },
+      "settings": {
+        "samples": 60,
+        "temperature": 0.8,
+        "max_tokens": 1024,
+        "num_ctx": 4096,
+        "mode": "reason",
+        "thinking": "off",
+        "logprobs": true
+      },
+      "seed_start": 842617000,
+      "n": 60,
+      "statuses": {
+        "abstained": 14,
+        "valid": 44,
+        "unparseable": 2
+      },
+      "grouped_final_answers": {
+        "unknown": 14,
+        "ammilat": 1,
+        "sarah": 17,
+        "amathlai (accepted name)": 20,
+        "terah's wife": 2,
+        "amithai": 1,
+        "[missing FINAL]": 2,
+        "ammilah": 1,
+        "aminah": 1,
+        "ameth": 1
+      },
+      "target": "amathlai (accepted name)",
+      "target_hits": [
+        5,
+        10,
+        12,
+        13,
+        18,
+        19,
+        20,
+        26,
+        27,
+        28,
+        32,
+        36,
+        37,
+        39,
+        41,
+        45,
+        49,
+        51,
+        55,
+        56
+      ],
+      "target_rate": 0.3333333333333333,
+      "target_wilson95": [
+        0.22729261523522937,
+        0.45943133547879955
+      ],
+      "mean_generated_tokens_ollama_eval_count": 225.63333333333333,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 842617000,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 2,
+          "seed": 842617001,
+          "status": "valid",
+          "answer": "Ammilat.",
+          "group": "ammilat"
+        },
+        {
+          "index": 3,
+          "seed": 842617002,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 4,
+          "seed": 842617003,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 5,
+          "seed": 842617004,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 6,
+          "seed": 842617005,
+          "status": "valid",
+          "answer": "The wife of Terah.",
+          "group": "terah's wife"
+        },
+        {
+          "index": 7,
+          "seed": 842617006,
+          "status": "valid",
+          "answer": "Amithai.",
+          "group": "amithai"
+        },
+        {
+          "index": 8,
+          "seed": 842617007,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 9,
+          "seed": 842617008,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 10,
+          "seed": 842617009,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 11,
+          "seed": 842617010,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 12,
+          "seed": 842617011,
+          "status": "valid",
+          "answer": "Amethlai (or Amathlai)",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 13,
+          "seed": 842617012,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 14,
+          "seed": 842617013,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 15,
+          "seed": 842617014,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 16,
+          "seed": 842617015,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 17,
+          "seed": 842617016,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 18,
+          "seed": 842617017,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 19,
+          "seed": 842617018,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 20,
+          "seed": 842617019,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 21,
+          "seed": 842617020,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 22,
+          "seed": 842617021,
+          "status": "unparseable",
+          "answer": null,
+          "group": "[missing FINAL]"
+        },
+        {
+          "index": 23,
+          "seed": 842617022,
+          "status": "valid",
+          "answer": "Ammilah",
+          "group": "ammilah"
+        },
+        {
+          "index": 24,
+          "seed": 842617023,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 25,
+          "seed": 842617024,
+          "status": "unparseable",
+          "answer": null,
+          "group": "[missing FINAL]"
+        },
+        {
+          "index": 26,
+          "seed": 842617025,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 27,
+          "seed": 842617026,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 28,
+          "seed": 842617027,
+          "status": "valid",
+          "answer": "Amathlai/Amithlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 29,
+          "seed": 842617028,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 30,
+          "seed": 842617029,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 31,
+          "seed": 842617030,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 32,
+          "seed": 842617031,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 33,
+          "seed": 842617032,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 34,
+          "seed": 842617033,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 35,
+          "seed": 842617034,
+          "status": "valid",
+          "answer": "Aminah.",
+          "group": "aminah"
+        },
+        {
+          "index": 36,
+          "seed": 842617035,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 37,
+          "seed": 842617036,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 38,
+          "seed": 842617037,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 39,
+          "seed": 842617038,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 40,
+          "seed": 842617039,
+          "status": "valid",
+          "answer": "Ameth",
+          "group": "ameth"
+        },
+        {
+          "index": 41,
+          "seed": 842617040,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 42,
+          "seed": 842617041,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 43,
+          "seed": 842617042,
+          "status": "valid",
+          "answer": "Terah's wife.",
+          "group": "terah's wife"
+        },
+        {
+          "index": 44,
+          "seed": 842617043,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 45,
+          "seed": 842617044,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 46,
+          "seed": 842617045,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 47,
+          "seed": 842617046,
+          "status": "valid",
+          "answer": "Sarah.",
+          "group": "sarah"
+        },
+        {
+          "index": 48,
+          "seed": 842617047,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 49,
+          "seed": 842617048,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 50,
+          "seed": 842617049,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 51,
+          "seed": 842617050,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 52,
+          "seed": 842617051,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 53,
+          "seed": 842617052,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 54,
+          "seed": 842617053,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 55,
+          "seed": 842617054,
+          "status": "valid",
+          "answer": "Amathlai.",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 56,
+          "seed": 842617055,
+          "status": "valid",
+          "answer": "Amathlai",
+          "group": "amathlai (accepted name)"
+        },
+        {
+          "index": 57,
+          "seed": 842617056,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 58,
+          "seed": 842617057,
+          "status": "valid",
+          "answer": "Sarah",
+          "group": "sarah"
+        },
+        {
+          "index": 59,
+          "seed": 842617058,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        },
+        {
+          "index": 60,
+          "seed": 842617059,
+          "status": "abstained",
+          "answer": "UNKNOWN",
+          "group": "unknown"
+        }
+      ]
+    }
+  }
+}

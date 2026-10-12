@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-11T14:59:32.936132+00:00",
+  "source": "/Users/yon/projects/self_consistency_playground/runs/20261011T145131709506Z.json",
+  "question": "According to Jewish tradition, what fruit was the fruit of the tree of knowledge?",
+  "model": "llama3.1:latest",
+  "seed_start": 504908319,
+  "samples_per_condition": 30,
+  "temperature": 0.2,
+  "top_ps": [
+    0.9,
+    0.95
+  ],
+  "conditions": [
+    {
+      "mode": "direct",
+      "top_p": 0.9,
+      "file": "direct-top-p-0.9.json",
+      "exit_code": 0
+    },
+    {
+      "mode": "direct",
+      "top_p": 0.95,
+      "file": "direct-top-p-0.95.json",
+      "exit_code": 0
+    },
+    {
+      "mode": "reason",
+      "top_p": 0.9,
+      "file": "reason-top-p-0.9.json",
+      "exit_code": 0
+    },
+    {
+      "mode": "reason",
+      "top_p": 0.95,
+      "file": "reason-top-p-0.95.json",
+      "exit_code": 0
+    }
+  ],
+  "complete": true,
+  "predefined_target_groups": [
+    "grape",
+    "fig",
+    "wheat"
+  ],
+  "notes": [
+    "Target hit means a final answer naming grape/vine, fig, or wheat; it does not certify the explanation.",
+    "Other final answers are retained separately; etrog is not counted in the three named target groups.",
+    "Same seeds standardize runs but do not mean equivalent semantic random paths across prompts.",
+    "Prompt mode changes instructions and length together; this does not isolate length alone.",
+    "Original source run was selected after noticing a grape; this is exploratory, not an independent confirmation."
+  ]
+}

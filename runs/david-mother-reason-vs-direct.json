@@ -1,0 +1,206 @@
+{
+  "question": "Who was the mom of king david",
+  "model": "llama3.1:latest",
+  "temperature": 0.8,
+  "seeds": [
+    308921333,
+    308921334,
+    308921335,
+    308921336,
+    308921337,
+    308921338,
+    308921339,
+    308921340,
+    308921341,
+    308921342
+  ],
+  "conditions": {
+    "reason": {
+      "distribution": {
+        "nitza": 1,
+        "nitzevet": 1,
+        "unknown": 5,
+        "jesse's wife": 2,
+        "nishmat": 1
+      },
+      "mean_of_response_mean_logprobs": -0.553719304874096,
+      "mean_response_tokens": 299.2,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 308921333,
+          "answer": "Nitza",
+          "status": "valid",
+          "token_count": 356,
+          "mean_token_logprob": -0.6984437634859477
+        },
+        {
+          "index": 2,
+          "seed": 308921334,
+          "answer": "Nitzevet",
+          "status": "valid",
+          "token_count": 397,
+          "mean_token_logprob": -0.4211786627300531
+        },
+        {
+          "index": 3,
+          "seed": 308921335,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 209,
+          "mean_token_logprob": -0.4855073325425881
+        },
+        {
+          "index": 4,
+          "seed": 308921336,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 546,
+          "mean_token_logprob": -0.7554757973191508
+        },
+        {
+          "index": 5,
+          "seed": 308921337,
+          "answer": "Jesse's wife",
+          "status": "valid",
+          "token_count": 257,
+          "mean_token_logprob": -0.5170412706138376
+        },
+        {
+          "index": 6,
+          "seed": 308921338,
+          "answer": "UNKNOWN.",
+          "status": "abstained",
+          "token_count": 230,
+          "mean_token_logprob": -0.5572800796724023
+        },
+        {
+          "index": 7,
+          "seed": 308921339,
+          "answer": "Nishmat",
+          "status": "valid",
+          "token_count": 365,
+          "mean_token_logprob": -0.781956784993347
+        },
+        {
+          "index": 8,
+          "seed": 308921340,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 131,
+          "mean_token_logprob": -0.32705828641750756
+        },
+        {
+          "index": 9,
+          "seed": 308921341,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 160,
+          "mean_token_logprob": -0.592242189538512
+        },
+        {
+          "index": 10,
+          "seed": 308921342,
+          "answer": "Jesse's wife",
+          "status": "valid",
+          "token_count": 341,
+          "mean_token_logprob": -0.40100888142761454
+        }
+      ]
+    },
+    "direct": {
+      "distribution": {
+        "unknown": 4,
+        "jesse": 2,
+        "bathsheba": 3,
+        "nitzebet": 1
+      },
+      "mean_of_response_mean_logprobs": -0.5393700506479965,
+      "mean_response_tokens": 6.4,
+      "samples": [
+        {
+          "index": 1,
+          "seed": 308921333,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 3,
+          "mean_token_logprob": -0.6750837763480982
+        },
+        {
+          "index": 2,
+          "seed": 308921334,
+          "answer": "Jesse",
+          "status": "valid",
+          "token_count": 11,
+          "mean_token_logprob": -0.46187979795848316
+        },
+        {
+          "index": 3,
+          "seed": 308921335,
+          "answer": "Bathsheba",
+          "status": "valid",
+          "token_count": 5,
+          "mean_token_logprob": -0.3011132081368487
+        },
+        {
+          "index": 4,
+          "seed": 308921336,
+          "answer": "Nitzebet",
+          "status": "valid",
+          "token_count": 15,
+          "mean_token_logprob": -0.7059719517639678
+        },
+        {
+          "index": 5,
+          "seed": 308921337,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 3,
+          "mean_token_logprob": -0.6746612191530706
+        },
+        {
+          "index": 6,
+          "seed": 308921338,
+          "answer": "Jesse",
+          "status": "valid",
+          "token_count": 11,
+          "mean_token_logprob": -0.6234416985396571
+        },
+        {
+          "index": 7,
+          "seed": 308921339,
+          "answer": "Bathsheba",
+          "status": "valid",
+          "token_count": 5,
+          "mean_token_logprob": -0.3011132081368487
+        },
+        {
+          "index": 8,
+          "seed": 308921340,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 3,
+          "mean_token_logprob": -0.6746612191530706
+        },
+        {
+          "index": 9,
+          "seed": 308921341,
+          "answer": "UNKNOWN",
+          "status": "abstained",
+          "token_count": 3,
+          "mean_token_logprob": -0.6746612191530706
+        },
+        {
+          "index": 10,
+          "seed": 308921342,
+          "answer": "Bathsheba",
+          "status": "valid",
+          "token_count": 5,
+          "mean_token_logprob": -0.3011132081368487
+        }
+      ]
+    }
+  },
+  "target_interpretation": "Nitzebet is treated as a likely spelling variant of Nitzevet for the exploratory 1/10 vs 1/10 comparison; raw forms remain distinct. Nitza and Nishmat are not automatically accepted.",
+  "limitation": "Ten samples on one selected question; not evidence of general accuracy improvement. Full-response logprobs compare different prefixes and very different response lengths/styles, not probability of correctness. Direct means no written step-by-step instruction, not absence of internal computation."
+}

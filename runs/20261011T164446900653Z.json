@@ -1,0 +1,886 @@
+{
+  "question": "who is described in Jewish scriptures as a 'man of truth'?",
+  "model": "llama3.1:latest",
+  "created_at": "2026-10-11T16:44:46.900869+00:00",
+  "settings": {
+    "samples": 30,
+    "temperature": 0.8,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "direct",
+    "thinking": "off",
+    "logprobs": false
+  },
+  "seed": 888848500,
+  "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nwho is described in Jewish scriptures as a 'man of truth'?",
+  "aliases": {},
+  "model_info": {
+    "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.1:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe\nTEMPLATE \"\"\"{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Meta-Llama-3.1",
+      "general.file_type": 2,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.license": "llama3.1",
+      "general.parameter_count": 8030261312,
+      "general.quantization_version": 2,
+      "general.size_label": "8B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T13:48:52.816800646+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 888848500,
+      "status": "valid",
+      "reasoning": "Job is described in Jewish scriptures as a 'man of truth'.",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:47.304442Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job is described in Jewish scriptures as a 'man of truth'.\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 402872083,
+        "load_duration": 3232625,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 56,
+        "prompt_eval_duration": 107536000,
+        "eval_count": 17,
+        "eval_duration": 290239000
+      },
+      "elapsed_seconds": 0.404
+    },
+    {
+      "index": 2,
+      "seed": 888848501,
+      "status": "valid",
+      "reasoning": "Job is described in Jewish scriptures as a 'man of truth'.",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:47.783745Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job is described in Jewish scriptures as a 'man of truth'.\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 476566125,
+        "load_duration": 4029708,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20349000,
+        "eval_count": 17,
+        "eval_duration": 449989000
+      },
+      "elapsed_seconds": 0.478
+    },
+    {
+      "index": 3,
+      "seed": 888848502,
+      "status": "valid",
+      "reasoning": "Daniel.",
+      "answer": "Daniel.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:47.931983Z",
+        "message": {
+          "role": "assistant",
+          "content": "Daniel.\n\nFINAL: Daniel."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 145186000,
+        "load_duration": 3764334,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21169000,
+        "eval_count": 7,
+        "eval_duration": 118306000
+      },
+      "elapsed_seconds": 0.147
+    },
+    {
+      "index": 4,
+      "seed": 888848503,
+      "status": "valid",
+      "reasoning": "Daniel.",
+      "answer": "Daniel.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.078079Z",
+        "message": {
+          "role": "assistant",
+          "content": "Daniel.\n\nFINAL: Daniel."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 142700792,
+        "load_duration": 3454417,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20529000,
+        "eval_count": 7,
+        "eval_duration": 116718000
+      },
+      "elapsed_seconds": 0.144
+    },
+    {
+      "index": 5,
+      "seed": 888848504,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.228634Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 146787625,
+        "load_duration": 3822709,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20581000,
+        "eval_count": 7,
+        "eval_duration": 120302000
+      },
+      "elapsed_seconds": 0.148
+    },
+    {
+      "index": 6,
+      "seed": 888848505,
+      "status": "valid",
+      "reasoning": "Daniel.",
+      "answer": "Daniel.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.385259Z",
+        "message": {
+          "role": "assistant",
+          "content": "Daniel.\n\nFINAL: Daniel."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 152434834,
+        "load_duration": 3790709,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21126000,
+        "eval_count": 7,
+        "eval_duration": 125685000
+      },
+      "elapsed_seconds": 0.154
+    },
+    {
+      "index": 7,
+      "seed": 888848506,
+      "status": "valid",
+      "reasoning": "Daniel.",
+      "answer": "Daniel.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.541502Z",
+        "message": {
+          "role": "assistant",
+          "content": "Daniel.\n\nFINAL: Daniel."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 152009417,
+        "load_duration": 3845292,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20571000,
+        "eval_count": 7,
+        "eval_duration": 125923000
+      },
+      "elapsed_seconds": 0.153
+    },
+    {
+      "index": 8,
+      "seed": 888848507,
+      "status": "valid",
+      "reasoning": "Joshua.",
+      "answer": "Joshua.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.720481Z",
+        "message": {
+          "role": "assistant",
+          "content": "Joshua.\n\nFINAL: Joshua."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 174572375,
+        "load_duration": 3691709,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20584000,
+        "eval_count": 8,
+        "eval_duration": 148349000
+      },
+      "elapsed_seconds": 0.176
+    },
+    {
+      "index": 9,
+      "seed": 888848508,
+      "status": "valid",
+      "reasoning": "Job",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.853627Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 129847750,
+        "load_duration": 3837209,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20680000,
+        "eval_count": 6,
+        "eval_duration": 103487000
+      },
+      "elapsed_seconds": 0.131
+    },
+    {
+      "index": 10,
+      "seed": 888848509,
+      "status": "valid",
+      "reasoning": "Job",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:48.989472Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 124956250,
+        "load_duration": 3038958,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20842000,
+        "eval_count": 6,
+        "eval_duration": 99390000
+      },
+      "elapsed_seconds": 0.127
+    },
+    {
+      "index": 11,
+      "seed": 888848510,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:49.142194Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 148669750,
+        "load_duration": 3658000,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21288000,
+        "eval_count": 7,
+        "eval_duration": 121919000
+      },
+      "elapsed_seconds": 0.15
+    },
+    {
+      "index": 12,
+      "seed": 888848511,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:49.295238Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 148540958,
+        "load_duration": 3680875,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21470000,
+        "eval_count": 7,
+        "eval_duration": 121525000
+      },
+      "elapsed_seconds": 0.15
+    },
+    {
+      "index": 13,
+      "seed": 888848512,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:49.446408Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 146912875,
+        "load_duration": 3523708,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20569000,
+        "eval_count": 7,
+        "eval_duration": 120849000
+      },
+      "elapsed_seconds": 0.148
+    },
+    {
+      "index": 14,
+      "seed": 888848513,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:49.606765Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 156910959,
+        "load_duration": 3595917,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21252000,
+        "eval_count": 7,
+        "eval_duration": 130183000
+      },
+      "elapsed_seconds": 0.158
+    },
+    {
+      "index": 15,
+      "seed": 888848514,
+      "status": "valid",
+      "reasoning": "Job",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:49.744478Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 133697459,
+        "load_duration": 3770875,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20873000,
+        "eval_count": 6,
+        "eval_duration": 107136000
+      },
+      "elapsed_seconds": 0.135
+    },
+    {
+      "index": 16,
+      "seed": 888848515,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:49.881606Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 133077542,
+        "load_duration": 3809542,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20639000,
+        "eval_count": 6,
+        "eval_duration": 106736000
+      },
+      "elapsed_seconds": 0.134
+    },
+    {
+      "index": 17,
+      "seed": 888848516,
+      "status": "valid",
+      "reasoning": "Job",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:50.011729Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 125882875,
+        "load_duration": 3600667,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20966000,
+        "eval_count": 6,
+        "eval_duration": 99644000
+      },
+      "elapsed_seconds": 0.127
+    },
+    {
+      "index": 18,
+      "seed": 888848517,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:50.162532Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 147059875,
+        "load_duration": 3707000,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21087000,
+        "eval_count": 7,
+        "eval_duration": 120372000
+      },
+      "elapsed_seconds": 0.148
+    },
+    {
+      "index": 19,
+      "seed": 888848518,
+      "status": "valid",
+      "reasoning": "Joseph.",
+      "answer": "Joseph.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:50.317192Z",
+        "message": {
+          "role": "assistant",
+          "content": "Joseph.\n\nFINAL: Joseph."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 150561959,
+        "load_duration": 3685959,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20971000,
+        "eval_count": 7,
+        "eval_duration": 123922000
+      },
+      "elapsed_seconds": 0.152
+    },
+    {
+      "index": 20,
+      "seed": 888848519,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:50.473495Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 151883792,
+        "load_duration": 3439292,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20994000,
+        "eval_count": 7,
+        "eval_duration": 125838000
+      },
+      "elapsed_seconds": 0.153
+    },
+    {
+      "index": 21,
+      "seed": 888848520,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:50.638808Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 160864792,
+        "load_duration": 3639167,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20861000,
+        "eval_count": 7,
+        "eval_duration": 134405000
+      },
+      "elapsed_seconds": 0.162
+    },
+    {
+      "index": 22,
+      "seed": 888848521,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:50.796639Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 154578416,
+        "load_duration": 5487416,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21123000,
+        "eval_count": 7,
+        "eval_duration": 125926000
+      },
+      "elapsed_seconds": 0.156
+    },
+    {
+      "index": 23,
+      "seed": 888848522,
+      "status": "valid",
+      "reasoning": "Hezekiah.",
+      "answer": "Hezekiah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:51.028863Z",
+        "message": {
+          "role": "assistant",
+          "content": "Hezekiah.\n\nFINAL: Hezekiah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 228499084,
+        "load_duration": 3943667,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20697000,
+        "eval_count": 11,
+        "eval_duration": 201923000
+      },
+      "elapsed_seconds": 0.23
+    },
+    {
+      "index": 24,
+      "seed": 888848523,
+      "status": "valid",
+      "reasoning": "Job is described in Jewish scriptures as a 'man of truth'.",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:51.403835Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job is described in Jewish scriptures as a 'man of truth'.\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 370568917,
+        "load_duration": 4041209,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21816000,
+        "eval_count": 17,
+        "eval_duration": 342877000
+      },
+      "elapsed_seconds": 0.372
+    },
+    {
+      "index": 25,
+      "seed": 888848524,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:51.567723Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 159157333,
+        "load_duration": 3819583,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21105000,
+        "eval_count": 7,
+        "eval_duration": 132204000
+      },
+      "elapsed_seconds": 0.161
+    },
+    {
+      "index": 26,
+      "seed": 888848525,
+      "status": "valid",
+      "reasoning": "Job",
+      "answer": "Job",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:51.703224Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job\n\nFINAL: Job"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 131106334,
+        "load_duration": 3587417,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21299000,
+        "eval_count": 6,
+        "eval_duration": 104498000
+      },
+      "elapsed_seconds": 0.133
+    },
+    {
+      "index": 27,
+      "seed": 888848526,
+      "status": "valid",
+      "reasoning": "Ezra.",
+      "answer": "Ezra.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:51.895815Z",
+        "message": {
+          "role": "assistant",
+          "content": "Ezra.\n\nFINAL: Ezra."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 188107083,
+        "load_duration": 3661667,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20742000,
+        "eval_count": 9,
+        "eval_duration": 161758000
+      },
+      "elapsed_seconds": 0.19
+    },
+    {
+      "index": 28,
+      "seed": 888848527,
+      "status": "valid",
+      "reasoning": "Job.",
+      "answer": "Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:52.056341Z",
+        "message": {
+          "role": "assistant",
+          "content": "Job.\n\nFINAL: Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 156657291,
+        "load_duration": 3475833,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20466000,
+        "eval_count": 7,
+        "eval_duration": 130798000
+      },
+      "elapsed_seconds": 0.158
+    },
+    {
+      "index": 29,
+      "seed": 888848528,
+      "status": "valid",
+      "reasoning": "Daniel the prophet.",
+      "answer": "Daniel the prophet.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:52.295706Z",
+        "message": {
+          "role": "assistant",
+          "content": "Daniel the prophet.\n\nFINAL: Daniel the prophet."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 234955959,
+        "load_duration": 3806584,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 21550000,
+        "eval_count": 11,
+        "eval_duration": 207717000
+      },
+      "elapsed_seconds": 0.236
+    },
+    {
+      "index": 30,
+      "seed": 888848529,
+      "status": "valid",
+      "reasoning": "Daniel is described in Jewish scriptures as a 'man of truth'.",
+      "answer": "Daniel",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T16:44:52.662644Z",
+        "message": {
+          "role": "assistant",
+          "content": "Daniel is described in Jewish scriptures as a 'man of truth'.\n\nFINAL: Daniel"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 362488375,
+        "load_duration": 3621584,
+        "prompt_eval_count": 74,
+        "prompt_eval_cached_count": 73,
+        "prompt_eval_duration": 20820000,
+        "eval_count": 17,
+        "eval_duration": 336196000
+      },
+      "elapsed_seconds": 0.364
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "votes": {
+      "job": 20,
+      "daniel": 5,
+      "joshua": 1,
+      "joseph": 1,
+      "hezekiah": 1,
+      "ezra": 1,
+      "daniel the prophet": 1
+    },
+    "valid_samples": 30,
+    "attempted_samples": 30,
+    "excluded_samples": 0,
+    "plurality_answer": "job",
+    "tied_answers": [],
+    "majority_answer": "job",
+    "winner_share_of_valid": 0.6666666666666666,
+    "winner_share_of_attempted": 0.6666666666666666
+  }
+}

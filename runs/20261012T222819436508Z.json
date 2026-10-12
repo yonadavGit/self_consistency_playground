@@ -1,0 +1,5184 @@
+{
+  "question": "Who was the Abraham's mom according to Jewish tradition?",
+  "model": "llama3.1:latest",
+  "created_at": "2026-10-12T22:28:19.436717+00:00",
+  "settings": {
+    "samples": 30,
+    "temperature": 0.8,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "direct",
+    "thinking": "off",
+    "logprobs": true
+  },
+  "seed": 842617000,
+  "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+  "aliases": {
+    "amethlai (or amathlai)": "amathlai",
+    "amathlai/amithlai": "amathlai",
+    "keziah, daughter of kenaz": "keziah",
+    "keziah, daughter of jethro": "keziah",
+    "the wife of terah": "terah's wife"
+  },
+  "model_info": {
+    "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.1:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe\nTEMPLATE \"\"\"{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Meta-Llama-3.1",
+      "general.file_type": 2,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.license": "llama3.1",
+      "general.parameter_count": 8030261312,
+      "general.quantization_version": 2,
+      "general.size_label": "8B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T13:48:52.816800646+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 842617000,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:19.606172Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": "\n\n",
+            "logprob": -1.3912667036056519,
+            "bytes": [
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0028736714739352465,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.00908784382045269,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 168704750,
+        "load_duration": 6322625,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 61332000,
+        "eval_count": 6,
+        "eval_duration": 94743000
+      },
+      "logprob_metrics": {
+        "token_count": 5,
+        "sum_logprob": -2.6356561735753985,
+        "mean_token_logprob": -0.5271312347150797,
+        "geometric_mean_token_probability": 0.5902959635544508,
+        "perplexity": 1.694065454858488
+      },
+      "elapsed_seconds": 0.17
+    },
+    {
+      "index": 2,
+      "seed": 842617001,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah.",
+      "answer": "Sarah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:19.755759Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah.\n\nFINAL: Sarah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.4359501600265503,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.005104853771626949,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.006170735694468021,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.6408771872520447,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 142302666,
+        "load_duration": 2374250,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 19340000,
+        "eval_count": 7,
+        "eval_duration": 117731000
+      },
+      "logprob_metrics": {
+        "token_count": 6,
+        "sum_logprob": -3.3205310106295656,
+        "mean_token_logprob": -0.5534218351049276,
+        "geometric_mean_token_probability": 0.5749789571559729,
+        "perplexity": 1.7391940827648982
+      },
+      "elapsed_seconds": 0.143
+    },
+    {
+      "index": 3,
+      "seed": 842617002,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah.",
+      "answer": "Keziah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:20.16581Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah.\n\nFINAL: Keziah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.0120304822921753,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.006305445451289415,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -2.861027041944908e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007322726887650788,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -4.768382950715022e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": 0,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.44057461619377136,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 405616708,
+        "load_duration": 3292958,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 20503000,
+        "eval_count": 11,
+        "eval_duration": 378128000
+      },
+      "logprob_metrics": {
+        "token_count": 10,
+        "sum_logprob": -2.9408245816166527,
+        "mean_token_logprob": -0.2940824581616653,
+        "geometric_mean_token_probability": 0.7452150398474995,
+        "perplexity": 1.3418945492627734
+      },
+      "elapsed_seconds": 0.408
+    },
+    {
+      "index": 4,
+      "seed": 842617003,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah, the wife of Abraham.",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:20.517967Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah, the wife of Abraham.\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.4218014478683472,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -1.8219047784805298,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.00779181532561779,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.0017899788217619061,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.0005682532791979611,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.3250523507595062,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.010621549561619759,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -3.4570753086882178e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.0010985207045450807,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 344026583,
+        "load_duration": 5876000,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 43859000,
+        "eval_count": 11,
+        "eval_duration": 290150000
+      },
+      "logprob_metrics": {
+        "token_count": 10,
+        "sum_logprob": -4.823058318410858,
+        "mean_token_logprob": -0.48230583184108583,
+        "geometric_mean_token_probability": 0.6173582250874295,
+        "perplexity": 1.6198050975321194
+      },
+      "elapsed_seconds": 0.345
+    },
+    {
+      "index": 5,
+      "seed": 842617004,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah, the daughter of Jethro, was the mother of Abraham.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:21.225873Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah, the daughter of Jethro, was the mother of Abraham.\n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.9199360013008118,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.9793721437454224,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -0.23315273225307465,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.00019331654766574502,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " J",
+            "logprob": -2.088484525680542,
+            "bytes": [
+              32,
+              74
+            ]
+          },
+          {
+            "token": "eth",
+            "logprob": -0.12995070219039917,
+            "bytes": [
+              101,
+              116,
+              104
+            ]
+          },
+          {
+            "token": "ro",
+            "logprob": -0.00023302171030081809,
+            "bytes": [
+              114,
+              111
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.4128133058547974,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.9215380549430847,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.4652220904827118,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " mother",
+            "logprob": -0.5279293656349182,
+            "bytes": [
+              32,
+              109,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.01261196844279766,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.03882421553134918,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.6263394355773926,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.05428585410118103,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -8.940736734075472e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0005939578404650092,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -2.217317342001479e-05,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -5.960466182841628e-07,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 700667750,
+        "load_duration": 4792417,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 23061000,
+        "eval_count": 23,
+        "eval_duration": 669314000
+      },
+      "logprob_metrics": {
+        "token_count": 22,
+        "sum_logprob": -10.892686537374345,
+        "mean_token_logprob": -0.4951221153351975,
+        "geometric_mean_token_probability": 0.6094964738854611,
+        "perplexity": 1.6406985812815773
+      },
+      "elapsed_seconds": 0.702
+    },
+    {
+      "index": 6,
+      "seed": 842617005,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:21.485444Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah.\n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.0120304822921753,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.006305445451289415,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -2.861027041944908e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007322726887650788,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -4.768382950715022e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": 0,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 253016000,
+        "load_duration": 3790125,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 28925000,
+        "eval_count": 10,
+        "eval_duration": 216922000
+      },
+      "logprob_metrics": {
+        "token_count": 9,
+        "sum_logprob": -2.5002499654228814,
+        "mean_token_logprob": -0.2778055517136535,
+        "geometric_mean_token_probability": 0.7574440909012106,
+        "perplexity": 1.3202294558931673
+      },
+      "elapsed_seconds": 0.254
+    },
+    {
+      "index": 7,
+      "seed": 842617006,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah.",
+      "answer": "Keziah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:21.821822Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah.\n\nFINAL: Keziah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.0120304822921753,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.006305445451289415,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -2.861027041944908e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007322726887650788,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -4.768382950715022e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": 0,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.44057461619377136,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 328811500,
+        "load_duration": 5588000,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 24336000,
+        "eval_count": 11,
+        "eval_duration": 294893000
+      },
+      "logprob_metrics": {
+        "token_count": 10,
+        "sum_logprob": -2.9408245816166527,
+        "mean_token_logprob": -0.2940824581616653,
+        "geometric_mean_token_probability": 0.7452150398474995,
+        "perplexity": 1.3418945492627734
+      },
+      "elapsed_seconds": 0.33
+    },
+    {
+      "index": 8,
+      "seed": 842617007,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:21.943663Z",
+        "message": {
+          "role": "assistant",
+          "content": "FINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "FINAL",
+            "logprob": -3.028595447540283,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5735749911982566e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.45442742109298706,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 113462250,
+        "load_duration": 5716625,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 22279000,
+        "eval_count": 4,
+        "eval_duration": 82115000
+      },
+      "logprob_metrics": {
+        "token_count": 3,
+        "sum_logprob": -3.4830386043831822,
+        "mean_token_logprob": -1.1610128681277274,
+        "geometric_mean_token_probability": 0.3131688214702549,
+        "perplexity": 3.19316589469294
+      },
+      "elapsed_seconds": 0.115
+    },
+    {
+      "index": 9,
+      "seed": 842617008,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:22.145205Z",
+        "message": {
+          "role": "assistant",
+          "content": "FINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "FINAL",
+            "logprob": -3.028595447540283,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5735749911982566e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -2.3086764812469482,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07709051668643951,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.009179273620247841,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 195480958,
+        "load_duration": 5364000,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 38137000,
+        "eval_count": 6,
+        "eval_duration": 148501000
+      },
+      "logprob_metrics": {
+        "token_count": 5,
+        "sum_logprob": -5.423557454843831,
+        "mean_token_logprob": -1.084711490968766,
+        "geometric_mean_token_probability": 0.3379992876760096,
+        "perplexity": 2.958586116780676
+      },
+      "elapsed_seconds": 0.197
+    },
+    {
+      "index": 10,
+      "seed": 842617009,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah, Abraham's wife, is considered the mother of Isaac in Jewish tradition. However, according to Jewish tradition, Sarah was barren and unable to have children, and Abraham's concubine Hagar is sometimes referred to as the mother of Ishmael, who was born before Isaac.",
+      "answer": "Hagar.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:23.870532Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah, Abraham's wife, is considered the mother of Isaac in Jewish tradition. However, according to Jewish tradition, Sarah was barren and unable to have children, and Abraham's concubine Hagar is sometimes referred to as the mother of Ishmael, who was born before Isaac.\n\nFINAL: Hagar."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.4218014478683472,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.6945816278457642,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.0015249549178406596,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.0634009912610054,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.7127931714057922,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " is",
+            "logprob": -0.8905879259109497,
+            "bytes": [
+              32,
+              105,
+              115
+            ]
+          },
+          {
+            "token": " considered",
+            "logprob": -0.47449731826782227,
+            "bytes": [
+              32,
+              99,
+              111,
+              110,
+              115,
+              105,
+              100,
+              101,
+              114,
+              101,
+              100
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -1.3261909484863281,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " mother",
+            "logprob": -0.26289933919906616,
+            "bytes": [
+              32,
+              109,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.11561901867389679,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Isaac",
+            "logprob": -0.20795287191867828,
+            "bytes": [
+              32,
+              73,
+              115,
+              97,
+              97,
+              99
+            ]
+          },
+          {
+            "token": " in",
+            "logprob": -2.1834497451782227,
+            "bytes": [
+              32,
+              105,
+              110
+            ]
+          },
+          {
+            "token": " Jewish",
+            "logprob": -0.11594793945550919,
+            "bytes": [
+              32,
+              74,
+              101,
+              119,
+              105,
+              115,
+              104
+            ]
+          },
+          {
+            "token": " tradition",
+            "logprob": -0.00020595524983946234,
+            "bytes": [
+              32,
+              116,
+              114,
+              97,
+              100,
+              105,
+              116,
+              105,
+              111,
+              110
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -1.0976088047027588,
+            "bytes": [
+              46
+            ]
+          },
+          {
+            "token": " However",
+            "logprob": -0.32147112488746643,
+            "bytes": [
+              32,
+              72,
+              111,
+              119,
+              101,
+              118,
+              101,
+              114
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.002669437089934945,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " according",
+            "logprob": -1.0422941446304321,
+            "bytes": [
+              32,
+              97,
+              99,
+              99,
+              111,
+              114,
+              100,
+              105,
+              110,
+              103
+            ]
+          },
+          {
+            "token": " to",
+            "logprob": -0.0002642623148858547,
+            "bytes": [
+              32,
+              116,
+              111
+            ]
+          },
+          {
+            "token": " Jewish",
+            "logprob": -1.271707534790039,
+            "bytes": [
+              32,
+              74,
+              101,
+              119,
+              105,
+              115,
+              104
+            ]
+          },
+          {
+            "token": " tradition",
+            "logprob": -0.17849178612232208,
+            "bytes": [
+              32,
+              116,
+              114,
+              97,
+              100,
+              105,
+              116,
+              105,
+              111,
+              110
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.02468959428369999,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -1.4074777364730835,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -1.1875396966934204,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " barren",
+            "logprob": -1.2249397039413452,
+            "bytes": [
+              32,
+              98,
+              97,
+              114,
+              114,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " and",
+            "logprob": -0.46091458201408386,
+            "bytes": [
+              32,
+              97,
+              110,
+              100
+            ]
+          },
+          {
+            "token": " unable",
+            "logprob": -1.8676940202713013,
+            "bytes": [
+              32,
+              117,
+              110,
+              97,
+              98,
+              108,
+              101
+            ]
+          },
+          {
+            "token": " to",
+            "logprob": -6.902455788804218e-05,
+            "bytes": [
+              32,
+              116,
+              111
+            ]
+          },
+          {
+            "token": " have",
+            "logprob": -1.7642782926559448,
+            "bytes": [
+              32,
+              104,
+              97,
+              118,
+              101
+            ]
+          },
+          {
+            "token": " children",
+            "logprob": -0.009552119299769402,
+            "bytes": [
+              32,
+              99,
+              104,
+              105,
+              108,
+              100,
+              114,
+              101,
+              110
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.7325600385665894,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " and",
+            "logprob": -1.2901231050491333,
+            "bytes": [
+              32,
+              97,
+              110,
+              100
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.4922477900981903,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -1.4513177871704102,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " conc",
+            "logprob": -2.7811222076416016,
+            "bytes": [
+              32,
+              99,
+              111,
+              110,
+              99
+            ]
+          },
+          {
+            "token": "ub",
+            "logprob": -1.9312092263135128e-05,
+            "bytes": [
+              117,
+              98
+            ]
+          },
+          {
+            "token": "ine",
+            "logprob": -0.00031058842432685196,
+            "bytes": [
+              105,
+              110,
+              101
+            ]
+          },
+          {
+            "token": " H",
+            "logprob": -0.1725202053785324,
+            "bytes": [
+              32,
+              72
+            ]
+          },
+          {
+            "token": "agar",
+            "logprob": -0.0005969398189336061,
+            "bytes": [
+              97,
+              103,
+              97,
+              114
+            ]
+          },
+          {
+            "token": " is",
+            "logprob": -1.426293134689331,
+            "bytes": [
+              32,
+              105,
+              115
+            ]
+          },
+          {
+            "token": " sometimes",
+            "logprob": -1.1620945930480957,
+            "bytes": [
+              32,
+              115,
+              111,
+              109,
+              101,
+              116,
+              105,
+              109,
+              101,
+              115
+            ]
+          },
+          {
+            "token": " referred",
+            "logprob": -0.426067978143692,
+            "bytes": [
+              32,
+              114,
+              101,
+              102,
+              101,
+              114,
+              114,
+              101,
+              100
+            ]
+          },
+          {
+            "token": " to",
+            "logprob": -0.0003774878568947315,
+            "bytes": [
+              32,
+              116,
+              111
+            ]
+          },
+          {
+            "token": " as",
+            "logprob": -0.012820175848901272,
+            "bytes": [
+              32,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.11056316643953323,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " mother",
+            "logprob": -0.18889567255973816,
+            "bytes": [
+              32,
+              109,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.011826073750853539,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Ish",
+            "logprob": -0.11534913629293442,
+            "bytes": [
+              32,
+              73,
+              115,
+              104
+            ]
+          },
+          {
+            "token": "ma",
+            "logprob": -0.00016225701256189495,
+            "bytes": [
+              109,
+              97
+            ]
+          },
+          {
+            "token": "el",
+            "logprob": -2.7418175250204513e-06,
+            "bytes": [
+              101,
+              108
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.2814178168773651,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " who",
+            "logprob": -0.661727786064148,
+            "bytes": [
+              32,
+              119,
+              104,
+              111
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -1.1416022777557373,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " born",
+            "logprob": -0.642233669757843,
+            "bytes": [
+              32,
+              98,
+              111,
+              114,
+              110
+            ]
+          },
+          {
+            "token": " before",
+            "logprob": -1.117701768875122,
+            "bytes": [
+              32,
+              98,
+              101,
+              102,
+              111,
+              114,
+              101
+            ]
+          },
+          {
+            "token": " Isaac",
+            "logprob": -0.017079543322324753,
+            "bytes": [
+              32,
+              73,
+              115,
+              97,
+              97,
+              99
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.15543420612812042,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.2474348098039627,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -4.124726547161117e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " H",
+            "logprob": -1.3273042440414429,
+            "bytes": [
+              32,
+              72
+            ]
+          },
+          {
+            "token": "agar",
+            "logprob": -0.017659468576312065,
+            "bytes": [
+              97,
+              103,
+              97,
+              114
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -1.276952862739563,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 1718367834,
+        "load_duration": 4912042,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 21117000,
+        "eval_count": 64,
+        "eval_duration": 1688851000
+      },
+      "logprob_metrics": {
+        "token_count": 63,
+        "sum_logprob": -38.82740137980932,
+        "mean_token_logprob": -0.6163079584096717,
+        "geometric_mean_token_probability": 0.5399342217542394,
+        "perplexity": 1.8520774563075715
+      },
+      "elapsed_seconds": 1.72
+    },
+    {
+      "index": 11,
+      "seed": 842617010,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:24.001388Z",
+        "message": {
+          "role": "assistant",
+          "content": "FINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "FINAL",
+            "logprob": -3.028595447540283,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5735749911982566e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.45442742109298706,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 121344959,
+        "load_duration": 6330542,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 26222000,
+        "eval_count": 4,
+        "eval_duration": 84100000
+      },
+      "logprob_metrics": {
+        "token_count": 3,
+        "sum_logprob": -3.4830386043831822,
+        "mean_token_logprob": -1.1610128681277274,
+        "geometric_mean_token_probability": 0.3131688214702549,
+        "perplexity": 3.19316589469294
+      },
+      "elapsed_seconds": 0.123
+    },
+    {
+      "index": 12,
+      "seed": 842617011,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah was the wife of Abraham and the mother of Isaac, but according to Jewish tradition, she was also considered the mother of Isaac's wife, Rebekah, and thus, the mother of Isaac's children, Esau and Jacob.",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:25.632189Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah was the wife of Abraham and the mother of Isaac, but according to Jewish tradition, she was also considered the mother of Isaac's wife, Rebekah, and thus, the mother of Isaac's children, Esau and Jacob.\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -2.061964750289917,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.2714918553829193,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.6808576583862305,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.04391225799918175,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.008709157817065716,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": " and",
+            "logprob": -0.77889084815979,
+            "bytes": [
+              32,
+              97,
+              110,
+              100
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.8937321305274963,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " mother",
+            "logprob": -0.05479363724589348,
+            "bytes": [
+              32,
+              109,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.027206066995859146,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Isaac",
+            "logprob": -0.09187605232000351,
+            "bytes": [
+              32,
+              73,
+              115,
+              97,
+              97,
+              99
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.5183654427528381,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " but",
+            "logprob": -0.8294100761413574,
+            "bytes": [
+              32,
+              98,
+              117,
+              116
+            ]
+          },
+          {
+            "token": " according",
+            "logprob": -0.412983775138855,
+            "bytes": [
+              32,
+              97,
+              99,
+              99,
+              111,
+              114,
+              100,
+              105,
+              110,
+              103
+            ]
+          },
+          {
+            "token": " to",
+            "logprob": -0.0007064453093335032,
+            "bytes": [
+              32,
+              116,
+              111
+            ]
+          },
+          {
+            "token": " Jewish",
+            "logprob": -0.12782864272594452,
+            "bytes": [
+              32,
+              74,
+              101,
+              119,
+              105,
+              115,
+              104
+            ]
+          },
+          {
+            "token": " tradition",
+            "logprob": -0.0027127668727189302,
+            "bytes": [
+              32,
+              116,
+              114,
+              97,
+              100,
+              105,
+              116,
+              105,
+              111,
+              110
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.010159787721931934,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " she",
+            "logprob": -2.902379274368286,
+            "bytes": [
+              32,
+              115,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.26542404294013977,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " also",
+            "logprob": -1.2099403142929077,
+            "bytes": [
+              32,
+              97,
+              108,
+              115,
+              111
+            ]
+          },
+          {
+            "token": " considered",
+            "logprob": -1.2301634550094604,
+            "bytes": [
+              32,
+              99,
+              111,
+              110,
+              115,
+              105,
+              100,
+              101,
+              114,
+              101,
+              100
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.20596325397491455,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " mother",
+            "logprob": -0.1578071564435959,
+            "bytes": [
+              32,
+              109,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.024214453995227814,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Isaac",
+            "logprob": -1.4344474077224731,
+            "bytes": [
+              32,
+              73,
+              115,
+              97,
+              97,
+              99
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.18244318664073944,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -3.080702304840088,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.07681191712617874,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Reb",
+            "logprob": -0.5298949480056763,
+            "bytes": [
+              32,
+              82,
+              101,
+              98
+            ]
+          },
+          {
+            "token": "ek",
+            "logprob": -0.00032585207372903824,
+            "bytes": [
+              101,
+              107
+            ]
+          },
+          {
+            "token": "ah",
+            "logprob": -0.00024339537776540965,
+            "bytes": [
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.5445377230644226,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " and",
+            "logprob": -0.9887386560440063,
+            "bytes": [
+              32,
+              97,
+              110,
+              100
+            ]
+          },
+          {
+            "token": " thus",
+            "logprob": -2.125617027282715,
+            "bytes": [
+              32,
+              116,
+              104,
+              117,
+              115
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -2.2338314056396484,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.8496643304824829,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " mother",
+            "logprob": -0.6496739387512207,
+            "bytes": [
+              32,
+              109,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.9931910037994385,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Isaac",
+            "logprob": -1.3985575437545776,
+            "bytes": [
+              32,
+              73,
+              115,
+              97,
+              97,
+              99
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.1919276863336563,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " children",
+            "logprob": -0.3758051097393036,
+            "bytes": [
+              32,
+              99,
+              104,
+              105,
+              108,
+              100,
+              114,
+              101,
+              110
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.5356138944625854,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Es",
+            "logprob": -3.726684331893921,
+            "bytes": [
+              32,
+              69,
+              115
+            ]
+          },
+          {
+            "token": "au",
+            "logprob": -0.0035509855952113867,
+            "bytes": [
+              97,
+              117
+            ]
+          },
+          {
+            "token": " and",
+            "logprob": -0.0061725350096821785,
+            "bytes": [
+              32,
+              97,
+              110,
+              100
+            ]
+          },
+          {
+            "token": " Jacob",
+            "logprob": -0.000786375196184963,
+            "bytes": [
+              32,
+              74,
+              97,
+              99,
+              111,
+              98
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.6068568229675293,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.6743823289871216,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -8.023106784094125e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.0439707413315773,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 1623963875,
+        "load_duration": 3906667,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 28280000,
+        "eval_count": 52,
+        "eval_duration": 1587680000
+      },
+      "logprob_metrics": {
+        "token_count": 51,
+        "sum_logprob": -36.29843115253607,
+        "mean_token_logprob": -0.7117339441673739,
+        "geometric_mean_token_probability": 0.4907924525248385,
+        "perplexity": 2.037521145355003
+      },
+      "elapsed_seconds": 1.626
+    },
+    {
+      "index": 13,
+      "seed": 842617012,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah, the daughter of Kenaz.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:26.313444Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah, the daughter of Kenaz.\n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.9199360013008118,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.9793721437454224,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -0.23315273225307465,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.00019331654766574502,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Ken",
+            "logprob": -2.839527130126953,
+            "bytes": [
+              32,
+              75,
+              101,
+              110
+            ]
+          },
+          {
+            "token": "az",
+            "logprob": -0.008203987032175064,
+            "bytes": [
+              97,
+              122
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.540780246257782,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.021733568981289864,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -5.722062269342132e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0005480956751853228,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -1.0013630344474223e-05,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -4.768372718899627e-07,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 607747792,
+        "load_duration": 9306375,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 30465000,
+        "eval_count": 16,
+        "eval_duration": 562379000
+      },
+      "logprob_metrics": {
+        "token_count": 15,
+        "sum_logprob": -7.0246375700309045,
+        "mean_token_logprob": -0.4683091713353936,
+        "geometric_mean_token_probability": 0.6260599339470885,
+        "perplexity": 1.5972911629967286
+      },
+      "elapsed_seconds": 0.61
+    },
+    {
+      "index": 14,
+      "seed": 842617013,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah, daughter of Nachor.",
+      "answer": "Keziah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:26.926336Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah, daughter of Nachor.\n\nFINAL: Keziah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.9199360013008118,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -1.0794029235839844,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.0005256722797639668,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Nach",
+            "logprob": -4.671456336975098,
+            "bytes": [
+              32,
+              78,
+              97,
+              99,
+              104
+            ]
+          },
+          {
+            "token": "or",
+            "logprob": -0.00014222679601516575,
+            "bytes": [
+              111,
+              114
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.6611189842224121,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.03174673020839691,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -5.1260126383567695e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0004709875793196261,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -1.025205165205989e-05,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -5.960466182841628e-07,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -1.5022249221801758,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 602686000,
+        "load_duration": 7051667,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 30958000,
+        "eval_count": 16,
+        "eval_duration": 556156000
+      },
+      "logprob_metrics": {
+        "token_count": 15,
+        "sum_logprob": -10.348214894817545,
+        "mean_token_logprob": -0.6898809929878363,
+        "geometric_mean_token_probability": 0.5016357636873767,
+        "perplexity": 1.9934782812319733
+      },
+      "elapsed_seconds": 0.606
+    },
+    {
+      "index": 15,
+      "seed": 842617014,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah, the daughter of Uz.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:27.483132Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah, the daughter of Uz. \n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.9199360013008118,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " the",
+            "logprob": -0.9793721437454224,
+            "bytes": [
+              32,
+              116,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -0.23315273225307465,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.00019331654766574502,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Uz",
+            "logprob": -1.9185236692428589,
+            "bytes": [
+              32,
+              85,
+              122
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -2.4076220989227295,
+            "bytes": [
+              46
+            ]
+          },
+          {
+            "token": " \n\n",
+            "logprob": -0.7149948477745056,
+            "bytes": [
+              32,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.010200734250247478,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.0490472959645558e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007370445528067648,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -1.0371261851105373e-05,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -2.3841860752327193e-07,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 546034458,
+        "load_duration": 15878833,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 28975000,
+        "eval_count": 16,
+        "eval_duration": 495256000
+      },
+      "logprob_metrics": {
+        "token_count": 15,
+        "sum_logprob": -8.6659278243242,
+        "mean_token_logprob": -0.5777285216216134,
+        "geometric_mean_token_probability": 0.5611716091231662,
+        "perplexity": 1.78198608721939
+      },
+      "elapsed_seconds": 0.548
+    },
+    {
+      "index": 16,
+      "seed": 842617015,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah.",
+      "answer": "Sarah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:27.775203Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah.\n\nFINAL: Sarah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.4359501600265503,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.005104853771626949,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.006170735694468021,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.6408771872520447,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 283432500,
+        "load_duration": 4985708,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 38710000,
+        "eval_count": 7,
+        "eval_duration": 233602000
+      },
+      "logprob_metrics": {
+        "token_count": 6,
+        "sum_logprob": -3.3205310106295656,
+        "mean_token_logprob": -0.5534218351049276,
+        "geometric_mean_token_probability": 0.5749789571559729,
+        "perplexity": 1.7391940827648982
+      },
+      "elapsed_seconds": 0.285
+    },
+    {
+      "index": 17,
+      "seed": 842617016,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Amram's wife, or sometimes, Keziah.",
+      "answer": "Keziah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:28.425065Z",
+        "message": {
+          "role": "assistant",
+          "content": "Amram's wife, or sometimes, Keziah.\n\nFINAL: Keziah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Am",
+            "logprob": -2.0591931343078613,
+            "bytes": [
+              65,
+              109
+            ]
+          },
+          {
+            "token": "ram",
+            "logprob": -0.09421653300523758,
+            "bytes": [
+              114,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.5769890546798706,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.03663747385144234,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.36931154131889343,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " or",
+            "logprob": -2.710604667663574,
+            "bytes": [
+              32,
+              111,
+              114
+            ]
+          },
+          {
+            "token": " sometimes",
+            "logprob": -4.1373677253723145,
+            "bytes": [
+              32,
+              115,
+              111,
+              109,
+              101,
+              116,
+              105,
+              109,
+              101,
+              115
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -3.334075450897217,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -1.1077395677566528,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.15712885558605194,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011180262081325054,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.9596167802810669,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.09057335555553436,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.3113108252582606e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0529499314725399,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.00011635503324214369,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -3.099446303167497e-06,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.499248206615448,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 631017000,
+        "load_duration": 12168625,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 27789000,
+        "eval_count": 19,
+        "eval_duration": 575409000
+      },
+      "logprob_metrics": {
+        "token_count": 18,
+        "sum_logprob": -16.196965108032828,
+        "mean_token_logprob": -0.8998313948907126,
+        "geometric_mean_token_probability": 0.4066382152417541,
+        "perplexity": 2.4591884444640333
+      },
+      "elapsed_seconds": 0.635
+    },
+    {
+      "index": 18,
+      "seed": 842617017,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Amram's wife, also known as Jochebed.",
+      "answer": "Jochebed.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:29.095255Z",
+        "message": {
+          "role": "assistant",
+          "content": "Amram's wife, also known as Jochebed.\n\nFINAL: Jochebed."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Am",
+            "logprob": -2.0591931343078613,
+            "bytes": [
+              65,
+              109
+            ]
+          },
+          {
+            "token": "ram",
+            "logprob": -0.09421653300523758,
+            "bytes": [
+              114,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.5769890546798706,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.03663747385144234,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.36931154131889343,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " also",
+            "logprob": -2.3836212158203125,
+            "bytes": [
+              32,
+              97,
+              108,
+              115,
+              111
+            ]
+          },
+          {
+            "token": " known",
+            "logprob": -0.1014346182346344,
+            "bytes": [
+              32,
+              107,
+              110,
+              111,
+              119,
+              110
+            ]
+          },
+          {
+            "token": " as",
+            "logprob": -0.019977310672402382,
+            "bytes": [
+              32,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " Jo",
+            "logprob": -0.09280803799629211,
+            "bytes": [
+              32,
+              74,
+              111
+            ]
+          },
+          {
+            "token": "che",
+            "logprob": -6.377900717779994e-05,
+            "bytes": [
+              99,
+              104,
+              101
+            ]
+          },
+          {
+            "token": "bed",
+            "logprob": -0.0049577862955629826,
+            "bytes": [
+              98,
+              101,
+              100
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.8495600819587708,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.056535229086875916,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -9.775209946383256e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Jo",
+            "logprob": -0.0061585609801113605,
+            "bytes": [
+              32,
+              74,
+              111
+            ]
+          },
+          {
+            "token": "che",
+            "logprob": -9.501431486569345e-05,
+            "bytes": [
+              99,
+              104,
+              101
+            ]
+          },
+          {
+            "token": "bed",
+            "logprob": -0.00023886433336883783,
+            "bytes": [
+              98,
+              101,
+              100
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.47801974415779114,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 634954458,
+        "load_duration": 8392333,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 39053000,
+        "eval_count": 19,
+        "eval_duration": 583846000
+      },
+      "logprob_metrics": {
+        "token_count": 18,
+        "sum_logprob": -7.1298277552314175,
+        "mean_token_logprob": -0.39610154195730096,
+        "geometric_mean_token_probability": 0.6729383609896952,
+        "perplexity": 1.4860202032906742
+      },
+      "elapsed_seconds": 0.638
+    },
+    {
+      "index": 19,
+      "seed": 842617018,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:29.341198Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": "\n\n",
+            "logprob": -1.3912667036056519,
+            "bytes": [
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0028736714739352465,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.00908784382045269,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 233767541,
+        "load_duration": 7944625,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 30960000,
+        "eval_count": 6,
+        "eval_duration": 174711000
+      },
+      "logprob_metrics": {
+        "token_count": 5,
+        "sum_logprob": -2.6356561735753985,
+        "mean_token_logprob": -0.5271312347150797,
+        "geometric_mean_token_probability": 0.5902959635544508,
+        "perplexity": 1.694065454858488
+      },
+      "elapsed_seconds": 0.235
+    },
+    {
+      "index": 20,
+      "seed": 842617019,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:29.521588Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": "\n\n",
+            "logprob": -1.3912667036056519,
+            "bytes": [
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0028736714739352465,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.00908784382045269,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 173628375,
+        "load_duration": 4490459,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 22137000,
+        "eval_count": 6,
+        "eval_duration": 142649000
+      },
+      "logprob_metrics": {
+        "token_count": 5,
+        "sum_logprob": -2.6356561735753985,
+        "mean_token_logprob": -0.5271312347150797,
+        "geometric_mean_token_probability": 0.5902959635544508,
+        "perplexity": 1.694065454858488
+      },
+      "elapsed_seconds": 0.176
+    },
+    {
+      "index": 21,
+      "seed": 842617020,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah, Abraham's wife.",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:29.941381Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah, Abraham's wife.\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.4218014478683472,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.6945816278457642,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.0015249549178406596,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.0634009912610054,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.4368817806243896,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.033960528671741486,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -6.198902156029362e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.002252909354865551,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 401273166,
+        "load_duration": 4524875,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 23373000,
+        "eval_count": 10,
+        "eval_duration": 369532000
+      },
+      "logprob_metrics": {
+        "token_count": 9,
+        "sum_logprob": -4.886836605980534,
+        "mean_token_logprob": -0.5429818451089482,
+        "geometric_mean_token_probability": 0.5810131754987523,
+        "perplexity": 1.7211313652940519
+      },
+      "elapsed_seconds": 0.403
+    },
+    {
+      "index": 22,
+      "seed": 842617021,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah.",
+      "answer": "Keziah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:30.355813Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah.\n\nFINAL: Keziah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.0120304822921753,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.006305445451289415,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -2.861027041944908e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007322726887650788,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -4.768382950715022e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": 0,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.44057461619377136,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 405106333,
+        "load_duration": 9287333,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 29598000,
+        "eval_count": 11,
+        "eval_duration": 318835000
+      },
+      "logprob_metrics": {
+        "token_count": 10,
+        "sum_logprob": -2.9408245816166527,
+        "mean_token_logprob": -0.2940824581616653,
+        "geometric_mean_token_probability": 0.7452150398474995,
+        "perplexity": 1.3418945492627734
+      },
+      "elapsed_seconds": 0.408
+    },
+    {
+      "index": 23,
+      "seed": 842617022,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "abstained",
+      "reasoning": "According to Jewish tradition, it was unknown.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:30.877921Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, it was unknown. \nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "According",
+            "logprob": -1.8594059944152832,
+            "bytes": [
+              65,
+              99,
+              99,
+              111,
+              114,
+              100,
+              105,
+              110,
+              103
+            ]
+          },
+          {
+            "token": " to",
+            "logprob": -0.00011897795047843829,
+            "bytes": [
+              32,
+              116,
+              111
+            ]
+          },
+          {
+            "token": " Jewish",
+            "logprob": -0.009161708876490593,
+            "bytes": [
+              32,
+              74,
+              101,
+              119,
+              105,
+              115,
+              104
+            ]
+          },
+          {
+            "token": " tradition",
+            "logprob": -0.0002520998241379857,
+            "bytes": [
+              32,
+              116,
+              114,
+              97,
+              100,
+              105,
+              116,
+              105,
+              111,
+              110
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.0026576039381325245,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " it",
+            "logprob": -1.9630848169326782,
+            "bytes": [
+              32,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.0717480331659317,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " unknown",
+            "logprob": -2.960679054260254,
+            "bytes": [
+              32,
+              117,
+              110,
+              107,
+              110,
+              111,
+              119,
+              110
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -2.8456907272338867,
+            "bytes": [
+              46
+            ]
+          },
+          {
+            "token": " \n",
+            "logprob": -2.0926084518432617,
+            "bytes": [
+              32,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.1334543526172638,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -7.188578456407413e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " UNKNOWN",
+            "logprob": -0.5771211981773376,
+            "bytes": [
+              32,
+              85,
+              78,
+              75,
+              78,
+              79,
+              87,
+              78
+            ]
+          }
+        ],
+        "total_duration": 513501375,
+        "load_duration": 7961959,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 28535000,
+        "eval_count": 14,
+        "eval_duration": 473132000
+      },
+      "logprob_metrics": {
+        "token_count": 13,
+        "sum_logprob": -12.5160549050197,
+        "mean_token_logprob": -0.9627734542322847,
+        "geometric_mean_token_probability": 0.3818324213348271,
+        "perplexity": 2.6189499480011538
+      },
+      "elapsed_seconds": 0.515
+    },
+    {
+      "index": 24,
+      "seed": 842617023,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah, daughter of Jethro.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:31.508335Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah, daughter of Jethro.\n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.9199360013008118,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -1.0794029235839844,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.0005256722797639668,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " J",
+            "logprob": -2.555363893508911,
+            "bytes": [
+              32,
+              74
+            ]
+          },
+          {
+            "token": "eth",
+            "logprob": -0.2497832030057907,
+            "bytes": [
+              101,
+              116,
+              104
+            ]
+          },
+          {
+            "token": "ro",
+            "logprob": -0.0008136362885124981,
+            "bytes": [
+              114,
+              111
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.8901098370552063,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.029354706406593323,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -6.318112355074845e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0006868813652545214,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -1.0848104466276709e-05,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -9.536747711536009e-07,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 622005458,
+        "load_duration": 4338083,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 30285000,
+        "eval_count": 16,
+        "eval_duration": 584377000
+      },
+      "logprob_metrics": {
+        "token_count": 15,
+        "sum_logprob": -7.20716901026708,
+        "mean_token_logprob": -0.4804779340178053,
+        "geometric_mean_token_probability": 0.6184877248338237,
+        "perplexity": 1.616846963727019
+      },
+      "elapsed_seconds": 0.624
+    },
+    {
+      "index": 25,
+      "seed": 842617024,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:31.817891Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah.\n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.0120304822921753,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.006305445451289415,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -2.861027041944908e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007322726887650788,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -4.768382950715022e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": 0,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 302104917,
+        "load_duration": 5174833,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 21492000,
+        "eval_count": 10,
+        "eval_duration": 268757000
+      },
+      "logprob_metrics": {
+        "token_count": 9,
+        "sum_logprob": -2.5002499654228814,
+        "mean_token_logprob": -0.2778055517136535,
+        "geometric_mean_token_probability": 0.7574440909012106,
+        "perplexity": 1.3202294558931673
+      },
+      "elapsed_seconds": 0.306
+    },
+    {
+      "index": 26,
+      "seed": 842617025,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah, daughter of Kenaz.",
+      "answer": "Keziah, daughter of Kenaz.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:32.620475Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah, daughter of Kenaz.\n\nFINAL: Keziah, daughter of Kenaz."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -0.9199360013008118,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -1.0794029235839844,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.0005256722797639668,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Ken",
+            "logprob": -2.296962022781372,
+            "bytes": [
+              32,
+              75,
+              101,
+              110
+            ]
+          },
+          {
+            "token": "az",
+            "logprob": -0.007590598426759243,
+            "bytes": [
+              97,
+              122
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.3916967511177063,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.01456589438021183,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -5.245222382654902e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007761151646263897,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -8.583106136939023e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -7.152559646783629e-07,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.1606533527374268,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -0.0004022334178443998,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Ken",
+            "logprob": -0.00020607448823284358,
+            "bytes": [
+              32,
+              75,
+              101,
+              110
+            ]
+          },
+          {
+            "token": "az",
+            "logprob": -3.695494797284482e-06,
+            "bytes": [
+              97,
+              122
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.016531888395547867,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 791161917,
+        "load_duration": 8290375,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 34047000,
+        "eval_count": 21,
+        "eval_duration": 723659000
+      },
+      "logprob_metrics": {
+        "token_count": 20,
+        "sum_logprob": -7.37044381008468,
+        "mean_token_logprob": -0.368522190504234,
+        "geometric_mean_token_probability": 0.6917558590164801,
+        "perplexity": 1.445596718792918
+      },
+      "elapsed_seconds": 0.794
+    },
+    {
+      "index": 27,
+      "seed": 842617026,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah.",
+      "answer": "Keziah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:32.961931Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah.\n\nFINAL: Keziah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.0120304822921753,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.006305445451289415,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -2.861027041944908e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.0007322726887650788,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -4.768382950715022e-06,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": 0,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 329896959,
+        "load_duration": 10435334,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 49031000,
+        "eval_count": 10,
+        "eval_duration": 254642000
+      },
+      "logprob_metrics": {
+        "token_count": 9,
+        "sum_logprob": -2.5002499654228814,
+        "mean_token_logprob": -0.2778055517136535,
+        "geometric_mean_token_probability": 0.7574440909012106,
+        "perplexity": 1.3202294558931673
+      },
+      "elapsed_seconds": 0.332
+    },
+    {
+      "index": 28,
+      "seed": 842617027,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "unparseable",
+      "reasoning": "Sarah, Abraham's wife.",
+      "answer": null,
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:33.192706Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah, Abraham's wife."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.4218014478683472,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -0.6945816278457642,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.0015249549178406596,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " wife",
+            "logprob": -0.0634009912610054,
+            "bytes": [
+              32,
+              119,
+              105,
+              102,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -3.3116605281829834,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 221473000,
+        "load_duration": 4889709,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 27987000,
+        "eval_count": 7,
+        "eval_duration": 167534000
+      },
+      "logprob_metrics": {
+        "token_count": 6,
+        "sum_logprob": -6.725395716610365,
+        "mean_token_logprob": -1.1208992861017275,
+        "geometric_mean_token_probability": 0.32598650763268305,
+        "perplexity": 3.067611623750961
+      },
+      "elapsed_seconds": 0.228
+    },
+    {
+      "index": 29,
+      "seed": 842617028,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Sarah.",
+      "answer": "Sarah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:33.429209Z",
+        "message": {
+          "role": "assistant",
+          "content": "Sarah.\n\nFINAL: Sarah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Sarah",
+            "logprob": -1.2324261665344238,
+            "bytes": [
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.4359501600265503,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.005104853771626949,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Sarah",
+            "logprob": -0.006170735694468021,
+            "bytes": [
+              32,
+              83,
+              97,
+              114,
+              97,
+              104
+            ]
+          }
+        ],
+        "total_duration": 192177209,
+        "load_duration": 6368917,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 23470000,
+        "eval_count": 6,
+        "eval_duration": 156239000
+      },
+      "logprob_metrics": {
+        "token_count": 5,
+        "sum_logprob": -2.679653823377521,
+        "mean_token_logprob": -0.5359307646755042,
+        "geometric_mean_token_probability": 0.5851244234686628,
+        "perplexity": 1.7090382145936118
+      },
+      "elapsed_seconds": 0.194
+    },
+    {
+      "index": 30,
+      "seed": 842617029,
+      "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the Abraham's mom according to Jewish tradition?",
+      "status": "valid",
+      "reasoning": "Keziah (also known as Ketziah), daughter of Jithra, a descendant of Abraham's brother.",
+      "answer": "Keziah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T22:28:34.382183Z",
+        "message": {
+          "role": "assistant",
+          "content": "Keziah (also known as Ketziah), daughter of Jithra, a descendant of Abraham's brother.\n\nFINAL: Keziah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "Ke",
+            "logprob": -1.3963284492492676,
+            "bytes": [
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -0.07350242882966995,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.011343257501721382,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": " (",
+            "logprob": -3.5445544719696045,
+            "bytes": [
+              32,
+              40
+            ]
+          },
+          {
+            "token": "also",
+            "logprob": -0.6278329491615295,
+            "bytes": [
+              97,
+              108,
+              115,
+              111
+            ]
+          },
+          {
+            "token": " known",
+            "logprob": -0.1857210248708725,
+            "bytes": [
+              32,
+              107,
+              110,
+              111,
+              119,
+              110
+            ]
+          },
+          {
+            "token": " as",
+            "logprob": -0.02177310362458229,
+            "bytes": [
+              32,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " K",
+            "logprob": -2.007051944732666,
+            "bytes": [
+              32,
+              75
+            ]
+          },
+          {
+            "token": "etz",
+            "logprob": -0.6300532221794128,
+            "bytes": [
+              101,
+              116,
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -0.013666308484971523,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": "),",
+            "logprob": -1.7258274555206299,
+            "bytes": [
+              41,
+              44
+            ]
+          },
+          {
+            "token": " daughter",
+            "logprob": -2.5357673168182373,
+            "bytes": [
+              32,
+              100,
+              97,
+              117,
+              103,
+              104,
+              116,
+              101,
+              114
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.0005448752781376243,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " J",
+            "logprob": -3.059171199798584,
+            "bytes": [
+              32,
+              74
+            ]
+          },
+          {
+            "token": "ith",
+            "logprob": -4.200979709625244,
+            "bytes": [
+              105,
+              116,
+              104
+            ]
+          },
+          {
+            "token": "ra",
+            "logprob": -1.0435149669647217,
+            "bytes": [
+              114,
+              97
+            ]
+          },
+          {
+            "token": ",",
+            "logprob": -1.386828899383545,
+            "bytes": [
+              44
+            ]
+          },
+          {
+            "token": " a",
+            "logprob": -0.7836077213287354,
+            "bytes": [
+              32,
+              97
+            ]
+          },
+          {
+            "token": " descendant",
+            "logprob": -1.9967421293258667,
+            "bytes": [
+              32,
+              100,
+              101,
+              115,
+              99,
+              101,
+              110,
+              100,
+              97,
+              110,
+              116
+            ]
+          },
+          {
+            "token": " of",
+            "logprob": -0.006197784096002579,
+            "bytes": [
+              32,
+              111,
+              102
+            ]
+          },
+          {
+            "token": " Abraham",
+            "logprob": -2.8980541229248047,
+            "bytes": [
+              32,
+              65,
+              98,
+              114,
+              97,
+              104,
+              97,
+              109
+            ]
+          },
+          {
+            "token": "'s",
+            "logprob": -0.1584547758102417,
+            "bytes": [
+              39,
+              115
+            ]
+          },
+          {
+            "token": " brother",
+            "logprob": -1.207827091217041,
+            "bytes": [
+              32,
+              98,
+              114,
+              111,
+              116,
+              104,
+              101,
+              114
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -2.346705198287964,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.1110500693321228,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.4543638826580718e-05,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Ke",
+            "logprob": -0.06422925740480423,
+            "bytes": [
+              32,
+              75,
+              101
+            ]
+          },
+          {
+            "token": "z",
+            "logprob": -2.7537724236026406e-05,
+            "bytes": [
+              122
+            ]
+          },
+          {
+            "token": "iah",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              105,
+              97,
+              104
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.9926629662513733,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 943435166,
+        "load_duration": 6137000,
+        "prompt_eval_count": 72,
+        "prompt_eval_cached_count": 71,
+        "prompt_eval_duration": 34258000,
+        "eval_count": 31,
+        "eval_duration": 897904000
+      },
+      "logprob_metrics": {
+        "token_count": 30,
+        "sum_logprob": -33.03003656947635,
+        "mean_token_logprob": -1.101001218982545,
+        "geometric_mean_token_probability": 0.33253797363622617,
+        "perplexity": 3.007175358246249
+      },
+      "elapsed_seconds": 0.945
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "votes": {
+      "keziah": 15,
+      "sarah": 11,
+      "hagar": 1,
+      "jochebed": 1
+    },
+    "valid_samples": 28,
+    "attempted_samples": 30,
+    "excluded_samples": 2,
+    "plurality_answer": "keziah",
+    "tied_answers": [],
+    "majority_answer": "keziah",
+    "winner_share_of_valid": 0.5357142857142857,
+    "winner_share_of_attempted": 0.5
+  }
+}

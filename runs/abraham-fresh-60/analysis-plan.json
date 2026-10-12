@@ -1,0 +1,16 @@
+{
+  "primary_outcome": "Final answer affirmatively names Amathlai, including the explicitly accepted transliterations below. Count out of all 60 attempts per mode.",
+  "accepted_transliterations": [
+    "Amathlai",
+    "Amatlai",
+    "Amtelai"
+  ],
+  "handling": "Longer names containing an accepted form count after manual review. Answers offering the accepted name alongside an unrelated alternative are reported separately. Similar-looking names such as Amethiel, Amithai, and Amthul do not automatically count.",
+  "question_source": "runs/20261011T161227612117Z.json",
+  "samples_per_mode": 60,
+  "seed_start": 842617000,
+  "notes": [
+    "The generic runner has legacy Tree of Knowledge labels; this plan defines the Abraham-specific outcome. The manifest labels will be corrected after the runner finishes.",
+    "No earlier runs are pooled with this fresh comparison."
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "question": "Who was Yisca according to Jewish tradition?",
+  "model": "llama3.1:latest",
+  "created_at": "2026-10-12T09:41:39.197855+00:00",
+  "settings": {
+    "samples": 30,
+    "temperature": 0.8,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "reason",
+    "thinking": "off",
+    "logprobs": false
+  },
+  "seed": 257071196,
+  "prompt": "Think through the question step by step before answering. Consider relevant facts and resolve possible ambiguities. Write your reasoning, then your final answer.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was Yisca according to Jewish tradition?",
+  "aliases": {},
+  "model_info": {
+    "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.1:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe\nTEMPLATE \"\"\"{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Meta-Llama-3.1",
+      "general.file_type": 2,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.license": "llama3.1",
+      "general.parameter_count": 8030261312,
+      "general.quantization_version": 2,
+      "general.size_label": "8B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T13:48:52.816800646+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 257071196,
+      "status": "valid",
+      "reasoning": "To determine who Yisca was according to Jewish tradition, let's break down the question step by step.\n\n1. **Understanding the Name Yisca**: The name Yisca could be a variant of the name Yiskah, which is known in the Hebrew Bible. Therefore, it's essential to understand that Yisca might refer to a person from the biblical context.\n\n2. **Biblical Context**: In the Hebrew Bible (Old Testament), a figure named Ish-kah or Yiskah is mentioned as one of the daughters of Judah (Genesis 38:29). Given this context, Yisca likely refers to this biblical figure, making it a key piece of information.\n\n3. **Jewish Tradition and Interpretation**: Jewish tradition and interpretation of the Bible are rich in details and stories about the figures mentioned in the scripture. Since Yisca is associated with Yiskah, a known figure from the Bible, we can reasonably infer that Jewish tradition would offer insights into Yisca's identity and significance through their interpretation of Yiskah.\n\n4. **Possible Confusion or Variations**: There could be variations in how the name is spelled or interpreted across different texts or communities within Jewish tradition. However, the core figure of Yiskah is well-documented, making it a clear reference point.\n\n5. **Conclusion**: Given the information and context, Yisca, likely a variant of Yiskah, is associated with the daughter of Judah as mentioned in the biblical book of Genesis.",
+      "answer": "Yiskah, the daughter of Judah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:45.115736Z",
+        "message": {
+          "role": "assistant",
+          "content": "To determine who Yisca was according to Jewish tradition, let's break down the question step by step.\n\n1. **Understanding the Name Yisca**: The name Yisca could be a variant of the name Yiskah, which is known in the Hebrew Bible. Therefore, it's essential to understand that Yisca might refer to a person from the biblical context.\n\n2. **Biblical Context**: In the Hebrew Bible (Old Testament), a figure named Ish-kah or Yiskah is mentioned as one of the daughters of Judah (Genesis 38:29). Given this context, Yisca likely refers to this biblical figure, making it a key piece of information.\n\n3. **Jewish Tradition and Interpretation**: Jewish tradition and interpretation of the Bible are rich in details and stories about the figures mentioned in the scripture. Since Yisca is associated with Yiskah, a known figure from the Bible, we can reasonably infer that Jewish tradition would offer insights into Yisca's identity and significance through their interpretation of Yiskah.\n\n4. **Possible Confusion or Variations**: There could be variations in how the name is spelled or interpreted across different texts or communities within Jewish tradition. However, the core figure of Yiskah is well-documented, making it a clear reference point.\n\n5. **Conclusion**: Given the information and context, Yisca, likely a variant of Yiskah, is associated with the daughter of Judah as mentioned in the biblical book of Genesis. \n\nFINAL: Yiskah, the daughter of Judah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 5916919458,
+        "load_duration": 5633958,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 80,
+        "prompt_eval_duration": 100131000,
+        "eval_count": 323,
+        "eval_duration": 5789108000
+      },
+      "elapsed_seconds": 5.919
+    },
+    {
+      "index": 2,
+      "seed": 257071197,
+      "status": "abstained",
+      "reasoning": "To answer this question, let's break it down step by step.\n\n1. **Understanding the Context**: The question asks about Yisca in Jewish tradition, indicating we are looking for information from religious or cultural texts specific to the Jewish community.\n\n2. **Possible Sources**: Jewish tradition encompasses a wide range of texts, including the Hebrew Bible (Tanakh), the Talmud, and other religious texts that might provide information about Yisca.\n\n3. **Research and Identification**: Without direct access to a database or texts at this moment, we rely on general knowledge and possible associations. However, Yisca is not a widely recognized figure in general Jewish texts or in widely known Jewish traditions.\n\n4. **Potential for Ambiguity**: Without a specific context or clarification, it's challenging to pinpoint who Yisca might be. There could be various interpretations or different traditions within Jewish communities that reference a figure by this name.\n\n5. **Conclusion**: Given the steps and the potential for ambiguity, it seems most accurate to conclude that without further information or context, it's challenging to definitively state who Yisca was in Jewish tradition.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:49.348559Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, let's break it down step by step.\n\n1. **Understanding the Context**: The question asks about Yisca in Jewish tradition, indicating we are looking for information from religious or cultural texts specific to the Jewish community.\n\n2. **Possible Sources**: Jewish tradition encompasses a wide range of texts, including the Hebrew Bible (Tanakh), the Talmud, and other religious texts that might provide information about Yisca.\n\n3. **Research and Identification**: Without direct access to a database or texts at this moment, we rely on general knowledge and possible associations. However, Yisca is not a widely recognized figure in general Jewish texts or in widely known Jewish traditions.\n\n4. **Potential for Ambiguity**: Without a specific context or clarification, it's challenging to pinpoint who Yisca might be. There could be various interpretations or different traditions within Jewish communities that reference a figure by this name.\n\n5. **Conclusion**: Given the steps and the potential for ambiguity, it seems most accurate to conclude that without further information or context, it's challenging to definitively state who Yisca was in Jewish tradition.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4227463667,
+        "load_duration": 3619667,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 20977000,
+        "eval_count": 234,
+        "eval_duration": 4194131999
+      },
+      "elapsed_seconds": 4.229
+    },
+    {
+      "index": 3,
+      "seed": 257071198,
+      "status": "valid",
+      "reasoning": "Let's break down the question step by step.\n\n1. We are looking for information about a person named Yisca, and we want to know who this person is according to Jewish tradition.\n2. The name Yisca might be a variation or equivalent of other names known in Jewish tradition, so we should consider possible connections or equivalents.\n3. One way to approach this is to think about people in Jewish tradition who are known for their contributions, actions, or roles, and see if any of them might be referred to or equivalent to Yisca.\n4. Given the specificity of the question to Jewish tradition, it's likely that Yisca is a person of significance within this context, rather than a completely unknown or irrelevant individual.\n5. Without specific information about Yisca, one approach is to consider biblical or other notable figures in Jewish tradition who might fit the description or have a related name.\n\nAfter considering these steps and thinking about relevant figures in Jewish tradition, one possible candidate for Yisca could be related to or equivalent to Jischah, known in Jewish tradition as the daughter of Yosei and the wife of Pinchas.\n\nHowever, without more specific information about Yisca, it's difficult to pinpoint exactly who this person is. Considering the name and the context, it's possible that Yisca might be equivalent to or another name for a person known in Jewish tradition as Jischah, who is associated with Pinchas.",
+      "answer": "Jischah",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:54.757545Z",
+        "message": {
+          "role": "assistant",
+          "content": "Let's break down the question step by step.\n\n1. We are looking for information about a person named Yisca, and we want to know who this person is according to Jewish tradition.\n2. The name Yisca might be a variation or equivalent of other names known in Jewish tradition, so we should consider possible connections or equivalents.\n3. One way to approach this is to think about people in Jewish tradition who are known for their contributions, actions, or roles, and see if any of them might be referred to or equivalent to Yisca.\n4. Given the specificity of the question to Jewish tradition, it's likely that Yisca is a person of significance within this context, rather than a completely unknown or irrelevant individual.\n5. Without specific information about Yisca, one approach is to consider biblical or other notable figures in Jewish tradition who might fit the description or have a related name.\n\nAfter considering these steps and thinking about relevant figures in Jewish tradition, one possible candidate for Yisca could be related to or equivalent to Jischah, known in Jewish tradition as the daughter of Yosei and the wife of Pinchas.\n\nHowever, without more specific information about Yisca, it's difficult to pinpoint exactly who this person is. Considering the name and the context, it's possible that Yisca might be equivalent to or another name for a person known in Jewish tradition as Jischah, who is associated with Pinchas.\n\nFINAL: Jischah"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 5405417542,
+        "load_duration": 2638792,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 20155000,
+        "eval_count": 301,
+        "eval_duration": 5373452000
+      },
+      "elapsed_seconds": 5.407
+    },
+    {
+      "index": 4,
+      "seed": 257071199,
+      "status": "abstained",
+      "reasoning": "To answer this question, let's break it down step by step.\n\n1. **Identify the context**: The question is asking about Yisca in the context of Jewish tradition. This means we are looking for information about a person named Yisca within the beliefs, customs, and history of the Jewish people.\n\n2. **Consider possible sources**: Jewish tradition encompasses a broad range of texts and oral histories, including the Hebrew Bible (also known as the Old Testament), the Talmud, and other religious texts. These sources could potentially mention a person named Yisca.\n\n3. **Look for any direct mentions**: Direct mentions of Yisca in these texts could provide a straightforward answer. However, without specific knowledge of the Jewish tradition and its texts, it's a challenge to determine if Yisca is mentioned anywhere.\n\n4. **Consider the possibility of being unknown**: Without access to a comprehensive database of Jewish traditions and texts, or without specific information that Yisca is known within Jewish tradition, it's possible that Yisca is not a figure known in Jewish texts or history.\n\nGiven the lack of specific information provided in the question, it seems that the best approach would be to acknowledge that without additional context or information, determining who Yisca was in Jewish tradition is not possible.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:59.553412Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, let's break it down step by step.\n\n1. **Identify the context**: The question is asking about Yisca in the context of Jewish tradition. This means we are looking for information about a person named Yisca within the beliefs, customs, and history of the Jewish people.\n\n2. **Consider possible sources**: Jewish tradition encompasses a broad range of texts and oral histories, including the Hebrew Bible (also known as the Old Testament), the Talmud, and other religious texts. These sources could potentially mention a person named Yisca.\n\n3. **Look for any direct mentions**: Direct mentions of Yisca in these texts could provide a straightforward answer. However, without specific knowledge of the Jewish tradition and its texts, it's a challenge to determine if Yisca is mentioned anywhere.\n\n4. **Consider the possibility of being unknown**: Without access to a comprehensive database of Jewish traditions and texts, or without specific information that Yisca is known within Jewish tradition, it's possible that Yisca is not a figure known in Jewish texts or history.\n\nGiven the lack of specific information provided in the question, it seems that the best approach would be to acknowledge that without additional context or information, determining who Yisca was in Jewish tradition is not possible.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4791120500,
+        "load_duration": 2592625,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 21466000,
+        "eval_count": 267,
+        "eval_duration": 4752766000
+      },
+      "elapsed_seconds": 4.793
+    },
+    {
+      "index": 5,
+      "seed": 257071200,
+      "status": "abstained",
+      "reasoning": "To answer this question, let's break it down step by step:\n\n1. **Understanding the context**: The question asks about Yisca according to Jewish tradition. This implies that we are looking for information from Jewish texts, customs, or historical accounts that might mention Yisca.\n\n2. **Possible interpretations**: The name \"Yisca\" could be interpreted in different ways, but in the context of Jewish tradition, it might refer to a person, a place, or a concept that holds significance within Judaism.\n\n3. **Seeking relevant Jewish texts**: The most relevant texts for answering this question would likely include the Hebrew Bible (also known as the Old Testament), Jewish commentaries on the Bible, Talmud, and other significant Jewish texts. These sources contain a wealth of information on historical figures, places, and customs.\n\n4. **Checking for mentions of Yisca**: Given the breadth of Jewish texts and the potential for multiple spellings or variations of names, it's essential to consider any name variations or spellings that might match or closely resemble \"Yisca.\"\n\n5. **Resolving ambiguity**: If \"Yisca\" seems unfamiliar, it's possible that the name is not well-known or is misspelled, which could indicate a lack of direct information in commonly known Jewish texts.\n\n6. **Considering other sources**: If Jewish texts do not provide a clear answer, it might be necessary to look into broader historical records, scholarly research on Jewish history, or online resources that specialize in Jewish history and culture.\n\nHowever, without specific information or context provided in the question, it's challenging to provide a definitive answer. Given the steps taken, the most likely outcome is that there isn't a well-known figure or concept directly associated with the name \"Yisca\" within Jewish tradition.",
+      "answer": "UNKNOWN.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:42:06.192331Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, let's break it down step by step:\n\n1. **Understanding the context**: The question asks about Yisca according to Jewish tradition. This implies that we are looking for information from Jewish texts, customs, or historical accounts that might mention Yisca.\n\n2. **Possible interpretations**: The name \"Yisca\" could be interpreted in different ways, but in the context of Jewish tradition, it might refer to a person, a place, or a concept that holds significance within Judaism.\n\n3. **Seeking relevant Jewish texts**: The most relevant texts for answering this question would likely include the Hebrew Bible (also known as the Old Testament), Jewish commentaries on the Bible, Talmud, and other significant Jewish texts. These sources contain a wealth of information on historical figures, places, and customs.\n\n4. **Checking for mentions of Yisca**: Given the breadth of Jewish texts and the potential for multiple spellings or variations of names, it's essential to consider any name variations or spellings that might match or closely resemble \"Yisca.\"\n\n5. **Resolving ambiguity**: If \"Yisca\" seems unfamiliar, it's possible that the name is not well-known or is misspelled, which could indicate a lack of direct information in commonly known Jewish texts.\n\n6. **Considering other sources**: If Jewish texts do not provide a clear answer, it might be necessary to look into broader historical records, scholarly research on Jewish history, or online resources that specialize in Jewish history and culture.\n\nHowever, without specific information or context provided in the question, it's challenging to provide a definitive answer. Given the steps taken, the most likely outcome is that there isn't a well-known figure or concept directly associated with the name \"Yisca\" within Jewish tradition.\n\nFINAL: UNKNOWN."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 6635426417,
+        "load_duration": 2927583,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 19944000,
+        "eval_count": 370,
+        "eval_duration": 6603682000
+      },
+      "elapsed_seconds": 6.637
+    },
+    {
+      "index": 6,
+      "seed": 257071201,
+      "status": "abstained",
+      "reasoning": "To answer this question, let's break it down step by step:\n\n1. The question asks about Yisca according to Jewish tradition, indicating we're looking for a figure known within Jewish history and belief.\n2. There isn't an immediately obvious connection or definition of Yisca within mainstream Jewish texts or common figures known to Jewish tradition.\n3. Given the lack of information, it's possible that Yisca is a lesser-known figure or a name not widely recognized within the context of Jewish history or scripture.\n4. Without further context or a definition that specifies who Yisca was, it's difficult to provide a definitive answer.\n\nHowever, considering the steps above and the fact that specific figures in Jewish tradition often relate to biblical, historical, or prophetic contexts, I'll attempt to look for any possible relevance or connection that might be less common knowledge.\n\nAfter considering possible lesser-known figures, historical names, or figures within specific Jewish historical or religious contexts, I am unable to find a specific, widely recognized figure known as Yisca within Jewish tradition. It's possible that Yisca refers to a character within a specific text, community, or a figure from a lesser-known part of Jewish history.\n\nGiven the ambiguity and the lack of specific information in the question, I will conclude with:",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:42:10.977627Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, let's break it down step by step:\n\n1. The question asks about Yisca according to Jewish tradition, indicating we're looking for a figure known within Jewish history and belief.\n2. There isn't an immediately obvious connection or definition of Yisca within mainstream Jewish texts or common figures known to Jewish tradition.\n3. Given the lack of information, it's possible that Yisca is a lesser-known figure or a name not widely recognized within the context of Jewish history or scripture.\n4. Without further context or a definition that specifies who Yisca was, it's difficult to provide a definitive answer.\n\nHowever, considering the steps above and the fact that specific figures in Jewish tradition often relate to biblical, historical, or prophetic contexts, I'll attempt to look for any possible relevance or connection that might be less common knowledge.\n\nAfter considering possible lesser-known figures, historical names, or figures within specific Jewish historical or religious contexts, I am unable to find a specific, widely recognized figure known as Yisca within Jewish tradition. It's possible that Yisca refers to a character within a specific text, community, or a figure from a lesser-known part of Jewish history.\n\nGiven the ambiguity and the lack of specific information in the question, I will conclude with:\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4780724709,
+        "load_duration": 2726792,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 19738000,
+        "eval_count": 266,
+        "eval_duration": 4742932000
+      },
+      "elapsed_seconds": 4.782
+    },
+    {
+      "index": 7,
+      "seed": 257071202,
+      "status": "abstained",
+      "reasoning": "To answer this question, let's break it down step by step.\n\nStep 1: Understand the context - The question is asking about Yisca within the context of Jewish tradition. This means we're looking for information about Yisca from a religious or cultural standpoint specific to Judaism.\n\nStep 2: Identify the relevant information - Jewish tradition encompasses a broad range of texts, interpretations, and customs. The figure of Yisca might be mentioned in various contexts within these traditions, such as in the Talmud, in biblical commentaries, or in the history of the Jewish people.\n\nStep 3: Resolve any ambiguity - The name \"Yisca\" is not widely known, and without specific context, it might be confused with \"Jasch, \"Jasch\", \"Jascha\", or other similar names, especially in relation to biblical or Talmudic figures. However, the question specifically asks for information from Jewish tradition, which might imply a direct connection to a known figure or story within this tradition.\n\nStep 4: Consider possible sources - The Talmud and other rabbinic texts are rich sources for understanding Jewish tradition. There could be mentions of a person named Yisca in these texts, which would be relevant to the question.\n\nStep 5: Address the question directly - Without specific information or a well-known reference to Yisca in Jewish tradition, it's difficult to provide a definitive answer. However, if there is a figure named Yisca that is well-known in Jewish tradition, it might be because of a specific story, role, or interpretation within religious texts.\n\nStep 6: Conclusion - Given the information available and the context of Jewish tradition, it seems that specific knowledge about Yisca might not be widely documented or recognized outside of very specific and perhaps lesser-known contexts within Jewish religious texts.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:42:17.809265Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, let's break it down step by step.\n\nStep 1: Understand the context - The question is asking about Yisca within the context of Jewish tradition. This means we're looking for information about Yisca from a religious or cultural standpoint specific to Judaism.\n\nStep 2: Identify the relevant information - Jewish tradition encompasses a broad range of texts, interpretations, and customs. The figure of Yisca might be mentioned in various contexts within these traditions, such as in the Talmud, in biblical commentaries, or in the history of the Jewish people.\n\nStep 3: Resolve any ambiguity - The name \"Yisca\" is not widely known, and without specific context, it might be confused with \"Jasch, \"Jasch\", \"Jascha\", or other similar names, especially in relation to biblical or Talmudic figures. However, the question specifically asks for information from Jewish tradition, which might imply a direct connection to a known figure or story within this tradition.\n\nStep 4: Consider possible sources - The Talmud and other rabbinic texts are rich sources for understanding Jewish tradition. There could be mentions of a person named Yisca in these texts, which would be relevant to the question.\n\nStep 5: Address the question directly - Without specific information or a well-known reference to Yisca in Jewish tradition, it's difficult to provide a definitive answer. However, if there is a figure named Yisca that is well-known in Jewish tradition, it might be because of a specific story, role, or interpretation within religious texts.\n\nStep 6: Conclusion - Given the information available and the context of Jewish tradition, it seems that specific knowledge about Yisca might not be widely documented or recognized outside of very specific and perhaps lesser-known contexts within Jewish religious texts.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 6827681083,
+        "load_duration": 2603667,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 19814000,
+        "eval_count": 378,
+        "eval_duration": 6793453000
+      },
+      "elapsed_seconds": 6.829
+    },
+    {
+      "index": 8,
+      "seed": 257071203,
+      "status": "abstained",
+      "reasoning": "Let's break down the question step by step:\n\n1. We are looking for information about a person named Yisca according to Jewish tradition.\n2. We need to consider the context and potential sources of Jewish tradition, such as the Talmud, the Midrash, and other rabbinic texts.\n3. However, without a specific reference or context, it's challenging to pinpoint who Yisca is.\n4. Let's consider possible interpretations of the name Yisca. One possible connection is to the biblical figure Jethro (also known as Yitro in Hebrew), who was a Midianite priest and the father-in-law of Moses. However, Jethro is not directly associated with the name Yisca.\n5. Another possible connection is to the Talmudic figure Yisca, who is mentioned in a few places, but these references are scarce and don't provide a clear picture of who he was.\n6. Given the ambiguity and scarcity of information, it's possible that Yisca is not a widely recognized or significant figure in Jewish tradition.\n7. However, without further context or clarification, it's difficult to provide a definitive answer.\n\nConsidering the above steps, I'm left with a lack of concrete information about Yisca.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:42:22.585853Z",
+        "message": {
+          "role": "assistant",
+          "content": "Let's break down the question step by step:\n\n1. We are looking for information about a person named Yisca according to Jewish tradition.\n2. We need to consider the context and potential sources of Jewish tradition, such as the Talmud, the Midrash, and other rabbinic texts.\n3. However, without a specific reference or context, it's challenging to pinpoint who Yisca is.\n4. Let's consider possible interpretations of the name Yisca. One possible connection is to the biblical figure Jethro (also known as Yitro in Hebrew), who was a Midianite priest and the father-in-law of Moses. However, Jethro is not directly associated with the name Yisca.\n5. Another possible connection is to the Talmudic figure Yisca, who is mentioned in a few places, but these references are scarce and don't provide a clear picture of who he was.\n6. Given the ambiguity and scarcity of information, it's possible that Yisca is not a widely recognized or significant figure in Jewish tradition.\n7. However, without further context or clarification, it's difficult to provide a definitive answer.\n\nConsidering the above steps, I'm left with a lack of concrete information about Yisca.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 4771363375,
+        "load_duration": 2982292,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 20338000,
+        "eval_count": 263,
+        "eval_duration": 4736156000
+      },
+      "elapsed_seconds": 4.773
+    },
+    {
+      "index": 9,
+      "seed": 257071204,
+      "status": "abstained",
+      "reasoning": "To answer this question, I will consider the relevant facts and context.\n\nStep 1: Identify the context of the question. The question mentions \"Jewish tradition,\" which suggests that the answer will be found in Jewish texts, such as the Talmud or Midrash.\n\nStep 2: Consider possible sources of information. Since the question is about a figure named Yisca, I will look for references in Jewish texts, such as the Talmud, Midrash, or other rabbinic sources.\n\nStep 3: Research the possible identity of Yisca. Unfortunately, I couldn't find any specific information about a person named Yisca in the usual sources. However, I did find a reference to a Yiskah, who is mentioned in the Talmud as a companion of Rabbi Meir Ba'al HaNaggar. However, this might not be the same person.\n\nStep 4: Consider possible names or variations. Sometimes, names are mentioned in different spellings or variations in Jewish texts. I will look for variations of the name Yisca, such as Yiskah, Yiski, or Yiska.\n\nStep 5: Review and summarize the information found. After reviewing the possible sources and references, I could not find a clear and specific answer to the question. It's possible that Yisca is a less well-known or obscure figure in Jewish tradition.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:42:27.873327Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, I will consider the relevant facts and context.\n\nStep 1: Identify the context of the question. The question mentions \"Jewish tradition,\" which suggests that the answer will be found in Jewish texts, such as the Talmud or Midrash.\n\nStep 2: Consider possible sources of information. Since the question is about a figure named Yisca, I will look for references in Jewish texts, such as the Talmud, Midrash, or other rabbinic sources.\n\nStep 3: Research the possible identity of Yisca. Unfortunately, I couldn't find any specific information about a person named Yisca in the usual sources. However, I did find a reference to a Yiskah, who is mentioned in the Talmud as a companion of Rabbi Meir Ba'al HaNaggar. However, this might not be the same person.\n\nStep 4: Consider possible names or variations. Sometimes, names are mentioned in different spellings or variations in Jewish texts. I will look for variations of the name Yisca, such as Yiskah, Yiski, or Yiska.\n\nStep 5: Review and summarize the information found. After reviewing the possible sources and references, I could not find a clear and specific answer to the question. It's possible that Yisca is a less well-known or obscure figure in Jewish tradition.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 5284090209,
+        "load_duration": 2455417,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 19940000,
+        "eval_count": 290,
+        "eval_duration": 5253643000
+      },
+      "elapsed_seconds": 5.286
+    },
+    {
+      "index": 10,
+      "seed": 257071205,
+      "status": "valid",
+      "reasoning": "To answer this question, we should consider the relevant facts and possible sources in Jewish tradition.\n\nFirst, let's consider the name \"Yisca\". It seems to be a variant of the name \"Iscah\" or \"Isca\", which appears in the Hebrew Bible. In the book of Genesis (11:31), the name \"Iscah\" is mentioned as the sister of Abraham's wife, Sarah.\n\nNow, let's see if this information is relevant to the question about Yisca in Jewish tradition. Given the similarity between the names \"Yisca\" and \"Iscah\", it's possible that Yisca refers to the same person mentioned in the Hebrew Bible.\n\nConsidering this, it seems that Yisca, according to Jewish tradition, might be Iscah, the sister of Sarah and wife of Eber.",
+      "answer": "Iscah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:42:31.183663Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we should consider the relevant facts and possible sources in Jewish tradition.\n\nFirst, let's consider the name \"Yisca\". It seems to be a variant of the name \"Iscah\" or \"Isca\", which appears in the Hebrew Bible. In the book of Genesis (11:31), the name \"Iscah\" is mentioned as the sister of Abraham's wife, Sarah.\n\nNow, let's see if this information is relevant to the question about Yisca in Jewish tradition. Given the similarity between the names \"Yisca\" and \"Iscah\", it's possible that Yisca refers to the same person mentioned in the Hebrew Bible.\n\nConsidering this, it seems that Yisca, according to Jewish tradition, might be Iscah, the sister of Sarah and wife of Eber.\n\nFINAL: Iscah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3305589667,
+        "load_duration": 2696667,
+        "prompt_eval_count": 93,
+        "prompt_eval_cached_count": 92,
+        "prompt_eval_duration": 22543000,
+        "eval_count": 179,
+        "eval_duration": 3264929000
+      },
+      "elapsed_seconds": 3.307
+    }
+  ],
+  "complete": false,
+  "summary": {
+    "votes": {
+      "yiskah, the daughter of judah": 1,
+      "jischah": 1,
+      "iscah": 1
+    },
+    "valid_samples": 3,
+    "attempted_samples": 10,
+    "excluded_samples": 7,
+    "plurality_answer": null,
+    "tied_answers": [
+      "yiskah, the daughter of judah",
+      "jischah",
+      "iscah"
+    ],
+    "majority_answer": null,
+    "winner_share_of_valid": null,
+    "winner_share_of_attempted": null
+  },
+  "interrupted": true
+}

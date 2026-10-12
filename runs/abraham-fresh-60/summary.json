@@ -1,0 +1,137 @@
+{
+  "question": "Who was the Abraham's mom according to Jewish tradition?",
+  "model": "llama3.1:latest",
+  "temperature": 0.8,
+  "seed_start": 842617000,
+  "results": {
+    "direct": {
+      "attempted": 60,
+      "target_hits": 3,
+      "target_rate": 0.05,
+      "exact_amathlai_hits": 3,
+      "exact_rate": 0.05,
+      "target_rate_wilson_95": [
+        0.01714950216439568,
+        0.1370051647634852
+      ],
+      "hit_indices": [
+        36,
+        37,
+        57
+      ],
+      "strict_hit_indices": [
+        36,
+        37,
+        57
+      ],
+      "status_counts": {
+        "valid": 56,
+        "abstained": 2,
+        "unparseable": 2
+      },
+      "normalized_final_answer_counts": {
+        "sarah": 22,
+        "keziah": 21,
+        "hagar": 1,
+        "jochebed": 6,
+        "unknown": 2,
+        "keziah, daughter of kenaz": 1,
+        "[missing]": 2,
+        "amathlai": 3,
+        "keziah, daughter of jethro": 1,
+        "amram's wife": 1
+      },
+      "mean_tokens": 17.55,
+      "mean_of_response_mean_logprobs": -0.5789085414819576
+    },
+    "reason": {
+      "attempted": 60,
+      "target_hits": 20,
+      "target_rate": 0.3333333333333333,
+      "exact_amathlai_hits": 18,
+      "exact_rate": 0.3,
+      "target_rate_wilson_95": [
+        0.2272926152352268,
+        0.4594313354788031
+      ],
+      "hit_indices": [
+        5,
+        10,
+        12,
+        13,
+        18,
+        19,
+        20,
+        26,
+        27,
+        28,
+        32,
+        36,
+        37,
+        39,
+        41,
+        45,
+        49,
+        51,
+        55,
+        56
+      ],
+      "strict_hit_indices": [
+        5,
+        10,
+        13,
+        18,
+        19,
+        20,
+        26,
+        27,
+        32,
+        36,
+        37,
+        39,
+        41,
+        45,
+        49,
+        51,
+        55,
+        56
+      ],
+      "status_counts": {
+        "abstained": 14,
+        "valid": 44,
+        "unparseable": 2
+      },
+      "normalized_final_answer_counts": {
+        "unknown": 14,
+        "ammilat": 1,
+        "sarah": 17,
+        "amathlai": 18,
+        "the wife of terah": 1,
+        "amithai": 1,
+        "amethlai (or amathlai)": 1,
+        "[missing]": 2,
+        "ammilah": 1,
+        "amathlai/amithlai": 1,
+        "aminah": 1,
+        "ameth": 1,
+        "terah's wife": 1
+      },
+      "mean_tokens": 224.63333333333333,
+      "mean_of_response_mean_logprobs": -0.5906076972501231
+    }
+  },
+  "paired_primary": {
+    "reason_only": 18,
+    "direct_only": 1,
+    "both": 2,
+    "neither": 39,
+    "exact_mcnemar_two_sided_p": 7.62939453125e-05
+  },
+  "paired_strict": {
+    "reason_only": 16,
+    "direct_only": 1,
+    "both": 2,
+    "neither": 41,
+    "exact_mcnemar_two_sided_p": 0.000274658203125
+  }
+}

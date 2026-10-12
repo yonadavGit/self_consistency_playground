@@ -1,0 +1,883 @@
+{
+  "question": "According to Jewish tradition, what fruit was the fruit of the tree of knowledge?",
+  "model": "llama3.1:latest",
+  "created_at": "2026-10-11T14:36:34.886187+00:00",
+  "settings": {
+    "samples": 30,
+    "temperature": 0.6,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "direct",
+    "thinking": "off",
+    "logprobs": false
+  },
+  "seed": 559086453,
+  "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nAccording to Jewish tradition, what fruit was the fruit of the tree of knowledge?",
+  "aliases": {},
+  "model_info": {
+    "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.1:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe\nTEMPLATE \"\"\"{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Meta-Llama-3.1",
+      "general.file_type": 2,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.license": "llama3.1",
+      "general.parameter_count": 8030261312,
+      "general.quantization_version": 2,
+      "general.size_label": "8B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T13:48:52.816800646+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 559086453,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:35.080357Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 193264625,
+        "load_duration": 6448209,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 41742000,
+        "eval_count": 9,
+        "eval_duration": 142157000
+      },
+      "elapsed_seconds": 0.194
+    },
+    {
+      "index": 2,
+      "seed": 559086454,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "APPLE.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:35.231188Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: APPLE."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 148283750,
+        "load_duration": 2385916,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18294000,
+        "eval_count": 8,
+        "eval_duration": 126184000
+      },
+      "elapsed_seconds": 0.149
+    },
+    {
+      "index": 3,
+      "seed": 559086455,
+      "status": "valid",
+      "reasoning": "The Pomegranate.",
+      "answer": "Pomegranate.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:35.486349Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Pomegranate.\n\nFINAL: Pomegranate."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 253673083,
+        "load_duration": 1957250,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18386000,
+        "eval_count": 14,
+        "eval_duration": 232113000
+      },
+      "elapsed_seconds": 0.255
+    },
+    {
+      "index": 4,
+      "seed": 559086456,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:35.708977Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 219230916,
+        "load_duration": 2543916,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18410000,
+        "eval_count": 12,
+        "eval_duration": 196927000
+      },
+      "elapsed_seconds": 0.22
+    },
+    {
+      "index": 5,
+      "seed": 559086457,
+      "status": "valid",
+      "reasoning": "The fig.",
+      "answer": "Fig",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:35.840508Z",
+        "message": {
+          "role": "assistant",
+          "content": "The fig.\n\nFINAL: Fig"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 129251083,
+        "load_duration": 2138416,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 17976000,
+        "eval_count": 7,
+        "eval_duration": 108003000
+      },
+      "elapsed_seconds": 0.13
+    },
+    {
+      "index": 6,
+      "seed": 559086458,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:36.00879Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 164954833,
+        "load_duration": 1880583,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18820000,
+        "eval_count": 9,
+        "eval_duration": 143059000
+      },
+      "elapsed_seconds": 0.166
+    },
+    {
+      "index": 7,
+      "seed": 559086459,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:36.176329Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 164151666,
+        "load_duration": 1838875,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18135000,
+        "eval_count": 9,
+        "eval_duration": 142973000
+      },
+      "elapsed_seconds": 0.165
+    },
+    {
+      "index": 8,
+      "seed": 559086460,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:36.379972Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 199766292,
+        "load_duration": 1790292,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18065000,
+        "eval_count": 11,
+        "eval_duration": 178779000
+      },
+      "elapsed_seconds": 0.201
+    },
+    {
+      "index": 9,
+      "seed": 559086461,
+      "status": "valid",
+      "reasoning": "The pomegranate.",
+      "answer": "Pomegranate.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:36.636946Z",
+        "message": {
+          "role": "assistant",
+          "content": "The pomegranate.\n\nFINAL: Pomegranate."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 253803458,
+        "load_duration": 2017833,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18071000,
+        "eval_count": 14,
+        "eval_duration": 232556000
+      },
+      "elapsed_seconds": 0.255
+    },
+    {
+      "index": 10,
+      "seed": 559086462,
+      "status": "valid",
+      "reasoning": "The Pomegranate.",
+      "answer": "Pomegranate",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:36.877103Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Pomegranate.\n\nFINAL: Pomegranate"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 237903291,
+        "load_duration": 2125000,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18269000,
+        "eval_count": 13,
+        "eval_duration": 216230000
+      },
+      "elapsed_seconds": 0.239
+    },
+    {
+      "index": 11,
+      "seed": 559086463,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "Apple",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:37.008157Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: Apple"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 128832917,
+        "load_duration": 1734708,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18148000,
+        "eval_count": 7,
+        "eval_duration": 107804000
+      },
+      "elapsed_seconds": 0.13
+    },
+    {
+      "index": 12,
+      "seed": 559086464,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:37.177155Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 165257959,
+        "load_duration": 1783375,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18163000,
+        "eval_count": 9,
+        "eval_duration": 144043000
+      },
+      "elapsed_seconds": 0.167
+    },
+    {
+      "index": 13,
+      "seed": 559086465,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:37.345561Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 164593000,
+        "load_duration": 1711625,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18595000,
+        "eval_count": 9,
+        "eval_duration": 143241000
+      },
+      "elapsed_seconds": 0.167
+    },
+    {
+      "index": 14,
+      "seed": 559086466,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an Apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:37.567916Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an Apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 218636625,
+        "load_duration": 2006292,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18261000,
+        "eval_count": 12,
+        "eval_duration": 197115000
+      },
+      "elapsed_seconds": 0.22
+    },
+    {
+      "index": 15,
+      "seed": 559086467,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:37.773713Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 201789083,
+        "load_duration": 2141792,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18600000,
+        "eval_count": 11,
+        "eval_duration": 179783000
+      },
+      "elapsed_seconds": 0.203
+    },
+    {
+      "index": 16,
+      "seed": 559086468,
+      "status": "valid",
+      "reasoning": "The fig.",
+      "answer": "Fig.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:37.924387Z",
+        "message": {
+          "role": "assistant",
+          "content": "The fig.\n\nFINAL: Fig."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 147095750,
+        "load_duration": 2003417,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18735000,
+        "eval_count": 8,
+        "eval_duration": 125187000
+      },
+      "elapsed_seconds": 0.148
+    },
+    {
+      "index": 17,
+      "seed": 559086469,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:38.093335Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 165394583,
+        "load_duration": 2037583,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18228000,
+        "eval_count": 9,
+        "eval_duration": 143987000
+      },
+      "elapsed_seconds": 0.167
+    },
+    {
+      "index": 18,
+      "seed": 559086470,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:38.296895Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 199502917,
+        "load_duration": 1877292,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18190000,
+        "eval_count": 11,
+        "eval_duration": 178287000
+      },
+      "elapsed_seconds": 0.201
+    },
+    {
+      "index": 19,
+      "seed": 559086471,
+      "status": "valid",
+      "reasoning": "The forbidden fruit of the tree of knowledge was the Apple.",
+      "answer": "Apple",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:38.591415Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit of the tree of knowledge was the Apple.\n\nFINAL: Apple"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 290610917,
+        "load_duration": 2277833,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18370000,
+        "eval_count": 16,
+        "eval_duration": 268613000
+      },
+      "elapsed_seconds": 0.292
+    },
+    {
+      "index": 20,
+      "seed": 559086472,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:38.759881Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 165103375,
+        "load_duration": 1996167,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18785000,
+        "eval_count": 9,
+        "eval_duration": 143219000
+      },
+      "elapsed_seconds": 0.166
+    },
+    {
+      "index": 21,
+      "seed": 559086473,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:38.928928Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 165525584,
+        "load_duration": 2036375,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18648000,
+        "eval_count": 9,
+        "eval_duration": 143580000
+      },
+      "elapsed_seconds": 0.167
+    },
+    {
+      "index": 22,
+      "seed": 559086474,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:39.151088Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 218462875,
+        "load_duration": 2062917,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18266000,
+        "eval_count": 12,
+        "eval_duration": 196865000
+      },
+      "elapsed_seconds": 0.22
+    },
+    {
+      "index": 23,
+      "seed": 559086475,
+      "status": "valid",
+      "reasoning": "The Pomegranate.",
+      "answer": "Pomegranate.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:39.408876Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Pomegranate.\n\nFINAL: Pomegranate."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 253964042,
+        "load_duration": 2165708,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18214000,
+        "eval_count": 14,
+        "eval_duration": 232252000
+      },
+      "elapsed_seconds": 0.255
+    },
+    {
+      "index": 24,
+      "seed": 559086476,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:39.577342Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 164848417,
+        "load_duration": 2110042,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18428000,
+        "eval_count": 9,
+        "eval_duration": 143088000
+      },
+      "elapsed_seconds": 0.166
+    },
+    {
+      "index": 25,
+      "seed": 559086477,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:39.780912Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 199729000,
+        "load_duration": 1896667,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18137000,
+        "eval_count": 11,
+        "eval_duration": 178652000
+      },
+      "elapsed_seconds": 0.201
+    },
+    {
+      "index": 26,
+      "seed": 559086478,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:39.949436Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 164829166,
+        "load_duration": 2034958,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 17887000,
+        "eval_count": 9,
+        "eval_duration": 143744000
+      },
+      "elapsed_seconds": 0.166
+    },
+    {
+      "index": 27,
+      "seed": 559086479,
+      "status": "valid",
+      "reasoning": "The forbidden fruit of the tree of knowledge was the pomegranate.",
+      "answer": "Pomegranate",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:40.34797Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit of the tree of knowledge was the pomegranate.\n\nFINAL: Pomegranate"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 394758541,
+        "load_duration": 1747833,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18468000,
+        "eval_count": 22,
+        "eval_duration": 373469000
+      },
+      "elapsed_seconds": 0.396
+    },
+    {
+      "index": 28,
+      "seed": 559086480,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "APPLE",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:40.553484Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: APPLE"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 201675083,
+        "load_duration": 2369375,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18152000,
+        "eval_count": 11,
+        "eval_duration": 179883000
+      },
+      "elapsed_seconds": 0.203
+    },
+    {
+      "index": 29,
+      "seed": 559086481,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:40.720768Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 164445041,
+        "load_duration": 2013875,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 17903000,
+        "eval_count": 9,
+        "eval_duration": 143408000
+      },
+      "elapsed_seconds": 0.166
+    },
+    {
+      "index": 30,
+      "seed": 559086482,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:36:40.890281Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 165338042,
+        "load_duration": 2110792,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18613000,
+        "eval_count": 9,
+        "eval_duration": 143285000
+      },
+      "elapsed_seconds": 0.167
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "votes": {
+      "the apple": 12,
+      "apple": 11,
+      "pomegranate": 5,
+      "fig": 2
+    },
+    "valid_samples": 30,
+    "attempted_samples": 30,
+    "excluded_samples": 0,
+    "plurality_answer": "the apple",
+    "tied_answers": [],
+    "majority_answer": null,
+    "winner_share_of_valid": 0.4,
+    "winner_share_of_attempted": 0.4
+  }
+}

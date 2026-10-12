@@ -1,0 +1,902 @@
+{
+  "question": "Who was Yisca according to Jewish tradition?",
+  "model": "llama3.1:latest",
+  "created_at": "2026-10-12T09:41:11.482357+00:00",
+  "settings": {
+    "samples": 30,
+    "temperature": 0.8,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "direct",
+    "thinking": "off",
+    "logprobs": false
+  },
+  "seed": 371314872,
+  "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was Yisca according to Jewish tradition?",
+  "aliases": {},
+  "model_info": {
+    "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.1:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe\nTEMPLATE \"\"\"{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Meta-Llama-3.1",
+      "general.file_type": 2,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.license": "llama3.1",
+      "general.parameter_count": 8030261312,
+      "general.quantization_version": 2,
+      "general.size_label": "8B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T13:48:52.816800646+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 371314872,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a concubine and sister of Zipporah, the wife of Moses.",
+      "answer": "A concubine and sister of Zipporah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:12.332007Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a concubine and sister of Zipporah, the wife of Moses.\n\nFINAL: A concubine and sister of Zipporah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 848664792,
+        "load_duration": 6069833,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 56,
+        "prompt_eval_duration": 99068000,
+        "eval_count": 41,
+        "eval_duration": 727818000
+      },
+      "elapsed_seconds": 0.85
+    },
+    {
+      "index": 2,
+      "seed": 371314873,
+      "status": "valid",
+      "reasoning": "Yisca was the daughter of Abraham according to Jewish tradition.",
+      "answer": "Daughter of Abraham.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:12.698985Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was the daughter of Abraham according to Jewish tradition.\n\nFINAL: Daughter of Abraham."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 364111209,
+        "load_duration": 2510709,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18509000,
+        "eval_count": 20,
+        "eval_duration": 341554000
+      },
+      "elapsed_seconds": 0.365
+    },
+    {
+      "index": 3,
+      "seed": 371314874,
+      "status": "valid",
+      "reasoning": "Yisca was according to Jewish tradition the wife of Rabbi Akiva and the sister of Berurya.",
+      "answer": "The wife of Rabbi Akiva and the sister of Berurya.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:13.407097Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was according to Jewish tradition the wife of Rabbi Akiva and the sister of Berurya.\n\nFINAL: The wife of Rabbi Akiva and the sister of Berurya."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 705220459,
+        "load_duration": 2530000,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18322000,
+        "eval_count": 39,
+        "eval_duration": 682902000
+      },
+      "elapsed_seconds": 0.706
+    },
+    {
+      "index": 4,
+      "seed": 371314875,
+      "status": "abstained",
+      "reasoning": "A wife of King Solomon.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:13.593229Z",
+        "message": {
+          "role": "assistant",
+          "content": "A wife of King Solomon.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 183781333,
+        "load_duration": 2825250,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18617000,
+        "eval_count": 10,
+        "eval_duration": 160571000
+      },
+      "elapsed_seconds": 0.185
+    },
+    {
+      "index": 5,
+      "seed": 371314876,
+      "status": "valid",
+      "reasoning": "A biblical figure.",
+      "answer": "Tamar.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:13.781392Z",
+        "message": {
+          "role": "assistant",
+          "content": "A biblical figure.\n\nFINAL: Tamar."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 184664791,
+        "load_duration": 2428625,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18839000,
+        "eval_count": 10,
+        "eval_duration": 162254000
+      },
+      "elapsed_seconds": 0.186
+    },
+    {
+      "index": 6,
+      "seed": 371314877,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a wife of King Saul and mother of Merab.",
+      "answer": "Wife of King Saul and mother of Merab.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:14.380518Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a wife of King Saul and mother of Merab.\n\nFINAL: Wife of King Saul and mother of Merab."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 596546917,
+        "load_duration": 2400375,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18814000,
+        "eval_count": 33,
+        "eval_duration": 573647000
+      },
+      "elapsed_seconds": 0.598
+    },
+    {
+      "index": 7,
+      "seed": 371314878,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a daughter of King Ahaz of Judah.",
+      "answer": "Daughter of King Ahaz of Judah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:14.946288Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a daughter of King Ahaz of Judah.\n\nFINAL: Daughter of King Ahaz of Judah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 562968541,
+        "load_duration": 2564333,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18737000,
+        "eval_count": 31,
+        "eval_duration": 539996000
+      },
+      "elapsed_seconds": 0.564
+    },
+    {
+      "index": 8,
+      "seed": 371314879,
+      "status": "abstained",
+      "reasoning": "The wife of King Solomon.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:15.135493Z",
+        "message": {
+          "role": "assistant",
+          "content": "The wife of King Solomon.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 186485500,
+        "load_duration": 2553750,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 19307000,
+        "eval_count": 10,
+        "eval_duration": 163109000
+      },
+      "elapsed_seconds": 0.188
+    },
+    {
+      "index": 9,
+      "seed": 371314880,
+      "status": "valid",
+      "reasoning": "Yisca was a daughter of Rabbi Eliezer.",
+      "answer": "A daughter of Rabbi Eliezer.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:15.555385Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was a daughter of Rabbi Eliezer.\n\nFINAL: A daughter of Rabbi Eliezer."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 417424500,
+        "load_duration": 2239667,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18942000,
+        "eval_count": 23,
+        "eval_duration": 394907000
+      },
+      "elapsed_seconds": 0.419
+    },
+    {
+      "index": 10,
+      "seed": 371314881,
+      "status": "valid",
+      "reasoning": "A daughter of the high priest Zadok.",
+      "answer": "A daughter of the high priest Zadok.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:15.975939Z",
+        "message": {
+          "role": "assistant",
+          "content": "A daughter of the high priest Zadok.\n\nFINAL: A daughter of the high priest Zadok."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 417006208,
+        "load_duration": 2808958,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18712000,
+        "eval_count": 23,
+        "eval_duration": 393926000
+      },
+      "elapsed_seconds": 0.418
+    },
+    {
+      "index": 11,
+      "seed": 371314882,
+      "status": "abstained",
+      "reasoning": "",
+      "answer": "Unknown",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:16.05651Z",
+        "message": {
+          "role": "assistant",
+          "content": "FINAL: Unknown"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 77216750,
+        "load_duration": 2670875,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18463000,
+        "eval_count": 4,
+        "eval_duration": 54557000
+      },
+      "elapsed_seconds": 0.079
+    },
+    {
+      "index": 12,
+      "seed": 371314883,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a righteous convert to Judaism who was wrongly accused of being an informer.",
+      "answer": "Yisca",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:16.602429Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a righteous convert to Judaism who was wrongly accused of being an informer.\n\nFINAL: Yisca"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 542600750,
+        "load_duration": 1949375,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18429000,
+        "eval_count": 30,
+        "eval_duration": 521092999
+      },
+      "elapsed_seconds": 0.544
+    },
+    {
+      "index": 13,
+      "seed": 371314884,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a daughter of the High Priest Simon II.",
+      "answer": "Daughter of the High Priest Simon II.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:17.131731Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a daughter of the High Priest Simon II.\n\nFINAL: Daughter of the High Priest Simon II."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 526325166,
+        "load_duration": 2548500,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18785000,
+        "eval_count": 29,
+        "eval_duration": 503402000
+      },
+      "elapsed_seconds": 0.527
+    },
+    {
+      "index": 14,
+      "seed": 371314885,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was the wife of Zechariah and the mother of John the Baptist.",
+      "answer": "Yisca (wife of Zechariah)",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:17.782727Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was the wife of Zechariah and the mother of John the Baptist.\n\nFINAL: Yisca (wife of Zechariah)"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 648784292,
+        "load_duration": 2263542,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 19119000,
+        "eval_count": 36,
+        "eval_duration": 626096000
+      },
+      "elapsed_seconds": 0.65
+    },
+    {
+      "index": 15,
+      "seed": 371314886,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a wife of a Talmudic sage, Rabbi Yochanan.",
+      "answer": "Yisca.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:18.32889Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a wife of a Talmudic sage, Rabbi Yochanan.\n\nFINAL: Yisca."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 542646666,
+        "load_duration": 2673125,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18746000,
+        "eval_count": 30,
+        "eval_duration": 519664999
+      },
+      "elapsed_seconds": 0.544
+    },
+    {
+      "index": 16,
+      "seed": 371314887,
+      "status": "valid",
+      "reasoning": "A daughter of the high priest Zadok and the wife of King David's son, Absalom.",
+      "answer": "Daughter of Zadok and wife of Absalom.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:18.963641Z",
+        "message": {
+          "role": "assistant",
+          "content": "A daughter of the high priest Zadok and the wife of King David's son, Absalom.\n\nFINAL: Daughter of Zadok and wife of Absalom."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 632353833,
+        "load_duration": 2842250,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 19377000,
+        "eval_count": 35,
+        "eval_duration": 608629000
+      },
+      "elapsed_seconds": 0.633
+    },
+    {
+      "index": 17,
+      "seed": 371314888,
+      "status": "abstained",
+      "reasoning": "A biblical figure, sister of the prophet Isaiah.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:19.224527Z",
+        "message": {
+          "role": "assistant",
+          "content": "A biblical figure, sister of the prophet Isaiah.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 258179916,
+        "load_duration": 2572875,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18891000,
+        "eval_count": 14,
+        "eval_duration": 235169000
+      },
+      "elapsed_seconds": 0.26
+    },
+    {
+      "index": 18,
+      "seed": 371314889,
+      "status": "valid",
+      "reasoning": "Yisca was a daughter of the High Priest.",
+      "answer": "Daughter of the High Priest.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:19.604089Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was a daughter of the High Priest.\n\nFINAL: Daughter of the High Priest."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 376215667,
+        "load_duration": 2398500,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18607000,
+        "eval_count": 20,
+        "eval_duration": 353764000
+      },
+      "elapsed_seconds": 0.377
+    },
+    {
+      "index": 19,
+      "seed": 371314890,
+      "status": "valid",
+      "reasoning": "Yisca was a king of the tribe of Simeon according to Jewish tradition.",
+      "answer": "Yisca",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:20.044273Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was a king of the tribe of Simeon according to Jewish tradition.\n\nFINAL: Yisca"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 436730584,
+        "load_duration": 1987209,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18927000,
+        "eval_count": 24,
+        "eval_duration": 414449000
+      },
+      "elapsed_seconds": 0.438
+    },
+    {
+      "index": 20,
+      "seed": 371314891,
+      "status": "valid",
+      "reasoning": "Yisca was a daughter of Yosef.",
+      "answer": "A daughter of Yosef.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:20.428637Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was a daughter of Yosef.\n\nFINAL: A daughter of Yosef."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 380511750,
+        "load_duration": 2619709,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18540000,
+        "eval_count": 21,
+        "eval_duration": 357806000
+      },
+      "elapsed_seconds": 0.382
+    },
+    {
+      "index": 21,
+      "seed": 371314892,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was the daughter of King Darius of Persia, who converted to Judaism and married a Jewish priest.",
+      "answer": "Yisca was the daughter of King Darius of Persia.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:21.260252Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was the daughter of King Darius of Persia, who converted to Judaism and married a Jewish priest.\n\nFINAL: Yisca was the daughter of King Darius of Persia."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 827885667,
+        "load_duration": 2720209,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18427000,
+        "eval_count": 46,
+        "eval_duration": 805174000
+      },
+      "elapsed_seconds": 0.829
+    },
+    {
+      "index": 22,
+      "seed": 371314893,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was the wife of Zechariah and the mother of John the Baptist.",
+      "answer": "Yisca was the wife of Zechariah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:21.932888Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was the wife of Zechariah and the mother of John the Baptist.\n\nFINAL: Yisca was the wife of Zechariah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 668698417,
+        "load_duration": 2907042,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18561000,
+        "eval_count": 37,
+        "eval_duration": 645645000
+      },
+      "elapsed_seconds": 0.67
+    },
+    {
+      "index": 23,
+      "seed": 371314894,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a wife of King David.",
+      "answer": "The wife of King David.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:22.374499Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a wife of King David.\n\nFINAL: The wife of King David."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 435998958,
+        "load_duration": 2424791,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 19923000,
+        "eval_count": 24,
+        "eval_duration": 412185000
+      },
+      "elapsed_seconds": 0.437
+    },
+    {
+      "index": 24,
+      "seed": 371314895,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was the daughter of King David and Abigail, a concubine of King David.",
+      "answer": "Abigail.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:22.957475Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was the daughter of King David and Abigail, a concubine of King David.\n\nFINAL: Abigail."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 579182250,
+        "load_duration": 2538958,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 19010000,
+        "eval_count": 32,
+        "eval_duration": 556093000
+      },
+      "elapsed_seconds": 0.58
+    },
+    {
+      "index": 25,
+      "seed": 371314896,
+      "status": "valid",
+      "reasoning": "A concubine of King David, the mother of Shimea, according to 1 Chronicles 3:9.",
+      "answer": "A concubine of King David, the mother of Shimea, according to 1 Chronicles 3:9.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:23.912672Z",
+        "message": {
+          "role": "assistant",
+          "content": "A concubine of King David, the mother of Shimea, according to 1 Chronicles 3:9.\n\nFINAL: A concubine of King David, the mother of Shimea, according to 1 Chronicles 3:9."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 951967917,
+        "load_duration": 2485125,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18351000,
+        "eval_count": 53,
+        "eval_duration": 929801000
+      },
+      "elapsed_seconds": 0.953
+    },
+    {
+      "index": 26,
+      "seed": 371314897,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was a prophetess and the wife of the prophet Isaiah.",
+      "answer": "A prophetess and wife of the prophet Isaiah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:24.512293Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was a prophetess and the wife of the prophet Isaiah.\n\nFINAL: A prophetess and wife of the prophet Isaiah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 595947375,
+        "load_duration": 2605459,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18958000,
+        "eval_count": 33,
+        "eval_duration": 572670000
+      },
+      "elapsed_seconds": 0.597
+    },
+    {
+      "index": 27,
+      "seed": 371314898,
+      "status": "valid",
+      "reasoning": "A daughter of King Ahaz and his wife, the prophetess, or so it is said, not according to the Bible but Jewish tradition.",
+      "answer": "Daughter of King Ahaz.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:25.201863Z",
+        "message": {
+          "role": "assistant",
+          "content": "A daughter of King Ahaz and his wife, the prophetess, or so it is said, not according to the Bible but Jewish tradition.\n\nFINAL: Daughter of King Ahaz."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 685859125,
+        "load_duration": 2545875,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18455000,
+        "eval_count": 38,
+        "eval_duration": 663436000
+      },
+      "elapsed_seconds": 0.687
+    },
+    {
+      "index": 28,
+      "seed": 371314899,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was the daughter of King Manasseh of Judah.",
+      "answer": "Yisca",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:25.677209Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was the daughter of King Manasseh of Judah.\n\nFINAL: Yisca"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 471218333,
+        "load_duration": 2518625,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18673000,
+        "eval_count": 26,
+        "eval_duration": 448424000
+      },
+      "elapsed_seconds": 0.472
+    },
+    {
+      "index": 29,
+      "seed": 371314900,
+      "status": "valid",
+      "reasoning": "Yisca was the daughter of Job according to Jewish tradition.",
+      "answer": "Daughter of Job.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:26.04455Z",
+        "message": {
+          "role": "assistant",
+          "content": "Yisca was the daughter of Job according to Jewish tradition.\n\nFINAL: Daughter of Job."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 363169750,
+        "load_duration": 2601875,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 19255000,
+        "eval_count": 20,
+        "eval_duration": 339623000
+      },
+      "elapsed_seconds": 0.364
+    },
+    {
+      "index": 30,
+      "seed": 371314901,
+      "status": "valid",
+      "reasoning": "According to Jewish tradition, Yisca was the wife of Aaron, the brother of Moses.",
+      "answer": "Wife of Aaron.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-12T09:41:26.521483Z",
+        "message": {
+          "role": "assistant",
+          "content": "According to Jewish tradition, Yisca was the wife of Aaron, the brother of Moses.\n\nFINAL: Wife of Aaron."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 473324833,
+        "load_duration": 2549625,
+        "prompt_eval_count": 71,
+        "prompt_eval_cached_count": 70,
+        "prompt_eval_duration": 18933000,
+        "eval_count": 26,
+        "eval_duration": 450417000
+      },
+      "elapsed_seconds": 0.474
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "votes": {
+      "yisca": 4,
+      "a concubine and sister of zipporah": 1,
+      "daughter of abraham": 1,
+      "the wife of rabbi akiva and the sister of berurya": 1,
+      "tamar": 1,
+      "wife of king saul and mother of merab": 1,
+      "daughter of king ahaz of judah": 1,
+      "a daughter of rabbi eliezer": 1,
+      "a daughter of the high priest zadok": 1,
+      "daughter of the high priest simon ii": 1,
+      "yisca (wife of zechariah)": 1,
+      "daughter of zadok and wife of absalom": 1,
+      "daughter of the high priest": 1,
+      "a daughter of yosef": 1,
+      "yisca was the daughter of king darius of persia": 1,
+      "yisca was the wife of zechariah": 1,
+      "the wife of king david": 1,
+      "abigail": 1,
+      "a concubine of king david, the mother of shimea, according to 1 chronicles 3:9": 1,
+      "a prophetess and wife of the prophet isaiah": 1,
+      "daughter of king ahaz": 1,
+      "daughter of job": 1,
+      "wife of aaron": 1
+    },
+    "valid_samples": 26,
+    "attempted_samples": 30,
+    "excluded_samples": 4,
+    "plurality_answer": "yisca",
+    "tied_answers": [],
+    "majority_answer": null,
+    "winner_share_of_valid": 0.15384615384615385,
+    "winner_share_of_attempted": 0.13333333333333333
+  }
+}

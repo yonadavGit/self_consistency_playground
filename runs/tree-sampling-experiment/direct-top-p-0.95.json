@@ -1,0 +1,3829 @@
+{
+  "question": "According to Jewish tradition, what fruit was the fruit of the tree of knowledge?",
+  "model": "llama3.1:latest",
+  "created_at": "2026-10-11T14:59:39.318535+00:00",
+  "settings": {
+    "samples": 30,
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "direct",
+    "thinking": "off",
+    "logprobs": true
+  },
+  "seed": 504908319,
+  "prompt": "Answer directly without writing reasoning.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nAccording to Jewish tradition, what fruit was the fruit of the tree of knowledge?",
+  "aliases": {},
+  "model_info": {
+    "license": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.1:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-8eeb52dfb3bb9aefdf9d1ef24b3bdbcfbe82238798c4b918278320b6fcef18fe\nTEMPLATE \"\"\"{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.1 COMMUNITY LICENSE AGREEMENT\nLlama 3.1 Version Release Date: July 23, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution and modification of the\nLlama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.1\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are entering into\nthis Agreement on such person or entity’s behalf), of the age required under applicable laws, rules or\nregulations to provide legal consent and that has legal authority to bind your employer or such other\nperson or entity if you are entering in this Agreement on their behalf.\n\n“Llama 3.1” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at\nhttps://llama.meta.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.1 and Documentation (and any\nportion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your\nprincipal place of business is in the EEA or Switzerland) and Meta Platforms, Inc. (if you are located\noutside of the EEA or Switzerland).\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n1. License Rights and Redistribution.\n\n  a. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free\nlimited license under Meta’s intellectual property or other rights owned by Meta embodied in the Llama\nMaterials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the\nLlama Materials.\n\n  b. Redistribution and Use.\n\n      i. If you distribute or make available the Llama Materials (or any derivative works\nthereof), or a product or service (including another AI model) that contains any of them, you shall (A)\nprovide a copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with\nLlama” on a related website, user interface, blogpost, about page, or product documentation. If you use\nthe Llama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama” at\nthe beginning of any such AI model name.\n\n      ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part \nof an integrated end user product, then Section 2 of this Agreement will not apply to you.\n\n      iii. You must retain in all copies of the Llama Materials that you distribute the following\nattribution notice within a “Notice” text file distributed as a part of such copies: “Llama 3.1 is\nlicensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights\nReserved.”\n\n      iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for the Llama\nMaterials (available at https://llama.meta.com/llama3_1/use-policy), which is hereby incorporated by\nreference into this Agreement.\n\n2. Additional Commercial Terms. If, on the Llama 3.1 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, is greater than 700\nmillion monthly active users in the preceding calendar month, you must request a license from Meta,\nwhich Meta may grant to you in its sole discretion, and you are not authorized to exercise any of the\nrights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY\nOUTPUT AND RESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF\nANY KIND, AND META DISCLAIMS ALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON-INFRINGEMENT,\nMERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE FOR\nDETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND\nASSUME ANY RISKS ASSOCIATED WITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND\nRESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF\nLIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING\nOUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL,\nINCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF META OR ITS AFFILIATES HAVE BEEN ADVISED\nOF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n  a. No trademark licenses are granted under this Agreement, and in connection with the Llama\nMaterials, neither Meta nor Licensee may use any name or mark owned by or associated with the other\nor any of its affiliates, except as required for reasonable and customary use in describing and\nredistributing the Llama Materials or as set forth in this Section 5(a). Meta hereby grants you a license to\nuse “Llama” (the “Mark”) solely as required to comply with the last sentence of Section 1.b.i. You will\ncomply with Meta’s brand guidelines (currently accessible at\nhttps://about.meta.com/brand/resources/meta/company-brand/ ). All goodwill arising out of your use\nof the Mark will inure to the benefit of Meta.\n\n  b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with\nrespect to any derivative works and modifications of the Llama Materials that are made by you, as\nbetween you and Meta, you are and will be the owner of such derivative works and modifications.\n\n  c. If you institute litigation or other proceedings against Meta or any entity (including a\ncross-claim or counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.1 outputs or\nresults, or any portion of any of the foregoing, constitutes infringement of intellectual property or other\nrights owned or licensable by you, then any licenses granted to you under this Agreement shall\nterminate as of the date such litigation or claim is filed or instituted. You will indemnify and hold\nharmless Meta from and against any claim by any third party arising out of or related to your use or\ndistribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this\nAgreement or access to the Llama Materials and will continue in full force and effect until terminated in\naccordance with the terms and conditions herein. Meta may terminate this Agreement if you are in\nbreach of any term or condition of this Agreement. Upon termination of this Agreement, you shall delete\nand cease use of the Llama Materials. Sections 3, 4 and 7 shall survive the termination of this\nAgreement.\n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of\nthe State of California without regard to choice of law principles, and the UN Convention on Contracts\nfor the International Sale of Goods does not apply to this Agreement. The courts of California shall have\nexclusive jurisdiction of any dispute arising out of this Agreement.\n\n# Llama 3.1 Acceptable Use Policy\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.1. If you\naccess or use Llama 3.1, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of\nthis policy can be found at [https://llama.meta.com/llama3_1/use-policy](https://llama.meta.com/llama3_1/use-policy)\n\n## Prohibited Uses\n\nWe want everyone to use Llama 3.1 safely and responsibly. You agree you will not use, or allow\nothers to use, Llama 3.1 to:\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    3. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    4. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    5. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    6. Collect, process, disclose, generate, or infer health, demographic, or other sensitive personal or private information about individuals without rights and consents required by applicable laws\n    7. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    8. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.1 related to the following:\n    1. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State\n    2. Guns and illegal weapons (including weapon development)\n    3. Illegal drugs and regulated/controlled substances\n    4. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    5. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    6. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n\n3. Intentionally deceive or mislead others, including use of Llama 3.1 related to the following:\n    1. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    2. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    3. Generating, promoting, or further distributing spam\n    4. Impersonating another individual without consent, authorization, or legal right\n    5. Representing that the use of Llama 3.1 or outputs are human-generated\n    6. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation\nof this Policy through one of the following means:\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://github.com/meta-llama/llama-models/issues)\n* Reporting risky content generated by the model: developers.facebook.com/llama_output_feedback\n* Reporting bugs and security concerns: facebook.com/whitehat/info\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.1: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "{{- if or .System .Tools }}<|start_header_id|>system<|end_header_id|>\n{{- if .System }}\n\n{{ .System }}\n{{- end }}\n{{- if .Tools }}\n\nCutting Knowledge Date: December 2023\n\nWhen you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- end }}\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\nQuestion: {{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_0"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Meta-Llama-3.1",
+      "general.file_type": 2,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.license": "llama3.1",
+      "general.parameter_count": 8030261312,
+      "general.quantization_version": 2,
+      "general.size_label": "8B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 32,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.block_count": 32,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 4096,
+      "llama.feed_forward_length": 14336,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T13:48:52.816800646+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 504908319,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:39.507521Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 187396792,
+        "load_duration": 3380250,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 20559000,
+        "eval_count": 9,
+        "eval_duration": 161722000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.188
+    },
+    {
+      "index": 2,
+      "seed": 504908320,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:39.75803Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 249075333,
+        "load_duration": 3024083,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 20478000,
+        "eval_count": 12,
+        "eval_duration": 223678000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.25
+    },
+    {
+      "index": 3,
+      "seed": 504908321,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:39.974344Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -1.669325351715088,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.1596611887216568,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.001897226320579648,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.272143691778183,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.00041964513366110623,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.011225046589970589,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 214884084,
+        "load_duration": 4087625,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 27002000,
+        "eval_count": 9,
+        "eval_duration": 181944000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.4547840317552527,
+        "mean_token_logprob": -0.3068480039694066,
+        "geometric_mean_token_probability": 0.7357624253767173,
+        "perplexity": 1.3591343693421019
+      },
+      "elapsed_seconds": 0.216
+    },
+    {
+      "index": 4,
+      "seed": 504908322,
+      "status": "valid",
+      "reasoning": "The fig.",
+      "answer": "The fig.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:40.165507Z",
+        "message": {
+          "role": "assistant",
+          "content": "The fig.\n\nFINAL: The fig."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -1.9326807260513306,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07893764972686768,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.002552964026108384,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.6766111850738525,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -0.0014641269808635116,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.008914208970963955,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 187543375,
+        "load_duration": 2507833,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19290000,
+        "eval_count": 9,
+        "eval_duration": 163983000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -3.0412728615356173,
+        "mean_token_logprob": -0.38015910769195216,
+        "geometric_mean_token_probability": 0.6837526102575258,
+        "perplexity": 1.4625172686702639
+      },
+      "elapsed_seconds": 0.189
+    },
+    {
+      "index": 5,
+      "seed": 504908323,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:40.437333Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 268806125,
+        "load_duration": 1711333,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18463000,
+        "eval_count": 12,
+        "eval_duration": 247053000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.27
+    },
+    {
+      "index": 6,
+      "seed": 504908324,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:40.716206Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 277266000,
+        "load_duration": 2012417,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19217000,
+        "eval_count": 12,
+        "eval_duration": 254215000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.278
+    },
+    {
+      "index": 7,
+      "seed": 504908325,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:40.926308Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 208246542,
+        "load_duration": 2070334,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 25535000,
+        "eval_count": 9,
+        "eval_duration": 178931000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.209
+    },
+    {
+      "index": 8,
+      "seed": 504908326,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:41.164207Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -1.669325351715088,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.1596611887216568,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.001897226320579648,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.272143691778183,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.00041964513366110623,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.011225046589970589,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 236238083,
+        "load_duration": 2234250,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 24236000,
+        "eval_count": 9,
+        "eval_duration": 207547000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.4547840317552527,
+        "mean_token_logprob": -0.3068480039694066,
+        "geometric_mean_token_probability": 0.7357624253767173,
+        "perplexity": 1.3591343693421019
+      },
+      "elapsed_seconds": 0.237
+    },
+    {
+      "index": 9,
+      "seed": 504908327,
+      "status": "valid",
+      "reasoning": "The fig.",
+      "answer": "The fig.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:41.402937Z",
+        "message": {
+          "role": "assistant",
+          "content": "The fig.\n\nFINAL: The fig."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -1.9326807260513306,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07893764972686768,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.002552964026108384,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.6766111850738525,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -0.0014641269808635116,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.008914208970963955,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 236205917,
+        "load_duration": 2910959,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 23602000,
+        "eval_count": 9,
+        "eval_duration": 207752000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -3.0412728615356173,
+        "mean_token_logprob": -0.38015910769195216,
+        "geometric_mean_token_probability": 0.6837526102575258,
+        "perplexity": 1.4625172686702639
+      },
+      "elapsed_seconds": 0.237
+    },
+    {
+      "index": 10,
+      "seed": 504908328,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:41.671651Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 266867292,
+        "load_duration": 2220375,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 22698000,
+        "eval_count": 12,
+        "eval_duration": 239953000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.268
+    },
+    {
+      "index": 11,
+      "seed": 504908329,
+      "status": "valid",
+      "reasoning": "The fig.",
+      "answer": "The fig.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:41.847931Z",
+        "message": {
+          "role": "assistant",
+          "content": "The fig.\n\nFINAL: The fig."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -1.9326807260513306,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07893764972686768,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.002552964026108384,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.6766111850738525,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -0.0014641269808635116,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.008914208970963955,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 174620208,
+        "load_duration": 1988458,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18610000,
+        "eval_count": 9,
+        "eval_duration": 152223000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -3.0412728615356173,
+        "mean_token_logprob": -0.38015910769195216,
+        "geometric_mean_token_probability": 0.6837526102575258,
+        "perplexity": 1.4625172686702639
+      },
+      "elapsed_seconds": 0.175
+    },
+    {
+      "index": 12,
+      "seed": 504908330,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:42.040026Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 190570167,
+        "load_duration": 1777167,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 22093000,
+        "eval_count": 9,
+        "eval_duration": 165115000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.191
+    },
+    {
+      "index": 13,
+      "seed": 504908331,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:42.232398Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 190823917,
+        "load_duration": 1860292,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 22498000,
+        "eval_count": 9,
+        "eval_duration": 164570000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.192
+    },
+    {
+      "index": 14,
+      "seed": 504908332,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:42.457036Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -1.669325351715088,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.1596611887216568,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.001897226320579648,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.272143691778183,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.00041964513366110623,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.011225046589970589,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 223011750,
+        "load_duration": 3491792,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 31391000,
+        "eval_count": 9,
+        "eval_duration": 185983000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.4547840317552527,
+        "mean_token_logprob": -0.3068480039694066,
+        "geometric_mean_token_probability": 0.7357624253767173,
+        "perplexity": 1.3591343693421019
+      },
+      "elapsed_seconds": 0.224
+    },
+    {
+      "index": 15,
+      "seed": 504908333,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:42.697368Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 238489166,
+        "load_duration": 1942958,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19347000,
+        "eval_count": 12,
+        "eval_duration": 215251000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.239
+    },
+    {
+      "index": 16,
+      "seed": 504908334,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:42.871464Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 172502250,
+        "load_duration": 1682458,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19748000,
+        "eval_count": 9,
+        "eval_duration": 149490000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.174
+    },
+    {
+      "index": 17,
+      "seed": 504908335,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:43.086869Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -1.669325351715088,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.1596611887216568,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.001897226320579648,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.272143691778183,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.00041964513366110623,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.011225046589970589,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 211577166,
+        "load_duration": 2332750,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 27812000,
+        "eval_count": 9,
+        "eval_duration": 179733000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.4547840317552527,
+        "mean_token_logprob": -0.3068480039694066,
+        "geometric_mean_token_probability": 0.7357624253767173,
+        "perplexity": 1.3591343693421019
+      },
+      "elapsed_seconds": 0.212
+    },
+    {
+      "index": 18,
+      "seed": 504908336,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:43.269348Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 179865875,
+        "load_duration": 1937959,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19279000,
+        "eval_count": 9,
+        "eval_duration": 157128000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.181
+    },
+    {
+      "index": 19,
+      "seed": 504908337,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:43.506553Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 235613666,
+        "load_duration": 1698708,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19243000,
+        "eval_count": 12,
+        "eval_duration": 212813000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.237
+    },
+    {
+      "index": 20,
+      "seed": 504908338,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:43.689791Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 180596667,
+        "load_duration": 2298334,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 25177000,
+        "eval_count": 9,
+        "eval_duration": 151519000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.182
+    },
+    {
+      "index": 21,
+      "seed": 504908339,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:43.926739Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 234071208,
+        "load_duration": 1782792,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19059000,
+        "eval_count": 12,
+        "eval_duration": 211533000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.235
+    },
+    {
+      "index": 22,
+      "seed": 504908340,
+      "status": "valid",
+      "reasoning": "The apple.",
+      "answer": "The apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:44.132902Z",
+        "message": {
+          "role": "assistant",
+          "content": "The apple.\n\nFINAL: The apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -1.699175477027893,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07104884833097458,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0015371926128864288,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.48927438259124756,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.004780674818903208,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.005676675587892532,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 202570875,
+        "load_duration": 2588167,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 21472000,
+        "eval_count": 9,
+        "eval_duration": 177005000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.611604894046991,
+        "mean_token_logprob": -0.32645061175587387,
+        "geometric_mean_token_probability": 0.7214800067994186,
+        "perplexity": 1.3860397940008529
+      },
+      "elapsed_seconds": 0.204
+    },
+    {
+      "index": 23,
+      "seed": 504908341,
+      "status": "valid",
+      "reasoning": "The forbidden fruit.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:44.315888Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.3948516845703125,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.014435510151088238,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -5.245222382654902e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.1711772084236145,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.39271432161331177,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 180902125,
+        "load_duration": 2117709,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 20565000,
+        "eval_count": 9,
+        "eval_duration": 156527000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -3.848841293728583,
+        "mean_token_logprob": -0.48110516171607287,
+        "geometric_mean_token_probability": 0.618099913837383,
+        "perplexity": 1.6178614130386235
+      },
+      "elapsed_seconds": 0.182
+    },
+    {
+      "index": 24,
+      "seed": 504908342,
+      "status": "valid",
+      "reasoning": "The fig.",
+      "answer": "The fig.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:44.492103Z",
+        "message": {
+          "role": "assistant",
+          "content": "The fig.\n\nFINAL: The fig."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -1.9326807260513306,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.07893764972686768,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.002552964026108384,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.9073504518019035e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.6766111850738525,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " fig",
+            "logprob": -0.0014641269808635116,
+            "bytes": [
+              32,
+              102,
+              105,
+              103
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.008914208970963955,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 172466375,
+        "load_duration": 1646833,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19208000,
+        "eval_count": 9,
+        "eval_duration": 149920000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -3.0412728615356173,
+        "mean_token_logprob": -0.38015910769195216,
+        "geometric_mean_token_probability": 0.6837526102575258,
+        "perplexity": 1.4625172686702639
+      },
+      "elapsed_seconds": 0.174
+    },
+    {
+      "index": 25,
+      "seed": 504908343,
+      "status": "valid",
+      "reasoning": "The forbidden fruit.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:44.667293Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -1.3948516845703125,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.014435510151088238,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -5.245222382654902e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.1711772084236145,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.39271432161331177,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 171298750,
+        "load_duration": 1928959,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19258000,
+        "eval_count": 9,
+        "eval_duration": 148487000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -3.848841293728583,
+        "mean_token_logprob": -0.48110516171607287,
+        "geometric_mean_token_probability": 0.618099913837383,
+        "perplexity": 1.6178614130386235
+      },
+      "elapsed_seconds": 0.172
+    },
+    {
+      "index": 26,
+      "seed": 504908344,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:44.901063Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 228690833,
+        "load_duration": 1936916,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 19222000,
+        "eval_count": 12,
+        "eval_duration": 205896000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.23
+    },
+    {
+      "index": 27,
+      "seed": 504908345,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:45.082664Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -1.669325351715088,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.1596611887216568,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.001897226320579648,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.272143691778183,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.00041964513366110623,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.011225046589970589,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 175795416,
+        "load_duration": 1912041,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18717000,
+        "eval_count": 9,
+        "eval_duration": 153407000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.4547840317552527,
+        "mean_token_logprob": -0.3068480039694066,
+        "geometric_mean_token_probability": 0.7357624253767173,
+        "perplexity": 1.3591343693421019
+      },
+      "elapsed_seconds": 0.177
+    },
+    {
+      "index": 28,
+      "seed": 504908346,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:45.314408Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 228655750,
+        "load_duration": 1917333,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18840000,
+        "eval_count": 12,
+        "eval_duration": 205764000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.23
+    },
+    {
+      "index": 29,
+      "seed": 504908347,
+      "status": "valid",
+      "reasoning": "The Apple.",
+      "answer": "The Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:45.49536Z",
+        "message": {
+          "role": "assistant",
+          "content": "The Apple.\n\nFINAL: The Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -1.669325351715088,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.1596611887216568,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.001897226320579648,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.7881409348774469e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " The",
+            "logprob": -0.272143691778183,
+            "bytes": [
+              32,
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.00041964513366110623,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.011225046589970589,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 177634625,
+        "load_duration": 2343709,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 23158000,
+        "eval_count": 9,
+        "eval_duration": 150272000
+      },
+      "logprob_metrics": {
+        "token_count": 8,
+        "sum_logprob": -2.4547840317552527,
+        "mean_token_logprob": -0.3068480039694066,
+        "geometric_mean_token_probability": 0.7357624253767173,
+        "perplexity": 1.3591343693421019
+      },
+      "elapsed_seconds": 0.179
+    },
+    {
+      "index": 30,
+      "seed": 504908348,
+      "status": "valid",
+      "reasoning": "The forbidden fruit was an apple.",
+      "answer": "Apple.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.1:latest",
+        "created_at": "2026-10-11T14:59:45.727375Z",
+        "message": {
+          "role": "assistant",
+          "content": "The forbidden fruit was an apple.\n\nFINAL: Apple."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "logprobs": [
+          {
+            "token": "The",
+            "logprob": -0.34011009335517883,
+            "bytes": [
+              84,
+              104,
+              101
+            ]
+          },
+          {
+            "token": " forbidden",
+            "logprob": -1.4810395240783691,
+            "bytes": [
+              32,
+              102,
+              111,
+              114,
+              98,
+              105,
+              100,
+              100,
+              101,
+              110
+            ]
+          },
+          {
+            "token": " fruit",
+            "logprob": -0.05450770631432533,
+            "bytes": [
+              32,
+              102,
+              114,
+              117,
+              105,
+              116
+            ]
+          },
+          {
+            "token": " was",
+            "logprob": -0.8744354844093323,
+            "bytes": [
+              32,
+              119,
+              97,
+              115
+            ]
+          },
+          {
+            "token": " an",
+            "logprob": -0.3720749616622925,
+            "bytes": [
+              32,
+              97,
+              110
+            ]
+          },
+          {
+            "token": " apple",
+            "logprob": -0.1931380331516266,
+            "bytes": [
+              32,
+              97,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".\n\n",
+            "logprob": -0.05943959578871727,
+            "bytes": [
+              46,
+              10,
+              10
+            ]
+          },
+          {
+            "token": "FINAL",
+            "logprob": -0.0038124185521155596,
+            "bytes": [
+              70,
+              73,
+              78,
+              65,
+              76
+            ]
+          },
+          {
+            "token": ":",
+            "logprob": -1.5497220147153712e-06,
+            "bytes": [
+              58
+            ]
+          },
+          {
+            "token": " Apple",
+            "logprob": -0.20292015373706818,
+            "bytes": [
+              32,
+              65,
+              112,
+              112,
+              108,
+              101
+            ]
+          },
+          {
+            "token": ".",
+            "logprob": -0.5769830942153931,
+            "bytes": [
+              46
+            ]
+          }
+        ],
+        "total_duration": 227842208,
+        "load_duration": 2241333,
+        "prompt_eval_count": 77,
+        "prompt_eval_cached_count": 76,
+        "prompt_eval_duration": 18897000,
+        "eval_count": 12,
+        "eval_duration": 204872000
+      },
+      "logprob_metrics": {
+        "token_count": 11,
+        "sum_logprob": -4.158462614986433,
+        "mean_token_logprob": -0.3780420559078576,
+        "geometric_mean_token_probability": 0.6852016832810479,
+        "perplexity": 1.4594243189998584
+      },
+      "elapsed_seconds": 0.229
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "votes": {
+      "the apple": 14,
+      "apple": 12,
+      "the fig": 4
+    },
+    "valid_samples": 30,
+    "attempted_samples": 30,
+    "excluded_samples": 0,
+    "plurality_answer": "the apple",
+    "tied_answers": [],
+    "majority_answer": null,
+    "winner_share_of_valid": 0.4666666666666667,
+    "winner_share_of_attempted": 0.4666666666666667
+  }
+}

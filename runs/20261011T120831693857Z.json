@@ -1,0 +1,368 @@
+{
+  "question": "Who was the mom of King David?",
+  "model": "llama3.2:latest",
+  "created_at": "2026-10-11T12:08:31.694358+00:00",
+  "settings": {
+    "samples": 10,
+    "temperature": 0.8,
+    "max_tokens": 1024,
+    "num_ctx": 4096,
+    "mode": "reason",
+    "thinking": "off"
+  },
+  "seed": 752578745,
+  "prompt": "Think through the question step by step before answering. Consider relevant facts and resolve possible ambiguities. Write your reasoning, then your final answer.\nUse the language of the question. End with exactly one line in this format: FINAL: <short answer only>. Do not put explanations or citations on that line. If you cannot answer, use FINAL: UNKNOWN.\n\nQuestion:\nWho was the mom of King David?",
+  "aliases": {},
+  "model_info": {
+    "thinking": {
+      "values": [
+        false
+      ],
+      "default": false
+    },
+    "license": "LLAMA 3.2 COMMUNITY LICENSE AGREEMENT\nLlama 3.2 Version Release Date: September 25, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution \nand modification of the Llama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.2\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are \nentering into this Agreement on such person or entity’s behalf), of the age required under\napplicable laws, rules or regulations to provide legal consent and that has legal authority\nto bind your employer or such other person or entity if you are entering in this Agreement\non their behalf.\n\n“Llama 3.2” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at \nhttps://www.llama.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.2 and Documentation (and \nany portion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, \nif you are an entity, your principal place of business is in the EEA or Switzerland) \nand Meta Platforms, Inc. (if you are located outside of the EEA or Switzerland). \n\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n\n1. License Rights and Redistribution.\n\n    a. Grant of Rights. You are granted a non-exclusive, worldwide, \nnon-transferable and royalty-free limited license under Meta’s intellectual property or other rights \nowned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works \nof, and make modifications to the Llama Materials.  \n\n    b. Redistribution and Use.  \n\n        i. If you distribute or make available the Llama Materials (or any derivative works thereof), \nor a product or service (including another AI model) that contains any of them, you shall (A) provide\na copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with Llama”\non a related website, user interface, blogpost, about page, or product documentation. If you use the\nLlama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama”\nat the beginning of any such AI model name.\n\n        ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part\nof an integrated end user product, then Section 2 of this Agreement will not apply to you. \n\n        iii. You must retain in all copies of the Llama Materials that you distribute the \nfollowing attribution notice within a “Notice” text file distributed as a part of such copies: \n“Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms,\nInc. All Rights Reserved.”\n\n        iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for\nthe Llama Materials (available at https://www.llama.com/llama3_2/use-policy), which is hereby \nincorporated by reference into this Agreement.\n  \n2. Additional Commercial Terms. If, on the Llama 3.2 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, \nis greater than 700 million monthly active users in the preceding calendar month, you must request \na license from Meta, which Meta may grant to you in its sole discretion, and you are not authorized to\nexercise any of the rights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY OUTPUT AND \nRESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, AND META DISCLAIMS\nALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES\nOF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE\nFOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED\nWITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF LIABILITY, \nWHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS AGREEMENT, \nFOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN \nIF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n    a. No trademark licenses are granted under this Agreement, and in connection with the Llama Materials, \nneither Meta nor Licensee may use any name or mark owned by or associated with the other or any of its affiliates, \nexcept as required for reasonable and customary use in describing and redistributing the Llama Materials or as \nset forth in this Section 5(a). Meta hereby grants you a license to use “Llama” (the “Mark”) solely as required \nto comply with the last sentence of Section 1.b.i. You will comply with Meta’s brand guidelines (currently accessible \nat https://about.meta.com/brand/resources/meta/company-brand/). All goodwill arising out of your use of the Mark \nwill inure to the benefit of Meta.\n\n    b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with respect to any\n    derivative works and modifications of the Llama Materials that are made by you, as between you and Meta,\n    you are and will be the owner of such derivative works and modifications.\n\n    c. If you institute litigation or other proceedings against Meta or any entity (including a cross-claim or\n    counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.2 outputs or results, or any portion\n    of any of the foregoing, constitutes infringement of intellectual property or other rights owned or licensable\n    by you, then any licenses granted to you under this Agreement shall terminate as of the date such litigation or\n    claim is filed or instituted. You will indemnify and hold harmless Meta from and against any claim by any third\n    party arising out of or related to your use or distribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this Agreement or access\nto the Llama Materials and will continue in full force and effect until terminated in accordance with the terms\nand conditions herein. Meta may terminate this Agreement if you are in breach of any term or condition of this\nAgreement. Upon termination of this Agreement, you shall delete and cease use of the Llama Materials. Sections 3,\n4 and 7 shall survive the termination of this Agreement. \n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of the State of \nCalifornia without regard to choice of law principles, and the UN Convention on Contracts for the International\nSale of Goods does not apply to this Agreement. The courts of California shall have exclusive jurisdiction of\nany dispute arising out of this Agreement.\n**Llama 3.2** **Acceptable Use Policy**\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.2. If you access or use Llama 3.2, you agree to this Acceptable Use Policy (“**Policy**”). The most recent copy of this policy can be found at [https://www.llama.com/llama3_2/use-policy](https://www.llama.com/llama3_2/use-policy).\n\n**Prohibited Uses**\n\nWe want everyone to use Llama 3.2 safely and responsibly. You agree you will not use, or allow others to use, Llama 3.2 to:\n\n\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    1. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    2. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    3. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    4. Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals’ identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law\n    5. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    6. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n    7. Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.2 related to the following:\n    8. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997\n    9. Guns and illegal weapons (including weapon development)\n    10. Illegal drugs and regulated/controlled substances\n    11. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    12. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    13. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n3. Intentionally deceive or mislead others, including use of Llama 3.2 related to the following:\n    14. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    15. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    16. Generating, promoting, or further distributing spam\n    17. Impersonating another individual without consent, authorization, or legal right\n    18. Representing that the use of Llama 3.2 or outputs are human-generated\n    19. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n5. Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Llama 3.2\n\nWith respect to any multimodal models included in Llama 3.2, the rights granted under Section 1(a) of the Llama 3.2 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union. This restriction does not apply to end users of a product or service that incorporates any such multimodal models.\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation of this Policy through one of the following means:\n\n\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://l.workplace.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama-models%2Fissues&h=AT0qV8W9BFT6NwihiOHRuKYQM_UnkzN_NmHMy91OT55gkLpgi4kQupHUl0ssR4dQsIQ8n3tfd0vtkobvsEvt1l4Ic6GXI2EeuHV8N08OG2WnbAmm0FL4ObkazC6G_256vN0lN9DsykCvCqGZ)\n* Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)\n* Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.2: LlamaUseReport@meta.com",
+    "modelfile": "# Modelfile generated by \"ollama show\"\n# To build a new Modelfile based on this, replace FROM with:\n# FROM llama3.2:latest\n\nFROM /Users/yon/.ollama/models/blobs/sha256-dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff\nTEMPLATE \"\"\"<|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\n\n{{ if .System }}{{ .System }}\n{{- end }}\n{{- if .Tools }}When you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\n{{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}\"\"\"\nPARAMETER stop <|start_header_id|>\nPARAMETER stop <|end_header_id|>\nPARAMETER stop <|eot_id|>\nLICENSE \"LLAMA 3.2 COMMUNITY LICENSE AGREEMENT\nLlama 3.2 Version Release Date: September 25, 2024\n\n“Agreement” means the terms and conditions for use, reproduction, distribution \nand modification of the Llama Materials set forth herein.\n\n“Documentation” means the specifications, manuals and documentation accompanying Llama 3.2\ndistributed by Meta at https://llama.meta.com/doc/overview.\n\n“Licensee” or “you” means you, or your employer or any other person or entity (if you are \nentering into this Agreement on such person or entity’s behalf), of the age required under\napplicable laws, rules or regulations to provide legal consent and that has legal authority\nto bind your employer or such other person or entity if you are entering in this Agreement\non their behalf.\n\n“Llama 3.2” means the foundational large language models and software and algorithms, including\nmachine-learning model code, trained model weights, inference-enabling code, training-enabling code,\nfine-tuning enabling code and other elements of the foregoing distributed by Meta at \nhttps://www.llama.com/llama-downloads.\n\n“Llama Materials” means, collectively, Meta’s proprietary Llama 3.2 and Documentation (and \nany portion thereof) made available under this Agreement.\n\n“Meta” or “we” means Meta Platforms Ireland Limited (if you are located in or, \nif you are an entity, your principal place of business is in the EEA or Switzerland) \nand Meta Platforms, Inc. (if you are located outside of the EEA or Switzerland). \n\n\nBy clicking “I Accept” below or by using or distributing any portion or element of the Llama Materials,\nyou agree to be bound by this Agreement.\n\n\n1. License Rights and Redistribution.\n\n    a. Grant of Rights. You are granted a non-exclusive, worldwide, \nnon-transferable and royalty-free limited license under Meta’s intellectual property or other rights \nowned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works \nof, and make modifications to the Llama Materials.  \n\n    b. Redistribution and Use.  \n\n        i. If you distribute or make available the Llama Materials (or any derivative works thereof), \nor a product or service (including another AI model) that contains any of them, you shall (A) provide\na copy of this Agreement with any such Llama Materials; and (B) prominently display “Built with Llama”\non a related website, user interface, blogpost, about page, or product documentation. If you use the\nLlama Materials or any outputs or results of the Llama Materials to create, train, fine tune, or\notherwise improve an AI model, which is distributed or made available, you shall also include “Llama”\nat the beginning of any such AI model name.\n\n        ii. If you receive Llama Materials, or any derivative works thereof, from a Licensee as part\nof an integrated end user product, then Section 2 of this Agreement will not apply to you. \n\n        iii. You must retain in all copies of the Llama Materials that you distribute the \nfollowing attribution notice within a “Notice” text file distributed as a part of such copies: \n“Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms,\nInc. All Rights Reserved.”\n\n        iv. Your use of the Llama Materials must comply with applicable laws and regulations\n(including trade compliance laws and regulations) and adhere to the Acceptable Use Policy for\nthe Llama Materials (available at https://www.llama.com/llama3_2/use-policy), which is hereby \nincorporated by reference into this Agreement.\n  \n2. Additional Commercial Terms. If, on the Llama 3.2 version release date, the monthly active users\nof the products or services made available by or for Licensee, or Licensee’s affiliates, \nis greater than 700 million monthly active users in the preceding calendar month, you must request \na license from Meta, which Meta may grant to you in its sole discretion, and you are not authorized to\nexercise any of the rights under this Agreement unless or until Meta otherwise expressly grants you such rights.\n\n3. Disclaimer of Warranty. UNLESS REQUIRED BY APPLICABLE LAW, THE LLAMA MATERIALS AND ANY OUTPUT AND \nRESULTS THEREFROM ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, AND META DISCLAIMS\nALL WARRANTIES OF ANY KIND, BOTH EXPRESS AND IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES\nOF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU ARE SOLELY RESPONSIBLE\nFOR DETERMINING THE APPROPRIATENESS OF USING OR REDISTRIBUTING THE LLAMA MATERIALS AND ASSUME ANY RISKS ASSOCIATED\nWITH YOUR USE OF THE LLAMA MATERIALS AND ANY OUTPUT AND RESULTS.\n\n4. Limitation of Liability. IN NO EVENT WILL META OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF LIABILITY, \nWHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR OTHERWISE, ARISING OUT OF THIS AGREEMENT, \nFOR ANY LOST PROFITS OR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN \nIF META OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE FOREGOING.\n\n5. Intellectual Property.\n\n    a. No trademark licenses are granted under this Agreement, and in connection with the Llama Materials, \nneither Meta nor Licensee may use any name or mark owned by or associated with the other or any of its affiliates, \nexcept as required for reasonable and customary use in describing and redistributing the Llama Materials or as \nset forth in this Section 5(a). Meta hereby grants you a license to use “Llama” (the “Mark”) solely as required \nto comply with the last sentence of Section 1.b.i. You will comply with Meta’s brand guidelines (currently accessible \nat https://about.meta.com/brand/resources/meta/company-brand/). All goodwill arising out of your use of the Mark \nwill inure to the benefit of Meta.\n\n    b. Subject to Meta’s ownership of Llama Materials and derivatives made by or for Meta, with respect to any\n    derivative works and modifications of the Llama Materials that are made by you, as between you and Meta,\n    you are and will be the owner of such derivative works and modifications.\n\n    c. If you institute litigation or other proceedings against Meta or any entity (including a cross-claim or\n    counterclaim in a lawsuit) alleging that the Llama Materials or Llama 3.2 outputs or results, or any portion\n    of any of the foregoing, constitutes infringement of intellectual property or other rights owned or licensable\n    by you, then any licenses granted to you under this Agreement shall terminate as of the date such litigation or\n    claim is filed or instituted. You will indemnify and hold harmless Meta from and against any claim by any third\n    party arising out of or related to your use or distribution of the Llama Materials.\n\n6. Term and Termination. The term of this Agreement will commence upon your acceptance of this Agreement or access\nto the Llama Materials and will continue in full force and effect until terminated in accordance with the terms\nand conditions herein. Meta may terminate this Agreement if you are in breach of any term or condition of this\nAgreement. Upon termination of this Agreement, you shall delete and cease use of the Llama Materials. Sections 3,\n4 and 7 shall survive the termination of this Agreement. \n\n7. Governing Law and Jurisdiction. This Agreement will be governed and construed under the laws of the State of \nCalifornia without regard to choice of law principles, and the UN Convention on Contracts for the International\nSale of Goods does not apply to this Agreement. The courts of California shall have exclusive jurisdiction of\nany dispute arising out of this Agreement.\"\nLICENSE \"**Llama 3.2** **Acceptable Use Policy**\n\nMeta is committed to promoting safe and fair use of its tools and features, including Llama 3.2. If you access or use Llama 3.2, you agree to this Acceptable Use Policy (“**Policy**”). The most recent copy of this policy can be found at [https://www.llama.com/llama3_2/use-policy](https://www.llama.com/llama3_2/use-policy).\n\n**Prohibited Uses**\n\nWe want everyone to use Llama 3.2 safely and responsibly. You agree you will not use, or allow others to use, Llama 3.2 to:\n\n\n\n1. Violate the law or others’ rights, including to:\n    1. Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:\n        1. Violence or terrorism\n        2. Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material\n        3. Human trafficking, exploitation, and sexual violence\n        4. The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials.\n        5. Sexual solicitation\n        6. Any other criminal activity\n    1. Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals\n    2. Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services\n    3. Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices\n    4. Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals’ identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law\n    5. Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using the Llama Materials\n    6. Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system\n    7. Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta\n2. Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Llama 3.2 related to the following:\n    8. Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997\n    9. Guns and illegal weapons (including weapon development)\n    10. Illegal drugs and regulated/controlled substances\n    11. Operation of critical infrastructure, transportation technologies, or heavy machinery\n    12. Self-harm or harm to others, including suicide, cutting, and eating disorders\n    13. Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual\n3. Intentionally deceive or mislead others, including use of Llama 3.2 related to the following:\n    14. Generating, promoting, or furthering fraud or the creation or promotion of disinformation\n    15. Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content\n    16. Generating, promoting, or further distributing spam\n    17. Impersonating another individual without consent, authorization, or legal right\n    18. Representing that the use of Llama 3.2 or outputs are human-generated\n    19. Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement\n4. Fail to appropriately disclose to end users any known dangers of your AI system\n5. Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Llama 3.2\n\nWith respect to any multimodal models included in Llama 3.2, the rights granted under Section 1(a) of the Llama 3.2 Community License Agreement are not being granted to you if you are an individual domiciled in, or a company with a principal place of business in, the European Union. This restriction does not apply to end users of a product or service that incorporates any such multimodal models.\n\nPlease report any violation of this Policy, software “bug,” or other problems that could lead to a violation of this Policy through one of the following means:\n\n\n\n* Reporting issues with the model: [https://github.com/meta-llama/llama-models/issues](https://l.workplace.com/l.php?u=https%3A%2F%2Fgithub.com%2Fmeta-llama%2Fllama-models%2Fissues&h=AT0qV8W9BFT6NwihiOHRuKYQM_UnkzN_NmHMy91OT55gkLpgi4kQupHUl0ssR4dQsIQ8n3tfd0vtkobvsEvt1l4Ic6GXI2EeuHV8N08OG2WnbAmm0FL4ObkazC6G_256vN0lN9DsykCvCqGZ)\n* Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)\n* Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)\n* Reporting violations of the Acceptable Use Policy or unlicensed uses of Llama 3.2: LlamaUseReport@meta.com\"\n",
+    "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+    "template": "<|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\n\n{{ if .System }}{{ .System }}\n{{- end }}\n{{- if .Tools }}When you receive a tool call response, use the output to format an answer to the orginal user question.\n\nYou are a helpful assistant with tool calling capabilities.\n{{- end }}<|eot_id|>\n{{- range $i, $_ := .Messages }}\n{{- $last := eq (len (slice $.Messages $i)) 1 }}\n{{- if eq .Role \"user\" }}<|start_header_id|>user<|end_header_id|>\n{{- if and $.Tools $last }}\n\nGiven the following functions, please respond with a JSON for a function call with its proper arguments that best answers the given prompt.\n\nRespond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}. Do not use variables.\n\n{{ range $.Tools }}\n{{- . }}\n{{ end }}\n{{ .Content }}<|eot_id|>\n{{- else }}\n\n{{ .Content }}<|eot_id|>\n{{- end }}{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- else if eq .Role \"assistant\" }}<|start_header_id|>assistant<|end_header_id|>\n{{- if .ToolCalls }}\n{{ range .ToolCalls }}\n{\"name\": \"{{ .Function.Name }}\", \"parameters\": {{ .Function.Arguments }}}{{ end }}\n{{- else }}\n\n{{ .Content }}\n{{- end }}{{ if not $last }}<|eot_id|>{{ end }}\n{{- else if eq .Role \"tool\" }}<|start_header_id|>ipython<|end_header_id|>\n\n{{ .Content }}<|eot_id|>{{ if $last }}<|start_header_id|>assistant<|end_header_id|>\n\n{{ end }}\n{{- end }}\n{{- end }}",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "3.2B",
+      "quantization_level": "Q4_K_M"
+    },
+    "model_info": {
+      "general.architecture": "llama",
+      "general.basename": "Llama-3.2",
+      "general.file_type": 15,
+      "general.finetune": "Instruct",
+      "general.languages": [
+        "en",
+        "de",
+        "fr",
+        "it",
+        "pt",
+        "hi",
+        "es",
+        "th"
+      ],
+      "general.parameter_count": 3212749888,
+      "general.quantization_version": 2,
+      "general.size_label": "3B",
+      "general.tags": [
+        "facebook",
+        "meta",
+        "pytorch",
+        "llama",
+        "llama-3",
+        "text-generation"
+      ],
+      "general.type": "model",
+      "llama.attention.head_count": 24,
+      "llama.attention.head_count_kv": 8,
+      "llama.attention.key_length": 128,
+      "llama.attention.layer_norm_rms_epsilon": 1e-05,
+      "llama.attention.value_length": 128,
+      "llama.block_count": 28,
+      "llama.context_length": 131072,
+      "llama.embedding_length": 3072,
+      "llama.feed_forward_length": 8192,
+      "llama.rope.dimension_count": 128,
+      "llama.rope.freq_base": 500000,
+      "llama.vocab_size": 128256,
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009,
+      "tokenizer.ggml.merges": [],
+      "tokenizer.ggml.model": "gpt2",
+      "tokenizer.ggml.pre": "llama-bpe",
+      "tokenizer.ggml.token_type": [],
+      "tokenizer.ggml.tokens": []
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "modified_at": "2024-09-30T14:41:37.220462494+03:00"
+  },
+  "samples": [
+    {
+      "index": 1,
+      "seed": 752578745,
+      "status": "abstained",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's parents. In the Bible, King David is described as the son of Jesse, a sheep breeder from the tribe of Judah.\n\nThe Bible specifically states that King David was the son of Jesse, not his mother. There is no mention of David's mother in the biblical account.\n\nTherefore, based on the biblical account, we can conclude that King David did not have a known mother.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:34.289376Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's parents. In the Bible, King David is described as the son of Jesse, a sheep breeder from the tribe of Judah.\n\nThe Bible specifically states that King David was the son of Jesse, not his mother. There is no mention of David's mother in the biblical account.\n\nTherefore, based on the biblical account, we can conclude that King David did not have a known mother.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2594027750,
+        "load_duration": 1583168125,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 105488000,
+        "eval_count": 98,
+        "eval_duration": 903705000
+      },
+      "elapsed_seconds": 2.596
+    },
+    {
+      "index": 2,
+      "seed": 752578746,
+      "status": "abstained",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's family. According to the Bible, King David was the son of Jesse, who was the son of Obed, who was the son of Boaz, who was the son of Salmon, who was the son of Nahshon, who was the son of Amminadab, who was the son of Ram, who was the son of Avimelech, who was the son of Isaac, who was the son of Abraham.\n\nHowever, the Bible does not specifically mention King David's mother. It does mention that David was born in Bethlehem, which suggests that his mother may have been a woman from that area, but it does not provide her name.\n\nConsidering the lack of specific information about King David's mother, we cannot accurately identify who she was.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:35.905685Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's family. According to the Bible, King David was the son of Jesse, who was the son of Obed, who was the son of Boaz, who was the son of Salmon, who was the son of Nahshon, who was the son of Amminadab, who was the son of Ram, who was the son of Avimelech, who was the son of Isaac, who was the son of Abraham.\n\nHowever, the Bible does not specifically mention King David's mother. It does mention that David was born in Bethlehem, which suggests that his mother may have been a woman from that area, but it does not provide her name.\n\nConsidering the lack of specific information about King David's mother, we cannot accurately identify who she was.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1612763541,
+        "load_duration": 1827791,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 9909000,
+        "eval_count": 172,
+        "eval_duration": 1599757000
+      },
+      "elapsed_seconds": 1.614
+    },
+    {
+      "index": 3,
+      "seed": 752578747,
+      "status": "abstained",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's family. According to the Bible, King David was the son of Jesse, a sheep breeder from Bethlehem. \n\nHowever, Jesse had multiple sons, and the Bible doesn't specify which one was chosen by God to become the king. The most prominent son of Jesse is often referred to as David, and he was chosen by God to become the second king of Israel.\n\nBut, the Bible does mention David's mother. In 1 Samuel 16:1-13, it is written that Samuel went to Jesse's house to anoint the next king of Israel, but instead, he found Jesse's sons to be not the ones God was looking for. Then, he went to the youngest son, David, who was tending the sheep. When Samuel saw David, he anointed him as the next king of Israel. According to 1 Samuel 27:3, David's mother is not specifically named in the Bible, but she is referred to as a woman from the town of Bethlehem who had a son named David.\n\nTherefore, based on the biblical account, the mom of King David is not explicitly named, but she is a woman from Bethlehem who had a son named David.",
+      "answer": "UNKNOWN",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:38.34129Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's family. According to the Bible, King David was the son of Jesse, a sheep breeder from Bethlehem. \n\nHowever, Jesse had multiple sons, and the Bible doesn't specify which one was chosen by God to become the king. The most prominent son of Jesse is often referred to as David, and he was chosen by God to become the second king of Israel.\n\nBut, the Bible does mention David's mother. In 1 Samuel 16:1-13, it is written that Samuel went to Jesse's house to anoint the next king of Israel, but instead, he found Jesse's sons to be not the ones God was looking for. Then, he went to the youngest son, David, who was tending the sheep. When Samuel saw David, he anointed him as the next king of Israel. According to 1 Samuel 27:3, David's mother is not specifically named in the Bible, but she is referred to as a woman from the town of Bethlehem who had a son named David.\n\nTherefore, based on the biblical account, the mom of King David is not explicitly named, but she is a woman from Bethlehem who had a son named David.\n\nFINAL: UNKNOWN"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2432539333,
+        "load_duration": 1712042,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10810000,
+        "eval_count": 259,
+        "eval_duration": 2416295000
+      },
+      "elapsed_seconds": 2.434
+    },
+    {
+      "index": 4,
+      "seed": 752578748,
+      "status": "valid",
+      "reasoning": "To determine who the mom of King David was, we need to look at the biblical account of his birth and family. According to the Bible, King David was born to Jesse, a descendant of the tribe of Judah, and his wife, who is often referred to as \"the mother of King David.\" However, her name is not explicitly mentioned in the biblical account.\n\nIn 1 Samuel 16:1-13, it is written that Jesse had an older son named Eliab, but David was the one chosen by God to be king. The Bible then describes the birth of David to Jesse, stating that he had other sons, but they were not the ones chosen by God (1 Samuel 16:8-12).\n\nDespite the lack of information about David's mother's name, the biblical account does provide some clues about her identity. In 1 Samuel 25:43, it is written that David's three sons were born to him with his wife, Michal, who was the daughter of King Saul. However, Michal was not David's biological mother.\n\nIn 2 Samuel 3:3, it is written that David's son Amnon was born to him with his wife, also Michal. However, again, Michal was not David's biological mother.\n\nThe only clue to David's mother's identity comes from the genealogy of King David, which is found in 1 Chronicles 3:5. According to this account, David had a son named Amnon, then another son named Absalom, and then another son named Adonijah. However, the genealogy does not explicitly state the names of David's parents.\n\nBased on the biblical account, it can be inferred that David's mother was a woman named Hannah, who was the wife of Jesse, David's father. However, this inference is not explicitly stated in the Bible.",
+      "answer": "Hannah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:41.966473Z",
+        "message": {
+          "role": "assistant",
+          "content": "To determine who the mom of King David was, we need to look at the biblical account of his birth and family. According to the Bible, King David was born to Jesse, a descendant of the tribe of Judah, and his wife, who is often referred to as \"the mother of King David.\" However, her name is not explicitly mentioned in the biblical account.\n\nIn 1 Samuel 16:1-13, it is written that Jesse had an older son named Eliab, but David was the one chosen by God to be king. The Bible then describes the birth of David to Jesse, stating that he had other sons, but they were not the ones chosen by God (1 Samuel 16:8-12).\n\nDespite the lack of information about David's mother's name, the biblical account does provide some clues about her identity. In 1 Samuel 25:43, it is written that David's three sons were born to him with his wife, Michal, who was the daughter of King Saul. However, Michal was not David's biological mother.\n\nIn 2 Samuel 3:3, it is written that David's son Amnon was born to him with his wife, also Michal. However, again, Michal was not David's biological mother.\n\nThe only clue to David's mother's identity comes from the genealogy of King David, which is found in 1 Chronicles 3:5. According to this account, David had a son named Amnon, then another son named Absalom, and then another son named Adonijah. However, the genealogy does not explicitly state the names of David's parents.\n\nBased on the biblical account, it can be inferred that David's mother was a woman named Hannah, who was the wife of Jesse, David's father. However, this inference is not explicitly stated in the Bible.\n\nFINAL: Hannah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 3622003208,
+        "load_duration": 1798541,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10648000,
+        "eval_count": 385,
+        "eval_duration": 3604701000
+      },
+      "elapsed_seconds": 3.623
+    },
+    {
+      "index": 5,
+      "seed": 752578749,
+      "status": "abstained",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's family. The Bible states that King David was born to Jesse, a shepherd from Bethlehem, and his wife, who is not specifically named.\n\nHowever, Jesse had several sons, and the Bible does not specifically identify which one became King David. According to the biblical account in 1 Samuel 16:1-13, Jesse's sons were asked by King Saul if he had any other sons, but each of them was rejected as a potential replacement. When the prophet Samuel came to Jesse, Jesse sent the sons to be with King Saul, but when Samuel arrived, Jesse's youngest son, David, was not among them.\n\nIt is implied that David was still living at home with his father, Jesse. Later, when King Saul went to David's home, Jesse's wife is not mentioned as being present.\n\nBased on this information, we cannot identify a specific woman as the mother of King David, as she is not named in the biblical account.",
+      "answer": "UNKNOWN.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:43.957619Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's family. The Bible states that King David was born to Jesse, a shepherd from Bethlehem, and his wife, who is not specifically named.\n\nHowever, Jesse had several sons, and the Bible does not specifically identify which one became King David. According to the biblical account in 1 Samuel 16:1-13, Jesse's sons were asked by King Saul if he had any other sons, but each of them was rejected as a potential replacement. When the prophet Samuel came to Jesse, Jesse sent the sons to be with King Saul, but when Samuel arrived, Jesse's youngest son, David, was not among them.\n\nIt is implied that David was still living at home with his father, Jesse. Later, when King Saul went to David's home, Jesse's wife is not mentioned as being present.\n\nBased on this information, we cannot identify a specific woman as the mother of King David, as she is not named in the biblical account.\n\nFINAL: UNKNOWN."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1987869042,
+        "load_duration": 1805584,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10730000,
+        "eval_count": 211,
+        "eval_duration": 1969222000
+      },
+      "elapsed_seconds": 1.989
+    },
+    {
+      "index": 6,
+      "seed": 752578750,
+      "status": "abstained",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's parents. The Bible states that King David was the son of Jesse, a sheep farmer from Bethlehem. However, it does not provide a specific name for Jesse's wife, who would be King David's mother.\n\nIn the biblical account, when King Saul was searching for his son David, he met Jesse and asked him to provide a son for him to test. Jesse had eight sons, and when Saul was testing them one by one, he was told that one of Jesse's sons would be the king of Israel. When Saul came to Jesse's youngest son, David, he was told that he was the one he was looking for.\n\nAlthough the Bible does not explicitly name King David's mother, it is often assumed to be a woman named Hannah, based on 1 Samuel 1:2-20, which tells the story of Hannah's childlessness and her prayer to God for a son. However, this is not explicitly stated in the account of King David's parents.\n\nGiven this information, we can conclude that we do not know the name of King David's mother, but it is often inferred to be a woman named Hannah.",
+      "answer": "UNKNOWN.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:46.30446Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's parents. The Bible states that King David was the son of Jesse, a sheep farmer from Bethlehem. However, it does not provide a specific name for Jesse's wife, who would be King David's mother.\n\nIn the biblical account, when King Saul was searching for his son David, he met Jesse and asked him to provide a son for him to test. Jesse had eight sons, and when Saul was testing them one by one, he was told that one of Jesse's sons would be the king of Israel. When Saul came to Jesse's youngest son, David, he was told that he was the one he was looking for.\n\nAlthough the Bible does not explicitly name King David's mother, it is often assumed to be a woman named Hannah, based on 1 Samuel 1:2-20, which tells the story of Hannah's childlessness and her prayer to God for a son. However, this is not explicitly stated in the account of King David's parents.\n\nGiven this information, we can conclude that we do not know the name of King David's mother, but it is often inferred to be a woman named Hannah.\n\nFINAL: UNKNOWN."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 2344058000,
+        "load_duration": 1790667,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10650000,
+        "eval_count": 249,
+        "eval_duration": 2327256000
+      },
+      "elapsed_seconds": 2.345
+    },
+    {
+      "index": 7,
+      "seed": 752578751,
+      "status": "valid",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's family. The Bible mentions King David's father, Jesse, and his brothers, but not his mother.\n\nHowever, the Bible does mention King David's family through his mother's line. King David was a member of the tribe of Judah and a descendant of King Saul, who was the son of Kish and the father of Jonathan and Ishbiab.\n\nAccording to the Bible, King David's mother was a woman named Hannah. She was the wife of Jesse and the mother of King David, who was the youngest of eight sons born to Jesse and Hannah (1 Samuel 16:1-2).\n\nTherefore, based on the biblical account, the mom of King David was Hannah.",
+      "answer": "Hannah.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:47.812001Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's family. The Bible mentions King David's father, Jesse, and his brothers, but not his mother.\n\nHowever, the Bible does mention King David's family through his mother's line. King David was a member of the tribe of Judah and a descendant of King Saul, who was the son of Kish and the father of Jonathan and Ishbiab.\n\nAccording to the Bible, King David's mother was a woman named Hannah. She was the wife of Jesse and the mother of King David, who was the youngest of eight sons born to Jesse and Hannah (1 Samuel 16:1-2).\n\nTherefore, based on the biblical account, the mom of King David was Hannah.\n\nFINAL: Hannah."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1505264542,
+        "load_duration": 1831375,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10201000,
+        "eval_count": 159,
+        "eval_duration": 1487346000
+      },
+      "elapsed_seconds": 1.506
+    },
+    {
+      "index": 8,
+      "seed": 752578752,
+      "status": "abstained",
+      "reasoning": "To determine the mother of King David, we need to look at the biblical account. According to the Bible, King David was the son of Jesse, a man from Bethlehem. The Bible also mentions an unnamed \"mother\" in 2 Samuel 3:3, who is said to be the mother of David.\n\nHowever, the Bible does not provide a specific name for King David's mother. The name of King David's father, Jesse, is known, but not his mother's.\n\nGiven this information, we can conclude that the mother of King David is not explicitly named in the Bible.",
+      "answer": "UNKNOWN.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:48.988687Z",
+        "message": {
+          "role": "assistant",
+          "content": "To determine the mother of King David, we need to look at the biblical account. According to the Bible, King David was the son of Jesse, a man from Bethlehem. The Bible also mentions an unnamed \"mother\" in 2 Samuel 3:3, who is said to be the mother of David.\n\nHowever, the Bible does not provide a specific name for King David's mother. The name of King David's father, Jesse, is known, but not his mother's.\n\nGiven this information, we can conclude that the mother of King David is not explicitly named in the Bible.\n\nFINAL: UNKNOWN."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1173177958,
+        "load_duration": 1790125,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10631000,
+        "eval_count": 124,
+        "eval_duration": 1156721000
+      },
+      "elapsed_seconds": 1.174
+    },
+    {
+      "index": 9,
+      "seed": 752578753,
+      "status": "valid",
+      "reasoning": "To determine the mother of King David, we need to recall the biblical account of his early life. The Bible states that King David was born to Jesse, a Bethlehemite, and his wife. \n\nWe know this because the Bible explicitly mentions Jesse as King David's father in 1 Samuel 16:1-13, which tells the story of how David was chosen to be the next king of Israel.\n\nSince we know Jesse was King David's father, we can infer that his wife was King David's mother.\n\nTherefore, based on the biblical account, the mother of King David was his wife, but the question does not specify who she was.",
+      "answer": "JESSICA",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:50.287836Z",
+        "message": {
+          "role": "assistant",
+          "content": "To determine the mother of King David, we need to recall the biblical account of his early life. The Bible states that King David was born to Jesse, a Bethlehemite, and his wife. \n\nWe know this because the Bible explicitly mentions Jesse as King David's father in 1 Samuel 16:1-13, which tells the story of how David was chosen to be the next king of Israel.\n\nSince we know Jesse was King David's father, we can infer that his wife was King David's mother.\n\nTherefore, based on the biblical account, the mother of King David was his wife, but the question does not specify who she was.\n\nFINAL: JESSICA"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 1295598208,
+        "load_duration": 1719000,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10067000,
+        "eval_count": 137,
+        "eval_duration": 1280707000
+      },
+      "elapsed_seconds": 1.297
+    },
+    {
+      "index": 10,
+      "seed": 752578754,
+      "status": "valid",
+      "reasoning": "To answer this question, we need to consider the biblical account of King David's family.\n\nAccording to the Bible, King David was the son of Jesse, not a woman. Jesse had eight sons, and David was the youngest.\n\nTherefore, based on the information provided by the Bible, the answer to the question is:",
+      "answer": "Jesse.",
+      "native_thinking": "",
+      "raw_response": {
+        "model": "llama3.2:latest",
+        "created_at": "2026-10-11T12:08:50.944213Z",
+        "message": {
+          "role": "assistant",
+          "content": "To answer this question, we need to consider the biblical account of King David's family.\n\nAccording to the Bible, King David was the son of Jesse, not a woman. Jesse had eight sons, and David was the youngest.\n\nTherefore, based on the information provided by the Bible, the answer to the question is:\n\nFINAL: Jesse."
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 652717084,
+        "load_duration": 1827417,
+        "prompt_eval_count": 106,
+        "prompt_eval_cached_count": 105,
+        "prompt_eval_duration": 10103000,
+        "eval_count": 69,
+        "eval_duration": 637066000
+      },
+      "elapsed_seconds": 0.654
+    }
+  ],
+  "complete": true,
+  "summary": {
+    "votes": {
+      "hannah": 2,
+      "jessica": 1,
+      "jesse": 1
+    },
+    "valid_samples": 4,
+    "attempted_samples": 10,
+    "excluded_samples": 6,
+    "plurality_answer": "hannah",
+    "tied_answers": [],
+    "majority_answer": null,
+    "winner_share_of_valid": 0.5,
+    "winner_share_of_attempted": 0.2
+  }
+}

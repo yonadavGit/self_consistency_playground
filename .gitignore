@@ -1,0 +1,18 @@
+# Copyrighted reference books and their extracted text / page images
+*.pdf
+
+# Temporary extraction, previews, and local QA output
+tmp/
+
+# Local Python and editor state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example

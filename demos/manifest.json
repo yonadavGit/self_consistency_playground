@@ -1,0 +1,534 @@
+[
+  {
+    "id": "akiva",
+    "target": "40",
+    "runs": [
+      {
+        "file": "runs/20261011T163951981371Z.json",
+        "seed": 1028498544,
+        "target_count": 0,
+        "attempts": 30,
+        "command": "python main.py 'Accroding to tradition, at what age did R Akiva start learing Torah?' --model llama3.1:latest --mode direct -n 30 --seed 1028498544 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --aliases demos/akiva-aliases.json --verbose",
+        "target_samples": []
+      },
+      {
+        "file": "runs/20261011T164004145264Z.json",
+        "seed": 270350594,
+        "target_count": 23,
+        "attempts": 30,
+        "command": "python main.py 'Accroding to tradition, at what age did R Akiva start learing Torah?' --model llama3.1:latest --mode reason -n 30 --seed 270350594 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --aliases demos/akiva-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 3,
+            "seed": 270350596,
+            "answer": "40"
+          },
+          {
+            "index": 5,
+            "seed": 270350598,
+            "answer": "40"
+          },
+          {
+            "index": 6,
+            "seed": 270350599,
+            "answer": "40."
+          },
+          {
+            "index": 7,
+            "seed": 270350600,
+            "answer": "40"
+          },
+          {
+            "index": 8,
+            "seed": 270350601,
+            "answer": "40."
+          },
+          {
+            "index": 9,
+            "seed": 270350602,
+            "answer": "40"
+          },
+          {
+            "index": 10,
+            "seed": 270350603,
+            "answer": "40"
+          },
+          {
+            "index": 11,
+            "seed": 270350604,
+            "answer": "40"
+          },
+          {
+            "index": 12,
+            "seed": 270350605,
+            "answer": "40"
+          },
+          {
+            "index": 13,
+            "seed": 270350606,
+            "answer": "40"
+          },
+          {
+            "index": 14,
+            "seed": 270350607,
+            "answer": "40"
+          },
+          {
+            "index": 15,
+            "seed": 270350608,
+            "answer": "40."
+          },
+          {
+            "index": 16,
+            "seed": 270350609,
+            "answer": "40"
+          },
+          {
+            "index": 17,
+            "seed": 270350610,
+            "answer": "40"
+          },
+          {
+            "index": 18,
+            "seed": 270350611,
+            "answer": "40"
+          },
+          {
+            "index": 19,
+            "seed": 270350612,
+            "answer": "40."
+          },
+          {
+            "index": 20,
+            "seed": 270350613,
+            "answer": "40"
+          },
+          {
+            "index": 22,
+            "seed": 270350615,
+            "answer": "40."
+          },
+          {
+            "index": 23,
+            "seed": 270350616,
+            "answer": "40"
+          },
+          {
+            "index": 24,
+            "seed": 270350617,
+            "answer": "40"
+          },
+          {
+            "index": 26,
+            "seed": 270350619,
+            "answer": "40."
+          },
+          {
+            "index": 28,
+            "seed": 270350621,
+            "answer": "40"
+          },
+          {
+            "index": 30,
+            "seed": 270350623,
+            "answer": "40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hillel",
+    "target": "shammai",
+    "runs": [
+      {
+        "file": "runs/20261012T152110726958Z.json",
+        "seed": 152597361,
+        "target_count": 7,
+        "attempts": 30,
+        "command": "python main.py 'Who was the peer of Hillel?' --model llama3.1:latest --mode direct -n 30 --seed 152597361 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --aliases demos/hillel-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 8,
+            "seed": 152597368,
+            "answer": "Shammai."
+          },
+          {
+            "index": 9,
+            "seed": 152597369,
+            "answer": "Shamai."
+          },
+          {
+            "index": 10,
+            "seed": 152597370,
+            "answer": "Shammai."
+          },
+          {
+            "index": 17,
+            "seed": 152597377,
+            "answer": "Shammai."
+          },
+          {
+            "index": 19,
+            "seed": 152597379,
+            "answer": "Shamai"
+          },
+          {
+            "index": 24,
+            "seed": 152597384,
+            "answer": "Shammai"
+          },
+          {
+            "index": 26,
+            "seed": 152597386,
+            "answer": "Shamai."
+          }
+        ]
+      },
+      {
+        "file": "runs/20261012T152145651599Z.json",
+        "seed": 125595393,
+        "target_count": 26,
+        "attempts": 30,
+        "command": "python main.py 'Who was the peer of Hillel?' --model llama3.1:latest --mode reason -n 30 --seed 125595393 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --aliases demos/hillel-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 1,
+            "seed": 125595393,
+            "answer": "Shammai."
+          },
+          {
+            "index": 2,
+            "seed": 125595394,
+            "answer": "Shammai."
+          },
+          {
+            "index": 3,
+            "seed": 125595395,
+            "answer": "Shammai."
+          },
+          {
+            "index": 4,
+            "seed": 125595396,
+            "answer": "Shammai."
+          },
+          {
+            "index": 5,
+            "seed": 125595397,
+            "answer": "Shammai."
+          },
+          {
+            "index": 7,
+            "seed": 125595399,
+            "answer": "Shammai."
+          },
+          {
+            "index": 9,
+            "seed": 125595401,
+            "answer": "Shammai."
+          },
+          {
+            "index": 10,
+            "seed": 125595402,
+            "answer": "Shammai."
+          },
+          {
+            "index": 11,
+            "seed": 125595403,
+            "answer": "Shammai."
+          },
+          {
+            "index": 12,
+            "seed": 125595404,
+            "answer": "Shammai."
+          },
+          {
+            "index": 13,
+            "seed": 125595405,
+            "answer": "Shammai"
+          },
+          {
+            "index": 14,
+            "seed": 125595406,
+            "answer": "Shammai."
+          },
+          {
+            "index": 15,
+            "seed": 125595407,
+            "answer": "Shammai."
+          },
+          {
+            "index": 16,
+            "seed": 125595408,
+            "answer": "Shammai."
+          },
+          {
+            "index": 17,
+            "seed": 125595409,
+            "answer": "Shammai."
+          },
+          {
+            "index": 18,
+            "seed": 125595410,
+            "answer": "Shammai."
+          },
+          {
+            "index": 19,
+            "seed": 125595411,
+            "answer": "Shammai."
+          },
+          {
+            "index": 22,
+            "seed": 125595414,
+            "answer": "Shammai."
+          },
+          {
+            "index": 23,
+            "seed": 125595415,
+            "answer": "Shammai"
+          },
+          {
+            "index": 24,
+            "seed": 125595416,
+            "answer": "Shammai"
+          },
+          {
+            "index": 25,
+            "seed": 125595417,
+            "answer": "Shammai."
+          },
+          {
+            "index": 26,
+            "seed": 125595418,
+            "answer": "Shammai."
+          },
+          {
+            "index": 27,
+            "seed": 125595419,
+            "answer": "Shammai."
+          },
+          {
+            "index": 28,
+            "seed": 125595420,
+            "answer": "Shammai."
+          },
+          {
+            "index": 29,
+            "seed": 125595421,
+            "answer": "Shammai."
+          },
+          {
+            "index": 30,
+            "seed": 125595422,
+            "answer": "Shammai."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abraham",
+    "target": "amathlai",
+    "runs": [
+      {
+        "file": "runs/abraham-fresh-60/direct.json",
+        "seed": 842617000,
+        "target_count": 3,
+        "attempts": 60,
+        "command": "python main.py 'Who was the Abraham'\"'\"'s mom according to Jewish tradition?' --model llama3.1:latest --mode direct -n 60 --seed 842617000 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --logprobs --aliases demos/abraham-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 36,
+            "seed": 842617035,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 37,
+            "seed": 842617036,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 57,
+            "seed": 842617056,
+            "answer": "Amathlai."
+          }
+        ]
+      },
+      {
+        "file": "runs/abraham-fresh-60/reason.json",
+        "seed": 842617000,
+        "target_count": 20,
+        "attempts": 60,
+        "command": "python main.py 'Who was the Abraham'\"'\"'s mom according to Jewish tradition?' --model llama3.1:latest --mode reason -n 60 --seed 842617000 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --logprobs --aliases demos/abraham-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 5,
+            "seed": 842617004,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 10,
+            "seed": 842617009,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 12,
+            "seed": 842617011,
+            "answer": "Amethlai (or Amathlai)"
+          },
+          {
+            "index": 13,
+            "seed": 842617012,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 18,
+            "seed": 842617017,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 19,
+            "seed": 842617018,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 20,
+            "seed": 842617019,
+            "answer": "Amathlai."
+          },
+          {
+            "index": 26,
+            "seed": 842617025,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 27,
+            "seed": 842617026,
+            "answer": "Amathlai."
+          },
+          {
+            "index": 28,
+            "seed": 842617027,
+            "answer": "Amathlai/Amithlai."
+          },
+          {
+            "index": 32,
+            "seed": 842617031,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 36,
+            "seed": 842617035,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 37,
+            "seed": 842617036,
+            "answer": "Amathlai."
+          },
+          {
+            "index": 39,
+            "seed": 842617038,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 41,
+            "seed": 842617040,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 45,
+            "seed": 842617044,
+            "answer": "Amathlai."
+          },
+          {
+            "index": 49,
+            "seed": 842617048,
+            "answer": "Amathlai."
+          },
+          {
+            "index": 51,
+            "seed": 842617050,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 55,
+            "seed": 842617054,
+            "answer": "Amathlai."
+          },
+          {
+            "index": 56,
+            "seed": 842617055,
+            "answer": "Amathlai"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "melachot",
+    "target": "kindling fire",
+    "runs": [
+      {
+        "file": "runs/20261011T165211453642Z.json",
+        "seed": 87388049,
+        "target_count": 1,
+        "attempts": 30,
+        "command": "python main.py 'which of the 39 Melachot forbidden on Shabbat is mentioned explicitly in the Torah' --model llama3.1:latest --mode direct -n 30 --seed 87388049 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --aliases demos/melachot-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 22,
+            "seed": 87388070,
+            "answer": "Lighting a fire."
+          }
+        ]
+      },
+      {
+        "file": "runs/20261011T165236131510Z.json",
+        "seed": 586203622,
+        "target_count": 6,
+        "attempts": 30,
+        "command": "python main.py 'which of the 39 Melachot forbidden on Shabbat is mentioned explicitly in the Torah' --model llama3.1:latest --mode reason -n 30 --seed 586203622 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --aliases demos/melachot-aliases.json --verbose",
+        "target_samples": [
+          {
+            "index": 5,
+            "seed": 586203626,
+            "answer": "MAKING A FIRE."
+          },
+          {
+            "index": 6,
+            "seed": 586203627,
+            "answer": "Kindling a fire."
+          },
+          {
+            "index": 12,
+            "seed": 586203633,
+            "answer": "Kindling a fire."
+          },
+          {
+            "index": 16,
+            "seed": 586203637,
+            "answer": "making a fire"
+          },
+          {
+            "index": 27,
+            "seed": 586203648,
+            "answer": "Lighting a fire."
+          },
+          {
+            "index": 28,
+            "seed": 586203649,
+            "answer": "Kindling fire."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shabbat-refinement",
+    "file": "runs/20261012T211032886271Z.json",
+    "seed": 706754937,
+    "command": "python main.py 'which of the forbidden works on Shabbat is explicitly mentioned in the Torah?' --model llama3.1:latest --mode reason -n 1 --seed 706754937 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --self-refine 5 --critique-max-tokens 512 --verbose",
+    "first_fire_round": 3
+  }
+]

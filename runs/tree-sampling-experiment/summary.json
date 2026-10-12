@@ -1,0 +1,282 @@
+{
+  "manifest": {
+    "created_at": "2026-10-11T14:59:32.936132+00:00",
+    "source": "/Users/yon/projects/self_consistency_playground/runs/20261011T145131709506Z.json",
+    "question": "According to Jewish tradition, what fruit was the fruit of the tree of knowledge?",
+    "model": "llama3.1:latest",
+    "seed_start": 504908319,
+    "samples_per_condition": 30,
+    "temperature": 0.2,
+    "top_ps": [
+      0.9,
+      0.95
+    ],
+    "conditions": [
+      {
+        "mode": "direct",
+        "top_p": 0.9,
+        "file": "direct-top-p-0.9.json",
+        "exit_code": 0
+      },
+      {
+        "mode": "direct",
+        "top_p": 0.95,
+        "file": "direct-top-p-0.95.json",
+        "exit_code": 0
+      },
+      {
+        "mode": "reason",
+        "top_p": 0.9,
+        "file": "reason-top-p-0.9.json",
+        "exit_code": 0
+      },
+      {
+        "mode": "reason",
+        "top_p": 0.95,
+        "file": "reason-top-p-0.95.json",
+        "exit_code": 0
+      }
+    ],
+    "complete": true,
+    "predefined_target_groups": [
+      "grape",
+      "fig",
+      "wheat"
+    ],
+    "notes": [
+      "Target hit means a final answer naming grape/vine, fig, or wheat; it does not certify the explanation.",
+      "Other final answers are retained separately; etrog is not counted in the three named target groups.",
+      "Same seeds standardize runs but do not mean equivalent semantic random paths across prompts.",
+      "Prompt mode changes instructions and length together; this does not isolate length alone.",
+      "Original source run was selected after noticing a grape; this is exploratory, not an independent confirmation."
+    ]
+  },
+  "conditions": [
+    {
+      "mode": "direct",
+      "top_p": 0.9,
+      "file": "direct-top-p-0.9.json",
+      "counts": {
+        "apple": 26,
+        "fig": 4
+      },
+      "samples": 30,
+      "target_hits": 4,
+      "distinct_answer_groups_including_abstention": 2,
+      "answer_entropy_bits": 0.5665095065529053,
+      "distinct_response_texts": 5,
+      "mean_tokens": 9,
+      "total_visible_tokens": 270,
+      "mean_of_response_mean_logprobs": -0.3571986743713987,
+      "exact_matches_to_original_reasoning_run": 0,
+      "raw_answer_counts": {
+        "The apple.": 8,
+        "Apple.": 12,
+        "The Apple.": 6,
+        "The fig.": 4
+      },
+      "target_samples": [
+        {
+          "index": 4,
+          "seed": 504908322,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        },
+        {
+          "index": 9,
+          "seed": 504908327,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        },
+        {
+          "index": 11,
+          "seed": 504908329,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        },
+        {
+          "index": 24,
+          "seed": 504908342,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        }
+      ]
+    },
+    {
+      "mode": "direct",
+      "top_p": 0.95,
+      "file": "direct-top-p-0.95.json",
+      "counts": {
+        "apple": 26,
+        "fig": 4
+      },
+      "samples": 30,
+      "target_hits": 4,
+      "distinct_answer_groups_including_abstention": 2,
+      "answer_entropy_bits": 0.5665095065529053,
+      "distinct_response_texts": 5,
+      "mean_tokens": 9,
+      "total_visible_tokens": 270,
+      "mean_of_response_mean_logprobs": -0.3571986743713987,
+      "exact_matches_to_original_reasoning_run": 0,
+      "raw_answer_counts": {
+        "The apple.": 8,
+        "Apple.": 12,
+        "The Apple.": 6,
+        "The fig.": 4
+      },
+      "target_samples": [
+        {
+          "index": 4,
+          "seed": 504908322,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        },
+        {
+          "index": 9,
+          "seed": 504908327,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        },
+        {
+          "index": 11,
+          "seed": 504908329,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        },
+        {
+          "index": 24,
+          "seed": 504908342,
+          "answer": "The fig.",
+          "mean_logprob": -0.38015910769195216,
+          "response": "The fig.\n\nFINAL: The fig."
+        }
+      ]
+    },
+    {
+      "mode": "reason",
+      "top_p": 0.9,
+      "file": "reason-top-p-0.9.json",
+      "counts": {
+        "pomegranate": 4,
+        "apple": 22,
+        "unknown": 1,
+        "grape": 1,
+        "fig": 1,
+        "etrog": 1
+      },
+      "samples": 30,
+      "target_hits": 2,
+      "distinct_answer_groups_including_abstention": 6,
+      "answer_entropy_bits": 1.3699740752745007,
+      "distinct_response_texts": 30,
+      "mean_tokens": 298.3333333333333,
+      "total_visible_tokens": 8950,
+      "mean_of_response_mean_logprobs": -0.3096547443281304,
+      "exact_matches_to_original_reasoning_run": 30,
+      "raw_answer_counts": {
+        "Pomegranate.": 4,
+        "An apple.": 10,
+        "Apple": 7,
+        "UNKNOWN": 1,
+        "Apple.": 4,
+        "A grape.": 1,
+        "The fig.": 1,
+        "an apple.": 1,
+        "Etrog.": 1
+      },
+      "target_samples": [
+        {
+          "index": 17,
+          "seed": 504908335,
+          "answer": "A grape.",
+          "mean_logprob": -0.2660410604459237,
+          "response": "To answer this question, we need to consider the relevant facts and possible interpretations of Jewish tradition.\n\nFirst, let's look at the biblical account of the story of Adam and Eve in the book of Genesis. According to the text, the tree of knowledge is described as having \"the fruit of the tree was good for food, and it was a delight to the eyes, and the tree was desirable to make one wise\" (Genesis 3:6). However, the specific type of fruit is not mentioned.\n\nIn Jewish tradition, there are different interpretations of the type of fruit that was on the tree of knowledge. Some traditions suggest that the fruit was an apple, while others propose that it was a pomegranate or a fig.\n\nHowever, the most widely accepted interpretation in Jewish tradition is that the fruit of the tree of knowledge was actually a grape. This interpretation is based on the Talmudic text, which states that the tree of knowledge was a grapevine (Shabbat 55a). This interpretation is also supported by the medieval Jewish commentator, Rashi, who writes that the fruit of the tree of knowledge was a grape (Genesis 3:6, commentary).\n\nTherefore, based on the relevant facts and possible interpretations of Jewish tradition, the fruit of the tree of knowledge is a grape.\n\nFINAL: A grape."
+        },
+        {
+          "index": 19,
+          "seed": 504908337,
+          "answer": "The fig.",
+          "mean_logprob": -0.2951142995514094,
+          "response": "To answer this question, I will consider the relevant facts and possible ambiguities.\n\nFirst, I will recall that the story of the tree of knowledge is from the biblical account of creation, specifically from the book of Genesis. In this story, God creates Adam and Eve, the first humans, and places them in the Garden of Eden. The tree of knowledge is described as a tree that is forbidden to them, with the warning that eating its fruit will lead to knowledge and suffering.\n\nNext, I will consider the possible fruits that could have been the fruit of the tree of knowledge. In Jewish tradition, the fruit is often associated with the pomegranate, which is a fruit that is native to the Middle East and is considered a symbol of fertility and abundance.\n\nHowever, it's also possible that the fruit of the tree of knowledge is actually the fig, which is another fruit that is native to the Middle East and is mentioned in the biblical account of creation. In fact, some Jewish traditions and interpretations suggest that the fruit of the tree of knowledge was actually the fig, rather than the pomegranate.\n\nAfter considering these possibilities, I will conclude that the fruit of the tree of knowledge, according to Jewish tradition, is the fig.\n\nFINAL: The fig."
+        }
+      ]
+    },
+    {
+      "mode": "reason",
+      "top_p": 0.95,
+      "file": "reason-top-p-0.95.json",
+      "counts": {
+        "pomegranate": 4,
+        "apple": 22,
+        "unknown": 1,
+        "grape": 1,
+        "fig": 1,
+        "etrog": 1
+      },
+      "samples": 30,
+      "target_hits": 2,
+      "distinct_answer_groups_including_abstention": 6,
+      "answer_entropy_bits": 1.3699740752745007,
+      "distinct_response_texts": 30,
+      "mean_tokens": 298.3333333333333,
+      "total_visible_tokens": 8950,
+      "mean_of_response_mean_logprobs": -0.3096547443281304,
+      "exact_matches_to_original_reasoning_run": 30,
+      "raw_answer_counts": {
+        "Pomegranate.": 4,
+        "An apple.": 10,
+        "Apple": 7,
+        "UNKNOWN": 1,
+        "Apple.": 4,
+        "A grape.": 1,
+        "The fig.": 1,
+        "an apple.": 1,
+        "Etrog.": 1
+      },
+      "target_samples": [
+        {
+          "index": 17,
+          "seed": 504908335,
+          "answer": "A grape.",
+          "mean_logprob": -0.2660410604459237,
+          "response": "To answer this question, we need to consider the relevant facts and possible interpretations of Jewish tradition.\n\nFirst, let's look at the biblical account of the story of Adam and Eve in the book of Genesis. According to the text, the tree of knowledge is described as having \"the fruit of the tree was good for food, and it was a delight to the eyes, and the tree was desirable to make one wise\" (Genesis 3:6). However, the specific type of fruit is not mentioned.\n\nIn Jewish tradition, there are different interpretations of the type of fruit that was on the tree of knowledge. Some traditions suggest that the fruit was an apple, while others propose that it was a pomegranate or a fig.\n\nHowever, the most widely accepted interpretation in Jewish tradition is that the fruit of the tree of knowledge was actually a grape. This interpretation is based on the Talmudic text, which states that the tree of knowledge was a grapevine (Shabbat 55a). This interpretation is also supported by the medieval Jewish commentator, Rashi, who writes that the fruit of the tree of knowledge was a grape (Genesis 3:6, commentary).\n\nTherefore, based on the relevant facts and possible interpretations of Jewish tradition, the fruit of the tree of knowledge is a grape.\n\nFINAL: A grape."
+        },
+        {
+          "index": 19,
+          "seed": 504908337,
+          "answer": "The fig.",
+          "mean_logprob": -0.2951142995514094,
+          "response": "To answer this question, I will consider the relevant facts and possible ambiguities.\n\nFirst, I will recall that the story of the tree of knowledge is from the biblical account of creation, specifically from the book of Genesis. In this story, God creates Adam and Eve, the first humans, and places them in the Garden of Eden. The tree of knowledge is described as a tree that is forbidden to them, with the warning that eating its fruit will lead to knowledge and suffering.\n\nNext, I will consider the possible fruits that could have been the fruit of the tree of knowledge. In Jewish tradition, the fruit is often associated with the pomegranate, which is a fruit that is native to the Middle East and is considered a symbol of fertility and abundance.\n\nHowever, it's also possible that the fruit of the tree of knowledge is actually the fig, which is another fruit that is native to the Middle East and is mentioned in the biblical account of creation. In fact, some Jewish traditions and interpretations suggest that the fruit of the tree of knowledge was actually the fig, rather than the pomegranate.\n\nAfter considering these possibilities, I will conclude that the fruit of the tree of knowledge, according to Jewish tradition, is the fig.\n\nFINAL: The fig."
+        }
+      ]
+    }
+  ],
+  "paired_top_p_comparisons": [
+    {
+      "mode": "direct",
+      "top_ps": [
+        0.9,
+        0.95
+      ],
+      "same_final_answer_groups": 30,
+      "exact_same_full_responses": 30
+    },
+    {
+      "mode": "reason",
+      "top_ps": [
+        0.9,
+        0.95
+      ],
+      "same_final_answer_groups": 30,
+      "exact_same_full_responses": 30
+    }
+  ]
+}
