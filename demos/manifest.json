@@ -331,139 +331,49 @@
     "target": "amathlai",
     "runs": [
       {
-        "file": "runs/abraham-fresh-60/direct.json",
+        "file": "runs/20261013T053242494010Z.json",
         "seed": 842617000,
-        "target_count": 3,
-        "attempts": 60,
-        "command": "python main.py 'Who was the Abraham'\"'\"'s mom according to Jewish tradition?' --model llama3.1:latest --mode direct -n 60 --seed 842617000 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --logprobs --aliases demos/abraham-aliases.json --verbose",
-        "target_samples": [
-          {
-            "index": 36,
-            "seed": 842617035,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 37,
-            "seed": 842617036,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 57,
-            "seed": 842617056,
-            "answer": "Amathlai."
-          }
-        ]
+        "target_count": 0,
+        "attempts": 30,
+        "command": "python main.py 'Who was the Abraham'\"'\"'s mom according to Jewish tradition?' --model llama3.1:latest --mode direct -n 30 --seed 842617000 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --logprobs --aliases demos/abraham-aliases.json --verbose",
+        "target_samples": []
       },
       {
-        "file": "runs/abraham-fresh-60/reason.json",
-        "seed": 842617000,
-        "target_count": 20,
-        "attempts": 60,
-        "command": "python main.py 'Who was the Abraham'\"'\"'s mom according to Jewish tradition?' --model llama3.1:latest --mode reason -n 60 --seed 842617000 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --logprobs --aliases demos/abraham-aliases.json --verbose",
+        "file": "runs/20261013T053309169796Z.json",
+        "seed": 842617054,
+        "target_count": 5,
+        "attempts": 30,
+        "command": "python main.py 'Who was the Abraham'\"'\"'s mom according to Jewish tradition?' --model llama3.1:latest --mode reason -n 30 --seed 842617054 --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off --logprobs --aliases demos/abraham-aliases.json --verbose",
         "target_samples": [
           {
-            "index": 5,
-            "seed": 842617004,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 10,
-            "seed": 842617009,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 12,
-            "seed": 842617011,
-            "answer": "Amethlai (or Amathlai)"
-          },
-          {
-            "index": 13,
-            "seed": 842617012,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 18,
-            "seed": 842617017,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 19,
-            "seed": 842617018,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 20,
-            "seed": 842617019,
-            "answer": "Amathlai."
-          },
-          {
-            "index": 26,
-            "seed": 842617025,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 27,
-            "seed": 842617026,
-            "answer": "Amathlai."
-          },
-          {
-            "index": 28,
-            "seed": 842617027,
-            "answer": "Amathlai/Amithlai."
-          },
-          {
-            "index": 32,
-            "seed": 842617031,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 36,
-            "seed": 842617035,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 37,
-            "seed": 842617036,
-            "answer": "Amathlai."
-          },
-          {
-            "index": 39,
-            "seed": 842617038,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 41,
-            "seed": 842617040,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 45,
-            "seed": 842617044,
-            "answer": "Amathlai."
-          },
-          {
-            "index": 49,
-            "seed": 842617048,
-            "answer": "Amathlai."
-          },
-          {
-            "index": 51,
-            "seed": 842617050,
-            "answer": "Amathlai"
-          },
-          {
-            "index": 55,
+            "index": 1,
             "seed": 842617054,
             "answer": "Amathlai."
           },
           {
-            "index": 56,
+            "index": 2,
             "seed": 842617055,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 24,
+            "seed": 842617077,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 25,
+            "seed": 842617078,
+            "answer": "Amathlai"
+          },
+          {
+            "index": 29,
+            "seed": 842617082,
             "answer": "Amathlai"
           }
         ]
       }
-    ]
+    ],
+    "selection_note": "Selected 30-sample demonstration batches with different seed ranges; target_count counts exact normalized Amathlai only."
   },
   {
     "id": "melachot",

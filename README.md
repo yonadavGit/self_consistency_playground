@@ -131,3 +131,32 @@ Higher mean log probability (closer to zero) means more probable wording under t
 `--verbose` now uses Rich panels for full model responses and refinement stages, with a vote table at the end. Add `--plain` for the original text output, or set `NO_COLOR=1` for panels without colors. Formatting does not change prompts, sampling, or saved JSON.
 
 Use `python replay_run.py PATH_TO_RUN.json --verbose` to present a saved run without calling Ollama. Add `--sample INDEX` for one response or `--aliases PATH` for explicit vote grouping. The replay labels itself as saved output. See [the demo guide](demos/README.md) for ready-to-run examples.
+
+
+### Model identity and exact prompts
+
+`--verbose` prints a compact model identity panel: model name, parameter size,
+quantization, full manifest digest, and a registry reference link for Llama 3.1.
+The shared user prompt appears once at the beginning. Each distinct refinement
+prompt is printed once when first used; identical prompts are not repeated. Templates and configuration details stay in
+the saved JSON rather than cluttering the terminal. Rich and `--plain` output
+both support this.
+
+Every new run saves `model_identity` alongside `model_info`; each generation saves
+its full `request` as well as its `prompt`, even without verbose mode. Missing
+identity metadata is reported as unavailable rather than guessed.
+
+The default `llama3.1:latest` uses your installed local copy; this program never
+pulls models. `latest` is a mutable tag, and even a more specific size/quantization
+tag is not an immutable pin. Pulling or replacing a tag can change its digest.
+A registry page can describe a different version than the one installed locally.
+For repeatable experiments, retain your model artifact, compare saved digests,
+and keep the Ollama version and generation settings fixed. A seed alone does not
+guarantee identical output across runtime or hardware changes.
+
+With `--logprobs`, a second table follows the voting distribution: individual final
+answers sorted by whole-response mean token logprob, highest first, with sample
+number and token count. Repeated answers remain separate rows. Only valid,
+complete samples with finite scores are ranked; exclusions are counted. Saved
+replays show this table too when scores are available. For refinement, the table
+uses retained answers and labels the differing generation contexts.

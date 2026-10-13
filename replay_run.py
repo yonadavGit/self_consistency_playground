@@ -43,6 +43,7 @@ def main():
         print_summary(summarize([s.get('refinement', {}).get('initial', s) for s in samples], aliases))
         print('\nAFTER SELF-REFINEMENT')
     print_summary(summarize(samples, aliases))
+    terminal_output.logprob_ranking(samples, enabled=run.get('settings', {}).get('logprobs', False))
 
 
 if __name__ == '__main__':

@@ -6,7 +6,7 @@ Run these commands from the repository root.
 
 1. **Akiva**: show how prompting changes the answer distribution and flips the majority.
 2. **Hillel**: a second clear distribution shift.
-3. **Abraham**: a rarer answer becomes a plurality, with unreliable explanations still possible.
+3. **Abraham**: Amathlai appears under reasoning but not in the selected direct batch; explanations can still be unreliable.
 4. **Shabbat refinement**: watch carrying change to kindling a fire in round 3.
 
 Use one selected response live when time is tight, then replay the saved full-batch distribution. A selected successful seed illustrates behavior; it does not estimate its frequency. Full-batch commands below reproduce the original sample counts.
@@ -33,7 +33,7 @@ Target counts use **all attempts**, including abstentions and malformed answers.
 |---|---:|---:|---|
 | Akiva: 40 | 0/30 (0%) | 23/30 (76.7%) | Different seed ranges |
 | Hillel: Shammai / Shamai | 7/30 (23.3%) | 26/30 (86.7%) | Different seed ranges |
-| Abraham: accepted Amathlai name | 3/60 (5%) | 20/60 (33.3%) | Same 60 seeds |
+| Abraham: exact Amathlai answer | 0/30 (0%) | 5/30 (16.7%) | Different, selected seed ranges |
 | Explicit Shabbat fire prohibition | 1/30 (3.3%) | 6/30 (20%) | Different seed ranges; exploratory |
 
 These selected runs show observed shifts under a reasoning prompt. They do not isolate response length as the cause or establish a general advantage on all questions. Voting can concentrate on a wrong answer. Correct final retrieval does not validate the explanation.
@@ -148,15 +148,15 @@ python replay_run.py runs/20261012T152145651599Z.json --sample 1 --verbose
 
 **What to point out:** count Shamai as a spelling of Shammai; do not count “Shammaites” (the school) as the named peer. Direct has 4 Shammai + 3 Shamai; reasoning has 26 Shammai. The direct plurality is Shemaiah and Avtalion (11 after spelling grouping), while reasoning has a Shammai majority. Reference: [Pirkei Avot 1:12](https://www.sefaria.org/Pirkei_Avot.1.12), which pairs Hillel and Shammai and names their predecessors.
 
-## Abraham’s mother: a rare name becomes the plurality
+## Abraham’s mother: no direct hits in a selected 30-sample batch
 
 ### Direct
 
-[Saved run](../runs/abraham-fresh-60/direct.json) · seeds **842617000–842617059** · target **3/60** · saved generation time about **22 seconds**.
+[Saved run](../runs/20261013T053242494010Z.json) · seeds **842617000–842617029** · exact Amathlai answers **0/30**.
 
 ```sh
 python main.py 'Who was the Abraham'"'"'s mom according to Jewish tradition?' \
-  --model llama3.1:latest --mode direct -n 60 --seed 842617000 \
+  --model llama3.1:latest --mode direct -n 30 --seed 842617000 \
   --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off \
   --logprobs --aliases demos/abraham-aliases.json --verbose
 ```
@@ -164,16 +164,16 @@ python main.py 'Who was the Abraham'"'"'s mom according to Jewish tradition?' \
 Replay the saved distribution without generating:
 
 ```sh
-python replay_run.py runs/abraham-fresh-60/direct.json --aliases demos/abraham-aliases.json
+python replay_run.py runs/20261013T053242494010Z.json --aliases demos/abraham-aliases.json
 ```
 
 ### Reason
 
-[Saved run](../runs/abraham-fresh-60/reason.json) · seeds **842617000–842617059** · target **20/60** · saved generation time about **275 seconds**.
+[Saved run](../runs/20261013T053309169796Z.json) · seeds **842617054–842617083** · exact Amathlai answers **5/30** (plus qualified mentions described below).
 
 ```sh
 python main.py 'Who was the Abraham'"'"'s mom according to Jewish tradition?' \
-  --model llama3.1:latest --mode reason -n 60 --seed 842617000 \
+  --model llama3.1:latest --mode reason -n 30 --seed 842617054 \
   --temperature 0.8 --max-tokens 1024 --num-ctx 4096 --thinking off \
   --logprobs --aliases demos/abraham-aliases.json --verbose
 ```
@@ -181,7 +181,7 @@ python main.py 'Who was the Abraham'"'"'s mom according to Jewish tradition?' \
 Replay the saved distribution without generating:
 
 ```sh
-python replay_run.py runs/abraham-fresh-60/reason.json --aliases demos/abraham-aliases.json
+python replay_run.py runs/20261013T053309169796Z.json --aliases demos/abraham-aliases.json
 ```
 
 ### Short live illustration
@@ -201,7 +201,9 @@ Exact saved response as a fallback:
 python replay_run.py runs/abraham-fresh-60/reason.json --sample 55 --verbose
 ```
 
-**What to point out:** the strict exact-name count is 18/60 reasoning versus 3/60 direct. Counting the two explicit alternate-spelling answers gives 20/60. Amathlai is a plurality, not a majority of all attempts. The identical seeds make this the cleanest matched comparison here. Reference: [Bava Batra 91a](https://www.sefaria.org/Bava_Batra.91a). Read the [paired analysis](../runs/abraham-fresh-60/report.md) and [explanation review](../runs/abraham-fresh-60/explanation-review.md) before claiming that the reasoning is sound.
+**What to point out:** both live commands use 30 samples. This selected direct batch gives no Amathlai answers. The reasoning batch gives **5/30 exact-name answers** (ignoring case and final punctuation), plus two qualified answers naming Amathlai and one ambiguous “Amathlai or Amalek” answer. These additional mentions are not merged into the exact-name count or the alias-based voting table. Amathlai is not the voting winner in this batch.
+
+Thirty samples keeps the live demonstration shorter and gives both modes the same number of attempts; it is not a statistical power calculation. These are selected illustrations using **different seed ranges**, not a controlled matched-seed comparison. Zero hits here does not mean direct mode cannot retrieve Amathlai: the earlier 60-sample direct run had 3 hits. For the stronger matched comparison, retain the original [60-sample analysis](../runs/abraham-fresh-60/report.md): 3/60 direct versus 18/60 strict reasoning (20/60 with the documented alternate spellings). Correct final names do not validate the generated explanations; see the [explanation review](../runs/abraham-fresh-60/explanation-review.md). Reference: [Bava Batra 91a](https://www.sefaria.org/Bava_Batra.91a).
 
 ## Optional: fire appears more often, but the evidence is weaker
 

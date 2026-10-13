@@ -21,6 +21,10 @@ class RefinementTests(unittest.TestCase):
         def fake_api(host, endpoint, payload, timeout):
             if endpoint == 'show':
                 return {'capabilities': ['completion']}
+            if endpoint == 'tags':
+                return {'models': [{'name': 'llama3.1:latest', 'digest': 'test-digest'}]}
+            if endpoint == 'version':
+                return {'version': 'test-version'}
             requests.append(payload)
             result = next(sequence)
             if isinstance(result, BaseException):
@@ -35,6 +39,19 @@ class RefinementTests(unittest.TestCase):
                     contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                 code = main.main()
             return code, json.loads(output.read_text()), requests
+
+    def test_verbose_records_exact_requests_and_identity(self):
+        code, report, calls = self.run_cli([
+            response('FINAL: A'), response('Check A.'), response('FINAL: B')
+        ], ['--self-refine', '1', '--verbose'])
+        self.assertEqual(code, 0)
+        self.assertEqual(report['model_identity']['digest'], 'test-digest')
+        sample = report['samples'][0]
+        stages = [sample['refinement']['initial'],
+                  sample['refinement']['rounds'][0]['critique'],
+                  sample['refinement']['rounds'][0]['revision']]
+        self.assertEqual([s['request'] for s in stages], calls)
+        self.assertTrue(all(s['prompt'] == s['request']['messages'][0]['content'] for s in stages))
 
     def test_two_rounds_use_current_draft_and_preserve_stages(self):
         code, report, calls = self.run_cli([

@@ -11,6 +11,7 @@ import sys
 import time
 import unicodedata
 from urllib.request import Request, urlopen
+from urllib.parse import quote
 from urllib.error import HTTPError, URLError
 from logprob_metrics import score
 from self_refinement import refine, print_stage
@@ -19,7 +20,7 @@ import terminal_output
 
 def api(host, endpoint, payload, timeout):
     request = Request(host.rstrip('/') + '/api/' + endpoint,
-                      data=json.dumps(payload).encode(), headers={'Content-Type': 'application/json'})
+                      data=None if payload is None else json.dumps(payload).encode(), headers={'Content-Type': 'application/json'})
     try:
         with urlopen(request, timeout=timeout) as response:
             result = json.load(response)
@@ -29,6 +30,29 @@ def api(host, endpoint, payload, timeout):
         raise RuntimeError(f'Cannot reach Ollama: {exc}') from exc
     if result.get('error'):
         raise RuntimeError(result['error'])
+    return result
+
+
+def model_identity(args):
+    """Snapshot the local tag; registry links are references, not digest pins."""
+    name = args.model if ':' in args.model.rsplit('/', 1)[-1] else args.model + ':latest'
+    result = {'requested_model': args.model, 'resolved_name': name}
+    try:
+        models = api(args.host, 'tags', None, args.timeout).get('models', [])
+        match = next((m for m in models if name in (m.get('name'), m.get('model'))), None)
+        if match:
+            result.update(match)
+        else:
+            result['error'] = 'Requested model not found in local tag listing; digest unavailable.'
+    except RuntimeError as exc:
+        result['error'] = str(exc)
+    # Custom local names do not necessarily have a registry page.
+    if name.split(':')[0] == 'llama3.1':
+        result['reference_url'] = 'https://ollama.com/library/' + quote(name, safe=':')
+    try:
+        result['ollama_version'] = api(args.host, 'version', None, args.timeout).get('version')
+    except RuntimeError as exc:
+        result['version_error'] = str(exc)
     return result
 
 
@@ -141,7 +165,9 @@ def generate_sample(args, native, text, seed, index, max_tokens=None, critique=F
         request['think'] = args.thinking == 'on'
     if args.logprobs:
         request['logprobs'] = True
-    sample = {'index': index, 'seed': seed, 'prompt': text}
+    sample = {'index': index, 'seed': seed, 'prompt': text, 'request': request}
+    if getattr(args, 'verbose', False):
+        terminal_output.request_details(request, critique=critique)
     start = time.monotonic()
     try:
         response = api(args.host, 'chat', request, args.timeout)
@@ -181,6 +207,7 @@ def run(args):
             raise ValueError('Aliases must map answer strings to canonical strings.')
         aliases = {normalize(k): normalize(v) for k, v in mapping.items()}
     info = api(args.host, 'show', {'model': args.model}, args.timeout)
+    identity = model_identity(args)
     native = 'thinking' in info.get('capabilities', [])
     if args.thinking == 'on' and not native:
         raise ValueError('Model does not advertise native thinking. Use --thinking off for prompted reasoning.')
@@ -193,7 +220,7 @@ def run(args):
               'created_at': datetime.now(timezone.utc).isoformat(),
               'settings': {key: getattr(args, key) for key in ['samples', 'temperature', 'max_tokens', 'num_ctx', 'mode', 'thinking', 'logprobs']},
               'seed': seed, 'prompt': prompt(args.question, args.mode), 'aliases': aliases,
-              'model_info': info, 'samples': [], 'complete': False}
+              'model_info': info, 'model_identity': identity, 'samples': [], 'complete': False}
     if rounds:
         report['settings'].update(self_refine=rounds, critique_max_tokens=critique_tokens,
                                   refinement_scorer='none')
@@ -213,6 +240,9 @@ def run(args):
     save()
     print(f'Model: {args.model} | mode: {args.mode} | temperature: {args.temperature}', flush=True)
     print(f'Saving samples to {output.resolve()}', flush=True)
+    if args.verbose:
+        terminal_output.model_details(identity, info)
+        terminal_output.request_details({'messages': [{'role': 'user', 'content': report['prompt']}]})
     if rounds:
         print(f'Self-refinement: {rounds} rounds per chain; no quality scorer; '
               f'up to {args.samples * (1 + 2 * rounds)} generation calls.', flush=True)
@@ -254,6 +284,7 @@ def run(args):
         print(f"\nAFTER SELF-REFINEMENT ({report['completed_chains']}/{len(report['samples'])} complete chains)")
         print('Only complete chains contribute final votes; partial histories are saved.')
     print_summary(report['summary'])
+    terminal_output.logprob_ranking(report['samples'], enabled=args.logprobs)
     complete = report['complete'] and (not rounds or report['completed_chains'] == args.samples)
     return 0 if complete and report['summary']['valid_samples'] else 1
 
@@ -274,7 +305,7 @@ def main():
                         help='Token budget for each critique (default: 512)')
     parser.add_argument('--thinking', choices=['off', 'on'], default='off')
     parser.add_argument('--logprobs', action='store_true', help='Save token log probabilities and report the full-response mean')
-    parser.add_argument('-v', '--verbose', action='store_true', help='Display each complete response, any native thinking, and extracted answer after generation')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Display model identity, exact prompts, complete responses, thinking, and extracted answers')
     parser.add_argument('--plain', action='store_true', help='Use the original plain terminal output (no Rich panels or colors)')
     parser.add_argument('--aliases', type=Path)
     parser.add_argument('--output', type=Path)
