@@ -5,6 +5,7 @@ Explore how a local language model answers the same question with **direct promp
 Built with Python and [Ollama](https://ollama.com/). Each run saves its responses, prompts, seeds, settings, and scores as JSON.
 
 - [Experiment overview](#experiment-overview) — comparisons, refinement examples, and unsuccessful follow-ups.
+- [Self-refinement experiments](#self-refinement-experiments) — answer progressions, successful correction, and failures.
 - [Featured experiment: Abraham’s mother](#abraham-experiment-october-27-2026) — commands, results, and saved evidence.
 - [Live demos](demos/README.md) — selected examples with exact commands and seeds.
 - [Detailed usage](docs/usage.md) — refinement, extraction, scoring, and reproducibility.
@@ -63,14 +64,22 @@ The repository includes several questions and follow-up experiments—not just A
 | **Tree of Knowledge: fresh follow-up** | **No grape final answers in either 100-sample mode**. Seven reasoning responses mentioned grapes in their explanation. | [Report](runs/tree-fresh-100/report.md) · [Grape mentions](runs/tree-fresh-100/grape-mentions.md) |
 | **Tree of Knowledge: “name one option” wording** | Changing the question changed the distribution, but neither 30-sample reasoning condition produced a grape final answer. The preceding interrupted recovery run had no grape final answers in 64 samples. | [Wording comparison](runs/tree-one-option-comparison.md) |
 
-### Self-refinement examples
+## Self-refinement experiments
 
-These follow a draft through successive critiques and revisions, rather than comparing two independent answer distributions.
+Here the model **drafts → critiques → revises**, repeatedly updating one answer. These runs test whether revision retrieves a better answer, rather than whether sampling produces more votes for it.
 
-| Experiment | Observed result | Details and evidence |
-|---|---|---|
-| **Shabbat: carrying → kindling a fire** | A selected chain changes from carrying to kindling in round 3 and retains it through round 5. | [Command, stage seeds, and replay](demos/README.md#self-refinement-carrying--kindling-a-fire) |
-| **Rabbi Akiva: refinement fails** | The draft and both revisions retain the wrong age, 3. | [Saved chain](runs/self-refinement-akiva-smoke.json) |
+| Completed chain | Initial seed | Answer progression | Outcome |
+|---|---:|---|---|
+| **Shabbat prohibition**, 5 rounds | 706754937 | Carrying → carrying → carrying → **kindling a fire** → fire → fire | Retrieves the fire target at round 3. |
+| **Rabbi Akiva**, 2 rounds, direct mode | 912400 | 3 → 3 → 3 | Repeats the wrong answer. |
+| **Rabbi Akiva**, 2 rounds, reasoning mode | 1059670022 | 1 → 7 → 7 | Changes the answer, but never reaches 40. |
+| **Rabbi Akiva**, 5 rounds, reasoning mode | 1036232012 | 13 → 13/15 variants → 13 → “unclear due to conflicting Talmudic sources” | Elaborates the initial mistake without reaching 40. |
+
+**[All refinement commands, seeds, saved replays, and partial runs](demos/refinement.md)**
+
+There are also six interrupted chains: two for Hillel and four for Akiva. The Akiva drafts already say 40, but no revisions completed; they do not demonstrate successful refinement. The guide lists these separately.
+
+These are selected single-chain observations, not an estimate of refinement’s success rate. Revisions are accepted without factual quality scoring; logprobs do not choose which revision wins.
 
 These results include successes, small differences, and failed recovery attempts. They do not establish that reasoning always helps or that longer responses alone cause an improvement. Correct final answers can also come with invented or irrelevant explanations.
 

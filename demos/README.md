@@ -263,6 +263,8 @@ python replay_run.py runs/20261011T165236131510Z.json --sample 12 --verbose
 
 ## Self-refinement: carrying → kindling a fire
 
+See the [complete refinement guide](refinement.md) for all four completed chains, exact commands, and six interrupted runs.
+
 [Original complete run](../runs/20261012T211032886271Z.json). Initial seed **706754937**, one chain, five rounds, reasoning mode. All stages were completed. The saved chain took about **129 seconds** of generation.
 
 ```sh
