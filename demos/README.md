@@ -1,5 +1,7 @@
 # Live demos: sampling, voting, and self-refinement
 
+For the corrected-prompt, matched-seed comparison with 30 samples per mode, see the [October 27 Abraham experiment](../README.md#abraham-experiment-october-27-2026). The selected live demos below are older runs.
+
 Run these commands from the repository root.
 
 ## Suggested order
