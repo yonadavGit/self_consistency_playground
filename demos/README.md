@@ -2,7 +2,7 @@
 
 For the corrected-prompt, matched-seed comparison with 30 samples per mode, see the [October 27 Abraham experiment](../README.md#abraham-experiment-october-27-2026). The selected live demos below are older runs.
 
-Run these commands from the repository root.
+Run these commands from the repository root after following the [setup instructions](../README.md#quick-start).
 
 ## Suggested order
 
@@ -16,7 +16,6 @@ Use one selected response live when time is tight, then replay the saved full-ba
 ## Setup and output
 
 ```sh
-cd /Users/yon/projects/self_consistency_playground
 python -m pip install -r requirements.txt
 ollama list
 ```
