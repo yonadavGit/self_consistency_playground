@@ -4,6 +4,7 @@ Explore how a local language model answers the same question with **direct promp
 
 Built with Python and [Ollama](https://ollama.com/). Each run saves its responses, prompts, seeds, settings, and scores as JSON.
 
+- [Experiment overview](#experiment-overview) — comparisons, refinement examples, and unsuccessful follow-ups.
 - [Featured experiment: Abraham’s mother](#abraham-experiment-october-27-2026) — commands, results, and saved evidence.
 - [Live demos](demos/README.md) — selected examples with exact commands and seeds.
 - [Detailed usage](docs/usage.md) — refinement, extraction, scoring, and reproducibility.
@@ -41,6 +42,43 @@ Use `--mode direct` for short answers. Add `--logprobs` to see a second table ra
 | `--plain` | Use plain terminal output |
 
 Run `python main.py --help` for all options. New runs are saved in `runs/`; saved runs can be replayed without calling a model.
+
+## Experiment overview
+
+The repository includes several questions and follow-up experiments—not just Abraham’s mother. The table summarizes the saved results; links lead to the commands, seeds, full distributions, or original responses.
+
+**Direct → reasoning** counts below use all attempted samples. They measure the named target answer, not whether the entire explanation is correct. Some early comparisons use different seed ranges; the linked reports spell out the settings and counting rules.
+
+| Experiment | Observed result | Details and evidence |
+|---|---|---|
+| **Rabbi Akiva’s age when he began learning Torah** | Age 40: **0/30 → 23/30**. A wrong direct majority becomes a correct reasoning majority; different seed ranges. | [Commands and seeds](demos/README.md#rabbi-akiva-a-wrong-majority-becomes-a-correct-majority) · [Explanation review](runs/three-question-review/report.md) |
+| **Hillel’s peer** | Shammai/Shamai: **7/30 → 26/30**; different seed ranges. | [Commands and seeds](demos/README.md#hillels-peer-shammai-becomes-dominant) |
+| **Abraham’s mother: fresh 60-sample comparison** | Exact Amathlai: **3/60 → 18/60**, or 20/60 reasoning with the documented alternate spellings; matched seeds. | [Full report](runs/abraham-fresh-60/report.md) · [Explanation review](runs/abraham-fresh-60/explanation-review.md) |
+| **Abraham’s mother: selected live-demo batches** | Exact Amathlai: **0/30 → 5/30**; deliberately selected, different seed ranges. The zero-hit batch is not representative of all direct runs. | [Commands and seeds](demos/README.md#abrahams-mother-no-direct-hits-in-a-selected-30-sample-batch) |
+| **Abraham’s mother: October 27 comparison** | Exact Amathlai: **3/30 → 11/30**; matched seeds and corrected question wording. Also compares response logprobs. | [Commands and results below](#abraham-experiment-october-27-2026) |
+| **Explicit Shabbat prohibition** | Parsed fire answers: **1/30 → 6/30**. Recovering a direct answer missing its final marker gives 2/30. Different seeds; broad question wording makes this a target-retrieval comparison. | [Commands and seeds](demos/README.md#optional-fire-appears-more-often-but-the-evidence-is-weaker) · [Review](runs/three-question-review/report.md) |
+| **David’s mother** | Nitzevet/Nitzebet: **1/10 in each mode**, accepting the spelling variant. Reasoning was not necessary to retrieve the name. | [Distributions and logprobs](runs/david-mother-reason-vs-direct.md) |
+| **Merav’s husband** | Adriel: **20/30 → 22/30**, a much smaller observed difference. | [Direct run](runs/20261012T093658316134Z.json) · [Reasoning run](runs/20261012T093713864122Z.json) |
+| **Tree of Knowledge: initial grape result** | One reasoning grape answer in 30 samples, none in direct mode. Historical top-p settings of 0.9 and 0.95 produced identical responses within each mode. | [Original comparison](runs/tree-sampling-experiment/report.md) |
+| **Tree of Knowledge: fresh follow-up** | **No grape final answers in either 100-sample mode**. Seven reasoning responses mentioned grapes in their explanation. | [Report](runs/tree-fresh-100/report.md) · [Grape mentions](runs/tree-fresh-100/grape-mentions.md) |
+| **Tree of Knowledge: “name one option” wording** | Changing the question changed the distribution, but neither 30-sample reasoning condition produced a grape final answer. The preceding interrupted recovery run had no grape final answers in 64 samples. | [Wording comparison](runs/tree-one-option-comparison.md) |
+
+### Self-refinement examples
+
+These follow a draft through successive critiques and revisions, rather than comparing two independent answer distributions.
+
+| Experiment | Observed result | Details and evidence |
+|---|---|---|
+| **Shabbat: carrying → kindling a fire** | A selected chain changes from carrying to kindling in round 3 and retains it through round 5. | [Command, stage seeds, and replay](demos/README.md#self-refinement-carrying--kindling-a-fire) |
+| **Rabbi Akiva: refinement fails** | The draft and both revisions retain the wrong age, 3. | [Saved chain](runs/self-refinement-akiva-smoke.json) |
+
+These results include successes, small differences, and failed recovery attempts. They do not establish that reasoning always helps or that longer responses alone cause an improvement. Correct final answers can also come with invented or irrelevant explanations.
+
+Browse the [complete saved-run archive](runs/) for exploratory runs beyond these comparisons. To inspect any ordinary run or refinement chain without new sampling:
+
+```sh
+python replay_run.py PATH_TO_RUN.json --verbose
+```
 
 ## Abraham experiment: October 27, 2026
 
